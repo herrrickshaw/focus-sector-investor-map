@@ -19,6 +19,8 @@ Built from two existing data programs:
 
 | File | Contents |
 |---|---|
+| `data/focus_sector_global_catalog.csv` | **The coverage layer: 19,795 companies, 107 countries** — every Damodaran-classified company in the 12 incentivized sectors; market/profitability fields as attributes, not gates |
+| `data/focus_sector_country_matrix.csv` | Sector × country counts (the courting map) |
 | `data/focus_sector_screen.csv` | 894 liquid, market-validated companies across 12 focus sectors × India/Foreign |
 | `data/shortlist_enriched.csv` | 175-name shortlist with per-name profitability fields |
 | `data/focus_sector_companies_final.csv` / `.json` | The final list: **verified-profitable** names, with expansion signals |
