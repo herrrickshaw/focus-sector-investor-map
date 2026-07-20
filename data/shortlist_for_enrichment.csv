@@ -1,0 +1,176 @@
+FocusSector,Region,Market,Symbol,Name,Industry Group,Country,Close,Turnover_USD,Above200DMA,Ret252
+Aerospace & Defence,Foreign,US,RKLB,Rocket Lab Corp,Aerospace/Defense,United States,84.54000091552734,2844046168.0,True,
+Aerospace & Defence,Foreign,US,GE,GENERAL ELECTRIC CO,Aerospace/Defense,United States,369.0,1641214447.0,True,
+Aerospace & Defence,Foreign,US,RTX,RTX Corp,Aerospace/Defense,United States,187.99000549316406,1063362889.0,True,
+Aerospace & Defence,Foreign,US,HWM,Howmet Aerospace Inc.,Aerospace/Defense,United States,268.8699951171875,733960413.0,True,
+Aerospace & Defence,Foreign,US,RDW,Redwire Corp,Aerospace/Defense,United States,10.930000305175781,648974354.0,True,
+Aerospace & Defence,Foreign,US,TDG,TransDigm Group INC,Aerospace/Defense,United States,1324.56005859375,499059714.0,True,
+Aerospace & Defence,Foreign,US,GD,GENERAL DYNAMICS CORP,Aerospace/Defense,United States,346.7099914550781,453162689.0,True,
+Aerospace & Defence,Foreign,US,CRS,CARPENTER TECHNOLOGY CORP,Aerospace/Defense,United States,591.780029296875,431615563.0,True,
+Aerospace & Defence,India,IN,APOLLO,APOLLO MICRO SYSTEMS LTD,Aerospace/Defense,India,424.75,95785899.0,True,118.32433479170912
+Aerospace & Defence,India,IN,PARAS,PARAS DEF AND SPCE TECH L,Aerospace/Defense,India,1289.050048828125,62220495.0,True,-22.074109123571727
+Aerospace & Defence,India,IN,DATAPATTNS,DATA PATTERNS INDIA LTD,Aerospace/Defense,India,4501.7998046875,49683919.0,True,52.20095105722595
+Aerospace & Defence,India,IN,GRSE,GARDEN REACH SHIP&ENG LTD,Aerospace/Defense,India,2726.199951171875,19846308.0,True,-17.076290601299128
+Aerospace & Defence,India,IN,IDEAFORGE,IDEAFORGE TECHNOLOGY LIMITED,Aerospace/Defense,India,814.1500244140625,14929805.0,True,59.2313795915288
+Aerospace & Defence,India,IN,DCXINDIA,DCX SYSTEMS LIMITED,Aerospace/Defense,India,198.72000122070312,1785961.0,True,-32.41965330037166
+Aerospace & Defence,India,IN,UNIMECH,UNIMECH AEROSPACE N MFG L,Aerospace/Defense,India,1171.6500244140625,1462751.0,True,
+Aerospace & Defence,India,IN,ROSSTECH,ROSSELL TECHSYS LIMITED,Aerospace/Defense,India,969.4000244140625,1443947.0,True,
+"Auto, EV & Components",Foreign,US,F,FORD MOTOR CO,Auto & Truck,United States,14.130000114440918,804635468.0,True,
+"Auto, EV & Components",Foreign,US,GM,General Motors Co,Auto & Truck,United States,78.0999984741211,743701536.0,True,
+"Auto, EV & Components",Foreign,US,BWA,BORGWARNER INC,Auto Parts,United States,68.11000061035156,251248780.0,True,
+"Auto, EV & Components",Foreign,US,LEA,LEAR CORP,Auto Parts,United States,136.83999633789062,104341575.0,True,
+"Auto, EV & Components",Foreign,US,GNTX,GENTEX CORP,Auto Parts,United States,25.649999618530273,61027145.0,True,
+"Auto, EV & Components",Foreign,US,HOG,"HARLEY-DAVIDSON, INC.",Auto & Truck,United States,25.190000534057617,49930142.0,True,
+"Auto, EV & Components",Foreign,US,DAN,DANA Inc,Auto Parts,United States,28.1299991607666,43781818.0,True,
+"Auto, EV & Components",Foreign,US,DORM,"Dorman Products, Inc.",Auto Parts,United States,134.69000244140625,35821735.0,True,
+"Auto, EV & Components",India,IN,OLAELEC,OLA ELECTRIC MOBILITY LTD,Auto & Truck,India,43.7599983215332,74417753.0,True,
+"Auto, EV & Components",India,IN,MARUTI,MARUTI SUZUKI INDIA LTD.,Auto & Truck,India,14115.0,54995449.0,False,10.351028066609324
+"Auto, EV & Components",India,IN,BAJAJ-AUTO,BAJAJ AUTO LIMITED,Auto & Truck,India,9716.0,39819787.0,True,16.067375462907663
+"Auto, EV & Components",India,IN,ATHERENERG,ATHER ENERGY LIMITED,Auto & Truck,India,1140.550048828125,29647694.0,True,255.69938267216355
+"Auto, EV & Components",India,IN,SONACOMS,SONA BLW PRECISION FRGS L,Auto Parts,India,619.9000244140625,9853630.0,True,27.30259962505275
+"Auto, EV & Components",India,IN,TIINDIA,TUBE INVEST OF INDIA LTD,Auto Parts,India,3029.300048828125,8795884.0,True,3.5198031056742796
+"Auto, EV & Components",India,IN,BELRISE,BELRISE INDUSTRIES LTD,Auto Parts,India,238.57000732421875,8460155.0,True,133.9609732943511
+"Auto, EV & Components",India,IN,SANSERA,SANSERA ENGINEERING LTD,Auto Parts,India,3196.199951171875,7037258.0,True,140.8409321054126
+Chemicals & Plastics,Foreign,US,SHW,SHERWIN WILLIAMS CO,Chemical (Specialty),United States,344.07000732421875,780010126.0,True,
+Chemicals & Plastics,Foreign,US,ECL,ECOLAB INC.,Chemical (Specialty),United States,283.6499938964844,502668067.0,True,
+Chemicals & Plastics,Foreign,US,APD,"Air Products & Chemicals, Inc.",Chemical (Specialty),United States,277.7900085449219,359993257.0,True,
+Chemicals & Plastics,Foreign,US,CTVA,"Corteva, Inc.",Chemical (Specialty),United States,82.62000274658203,317476138.0,True,
+Chemicals & Plastics,Foreign,US,CF,"CF Industries Holdings, Inc.",Chemical (Specialty),United States,105.69999694824219,296081817.0,True,
+Chemicals & Plastics,Foreign,US,PPG,PPG INDUSTRIES INC,Chemical (Specialty),United States,123.23999786376953,207456756.0,True,
+Chemicals & Plastics,Foreign,US,IP,INTERNATIONAL PAPER CO /NEW/,Packaging & Container,United States,38.7599983215332,201576755.0,True,
+Chemicals & Plastics,Foreign,US,BALL,BALL Corp,Packaging & Container,United States,61.790000915527344,183645257.0,True,
+Chemicals & Plastics,India,IN,ASIANPAINT,ASIAN PAINTS LIMITED,Chemical (Specialty),India,2635.699951171875,34403123.0,True,15.312596030837543
+Chemicals & Plastics,India,IN,SOLARINDS,SOLAR INDUSTRIES (I) LTD,Chemical (Basic),India,18696.0,21408507.0,True,10.002353494939985
+Chemicals & Plastics,India,IN,PIDILITIND,PIDILITE INDUSTRIES LTD,Chemical (Diversified),India,1592.699951171875,12949608.0,True,-46.12158253928376
+Chemicals & Plastics,India,IN,CHAMBLFERT,CHAMBAL FERTILIZERS LTD,Chemical (Specialty),India,467.95001220703125,3406133.0,True,-15.049463021347286
+Chemicals & Plastics,India,IN,PCBL,PCBL CHEMICAL LIMITED,Chemical (Basic),India,321.1499938964844,3208139.0,True,-17.85394964346071
+Chemicals & Plastics,India,IN,ANURAS,ANUPAM RASAYAN INDIA LTD,Chemical (Specialty),India,1264.4000244140625,2997975.0,True,11.548303874200494
+Chemicals & Plastics,India,IN,FLUOROCHEM,GUJARAT FLUOROCHEM LTD,Chemical (Specialty),India,3964.0,2790847.0,True,17.160256381578076
+Chemicals & Plastics,India,IN,CARBORUNIV,CARBORUNDUM UNIVERSAL LTD,Chemical (Basic),India,1178.199951171875,2518429.0,True,25.634460066977272
+Electronics & Semiconductors,Foreign,US,MU,MICRON TECHNOLOGY INC,Semiconductor,United States,1132.3299560546875,56720835900.0,True,
+Electronics & Semiconductors,Foreign,US,NVDA,NVIDIA CORP,Semiconductor,United States,192.52999877929688,32459242443.0,True,
+Electronics & Semiconductors,Foreign,US,SNDK,Sandisk Corp,Computers/Peripherals,United States,2090.7099609375,20336482179.0,True,
+Electronics & Semiconductors,Foreign,US,MRVL,"Marvell Technology, Inc.",Semiconductor,United States,266.7699890136719,15613174385.0,True,
+Electronics & Semiconductors,Foreign,US,AMD,ADVANCED MICRO DEVICES INC,Semiconductor,United States,521.5800170898438,15464079049.0,True,
+Electronics & Semiconductors,Foreign,US,AAPL,Apple Inc.,Computers/Peripherals,United States,283.7799987792969,15350138470.0,True,
+Electronics & Semiconductors,Foreign,US,INTC,INTEL CORP,Semiconductor,United States,128.32000732421875,15333692114.0,True,
+Electronics & Semiconductors,Foreign,US,AVGO,Broadcom Inc.,Semiconductor,United States,365.0199890136719,14117877951.0,True,
+Electronics & Semiconductors,India,IN,NETWEB,NETWEB TECH INDIA LTD,Computers/Peripherals,India,4538.2001953125,131960416.0,True,157.25300482503312
+Electronics & Semiconductors,India,IN,TEJASNET,TEJAS NETWORKS LIMITED,Telecom. Equipment,India,612.5,56906634.0,True,-12.68709907341411
+Electronics & Semiconductors,India,IN,SYRMA,SYRMA SGS TECHNOLOGY LTD,Electronics (General),India,1396.300048828125,17101277.0,True,175.59460488484845
+Electronics & Semiconductors,India,IN,PREMIERENE,PREMIER ENERGIES LIMITED,Semiconductor,India,1051.0,12716447.0,True,2.197586060814616
+Electronics & Semiconductors,India,IN,CPPLUS,ADITYA INFOTECH LIMITED,Electronics (General),India,3647.0,12003517.0,True,
+Electronics & Semiconductors,India,IN,KERNEX,KERNEX MICROSYS(I) LTD,Electronics (General),India,2159.89990234375,6593509.0,True,
+Electronics & Semiconductors,India,IN,AVALON,AVALON TECHNOLOGIES LTD,Electronics (General),India,1801.9000244140625,5639923.0,True,115.65436547651946
+Electronics & Semiconductors,India,IN,VINDHYATEL,VINDHYA TELELINKS LTD,Telecom. Equipment,India,2078.800048828125,2389709.0,True,22.167376507648374
+Food Processing,Foreign,US,MDLZ,"Mondelez International, Inc.",Food Processing,United States,60.790000915527344,532823825.0,True,
+Food Processing,Foreign,US,KHC,Kraft Heinz Co,Food Processing,United States,23.700000762939453,322979628.0,True,
+Food Processing,Foreign,US,SJM,J M SMUCKER Co,Food Processing,United States,115.63999938964844,170539667.0,True,
+Food Processing,Foreign,US,HRL,HORMEL FOODS CORP /DE/,Food Processing,United States,26.510000228881836,104560896.0,True,
+Food Processing,Foreign,US,SEB,SEABOARD CORP /DE/,Food Processing,United States,4738.080078125,60137708.0,True,
+Food Processing,Foreign,US,SFD,SMITHFIELD FOODS INC,Food Processing,United States,25.1200008392334,29638437.0,True,
+Food Processing,Foreign,US,JBSS,SANFILIPPO JOHN B & SON INC,Food Processing,United States,87.06999969482422,9538973.0,True,
+Food Processing,Foreign,US,MAMA,"Mama's Creations, Inc.",Food Processing,United States,19.940000534057617,9103583.0,True,
+Food Processing,India,IN,BALRAMCHIN,BALRAMPUR CHINI MILLS LTD,Food Processing,India,554.9500122070312,2797040.0,True,-6.676197860438937
+Food Processing,India,IN,KRBL,KRBL LIMITED,Food Processing,India,375.25,1980797.0,True,9.610046242130487
+Food Processing,India,IN,TRIVENI,TRIVENI ENGG. & INDS. LTD,Food Processing,India,422.54998779296875,1808007.0,True,7.656047845342351
+Food Processing,India,IN,APEX,APEX FROZEN FOODS LIMITED,Food Processing,India,404.0,1282308.0,True,75.1343908562623
+Food Processing,India,IN,SANSTAR,SANSTAR LIMITED,Food Processing,India,121.47000122070312,754643.0,True,33.43952856157708
+Food Processing,India,IN,AVADHSUGAR,AVADH SUGAR & ENERGY LIMITED,Food Processing,India,469.95001220703125,600638.0,True,
+Food Processing,India,IN,DIAMONDYD,PRATAAP SNACKS LIMITED,Food Processing,India,1150.5999755859375,310606.0,True,13.482586831070886
+Green Energy & Fuels,Foreign,US,NEE,NEXTERA ENERGY INC,Power,United States,88.55999755859375,997717946.0,True,
+Green Energy & Fuels,Foreign,US,AXP,AMERICAN EXPRESS CO,Oil/Gas (Production and Exploration),United States,340.3599853515625,975729159.0,True,
+Green Energy & Fuels,Foreign,US,COP,CONOCOPHILLIPS,Oil/Gas (Production and Exploration),United States,105.95999908447266,788723957.0,True,
+Green Energy & Fuels,Foreign,US,AEP,AMERICAN ELECTRIC POWER CO INC,Power,United States,138.69000244140625,684400016.0,True,
+Green Energy & Fuels,Foreign,US,SO,SOUTHERN CO,Power,United States,97.16000366210938,654633549.0,True,
+Green Energy & Fuels,Foreign,US,DVN,DEVON ENERGY CORP/DE,Oil/Gas (Production and Exploration),United States,42.209999084472656,642399931.0,True,
+Green Energy & Fuels,Foreign,US,FANG,"Diamondback Energy, Inc.",Oil/Gas (Production and Exploration),United States,179.91000366210938,525599528.0,True,
+Green Energy & Fuels,Foreign,US,EOG,EOG RESOURCES INC,Oil/Gas (Production and Exploration),United States,132.60000610351562,506418951.0,True,
+Green Energy & Fuels,India,IN,PTC,PTC INC.,Power,India,180.97999572753906,266578358.0,True,6.653304922917447
+Green Energy & Fuels,India,IN,ADANIPOWER,ADANI POWER LTD,Power,India,223.77000427246094,66355796.0,True,-57.79915053796116
+Green Energy & Fuels,India,IN,NTPC,NTPC LTD,Power,India,356.6499938964844,55160895.0,True,6.399158982191455
+Green Energy & Fuels,India,IN,COALINDIA,COAL INDIA LTD,Coal & Related Energy,India,439.04998779296875,45184977.0,True,12.85181893556755
+Green Energy & Fuels,India,IN,ADANIGREEN,ADANI GREEN ENERGY LTD,Green & Renewable Energy,India,1492.199951171875,41485700.0,True,57.45488360781978
+Green Energy & Fuels,India,IN,ADANIENSOL,ADANI ENERGY SOLUTION LTD,Power,India,1491.4000244140625,34225193.0,True,80.0990301151494
+Green Energy & Fuels,India,IN,NHPC,NHPC LTD,Green & Renewable Energy,India,81.33000183105469,20265998.0,True,-1.1906156683353486
+Green Energy & Fuels,India,IN,JPPOWER,JAIPRAKASH POWER VEN. LTD,Power,India,17.670000076293945,15927373.0,True,2.079726293809925
+Medical Devices,Foreign,US,EW,Edwards Lifesciences Corp,Healthcare Products,United States,90.77999877929688,416034019.0,True,
+Medical Devices,Foreign,US,DXCM,DEXCOM INC,Healthcare Products,United States,70.13999938964844,392351362.0,True,
+Medical Devices,Foreign,US,BDX,BECTON DICKINSON & CO,Healthcare Products,United States,155.9199981689453,338326972.0,True,
+Medical Devices,Foreign,US,ALGN,ALIGN TECHNOLOGY INC,Healthcare Products,United States,178.42999267578125,177812368.0,True,
+Medical Devices,Foreign,US,ZBH,"ZIMMER BIOMET HOLDINGS, INC.",Healthcare Products,United States,93.0999984741211,172244257.0,True,
+Medical Devices,Foreign,US,MASI,MASIMO CORP,Healthcare Products,United States,179.9499969482422,144129115.0,True,
+Medical Devices,Foreign,US,SOLV,Solventum Corp,Healthcare Products,United States,79.52999877929688,140213499.0,True,
+Medical Devices,Foreign,US,BAX,BAXTER INTERNATIONAL INC,Healthcare Products,United States,22.040000915527344,135331269.0,True,
+Pharma & Bulk Drugs,Foreign,US,LLY,ELI LILLY & Co,Drugs (Pharmaceutical),United States,1208.1199951171875,3285993314.0,True,
+Pharma & Bulk Drugs,Foreign,US,JNJ,JOHNSON & JOHNSON,Drugs (Pharmaceutical),United States,254.66000366210938,1915915454.0,True,
+Pharma & Bulk Drugs,Foreign,US,ABBV,AbbVie Inc.,Drugs (Biotechnology),United States,253.35000610351562,1292663538.0,True,
+Pharma & Bulk Drugs,Foreign,US,MRK,"Merck & Co., Inc.",Drugs (Pharmaceutical),United States,128.66000366210938,1277609237.0,True,
+Pharma & Bulk Drugs,Foreign,US,AMGN,AMGEN INC,Drugs (Biotechnology),United States,358.3299865722656,999752052.0,True,
+Pharma & Bulk Drugs,Foreign,US,BMY,BRISTOL MYERS SQUIBB CO,Drugs (Pharmaceutical),United States,57.52000045776367,726166527.0,True,
+Pharma & Bulk Drugs,Foreign,US,VRTX,VERTEX PHARMACEUTICALS INC / MA,Drugs (Biotechnology),United States,491.3399963378906,669041106.0,True,
+Pharma & Bulk Drugs,Foreign,US,RVMD,"Revolution Medicines, Inc.",Drugs (Biotechnology),United States,182.0800018310547,443575095.0,True,
+Pharma & Bulk Drugs,India,IN,WOCKPHARMA,WOCKHARDT LIMITED,Drugs (Pharmaceutical),India,1941.4000244140625,49048914.0,True,12.167781930011422
+Pharma & Bulk Drugs,India,IN,SUNPHARMA,SUN PHARMACEUTICAL IND L,Drugs (Pharmaceutical),India,1862.5,40510972.0,True,11.85514547524984
+Pharma & Bulk Drugs,India,IN,LAURUSLABS,LAURUS LABS LIMITED,Drugs (Pharmaceutical),India,1517.4000244140625,25805150.0,True,133.08756135392662
+Pharma & Bulk Drugs,India,IN,CIPLA,CIPLA LTD,Drugs (Pharmaceutical),India,1465.4000244140625,20895759.0,True,-2.2871192821610986
+Pharma & Bulk Drugs,India,IN,AUROPHARMA,AUROBINDO PHARMA LTD,Drugs (Pharmaceutical),India,1578.699951171875,17432014.0,True,43.88443505540893
+Pharma & Bulk Drugs,India,IN,ZYDUSLIFE,ZYDUS LIFESCIENCES LTD,Drugs (Pharmaceutical),India,1112.5999755859375,13442930.0,True,16.246996548589678
+Pharma & Bulk Drugs,India,IN,GLAND,GLAND PHARMA LIMITED,Drugs (Pharmaceutical),India,2495.0,12500585.0,True,44.77196034903581
+Pharma & Bulk Drugs,India,IN,GLENMARK,GLENMARK PHARMACEUTICALS,Drugs (Pharmaceutical),India,2204.300048828125,12437751.0,True,34.6795450962071
+Shipbuilding & Marine,Foreign,US,KEX,KIRBY CORP,Shipbuilding & Marine,United States,136.77999877929688,67091170.0,True,
+Shipbuilding & Marine,Foreign,US,MATX,"Matson, Inc.",Shipbuilding & Marine,United States,194.49000549316406,50120699.0,True,
+Shipbuilding & Marine,Foreign,US,GNK,GENCO SHIPPING & TRADING LTD,Shipbuilding & Marine,United States,23.56999969482422,7766037.0,True,
+Shipbuilding & Marine,India,IN,SCI,SERVICE CORP INTERNATIONAL,Shipbuilding & Marine,India,305.29998779296875,135223735.0,True,39.02549148794452
+Shipbuilding & Marine,India,IN,ADANIPORTS,ADANI PORT & SEZ LTD,Shipbuilding & Marine,India,1810.199951171875,42426004.0,True,34.158444057275794
+Shipbuilding & Marine,India,IN,JSWINFRA,JSW INFRASTRUCTURE LTD,Shipbuilding & Marine,India,322.1499938964844,11158325.0,True,6.902268913783871
+Shipbuilding & Marine,India,IN,SHREEJISPG,SHREEJI SHIPPING GLOBAL L,Shipbuilding & Marine,India,491.29998779296875,5765174.0,True,
+Shipbuilding & Marine,India,IN,NAVKARCORP,NAVKAR CORPORATION LTD.,Shipbuilding & Marine,India,107.41999816894531,625495.0,True,-1.4947316251232579
+Specialty Steel & Metals,Foreign,US,FCX,FREEPORT-MCMORAN INC,Metals & Mining,United States,62.45000076293945,984074746.0,True,
+Specialty Steel & Metals,Foreign,US,NUE,NUCOR CORP,Steel,United States,239.77999877929688,399163171.0,True,
+Specialty Steel & Metals,Foreign,US,USAR,"USA Rare Earth, Inc.",Metals & Mining,United States,20.469999313354492,363506398.0,True,
+Specialty Steel & Metals,Foreign,US,STLD,STEEL DYNAMICS INC,Steel,United States,245.49000549316406,299444377.0,True,
+Specialty Steel & Metals,Foreign,US,SCCO,SOUTHERN COPPER CORP/,Metals & Mining,United States,171.25999450683594,284397883.0,True,
+Specialty Steel & Metals,Foreign,US,CENX,CENTURY ALUMINUM CO,Metals & Mining,United States,46.33000183105469,135667152.0,True,
+Specialty Steel & Metals,Foreign,US,RS,"RELIANCE, INC.",Steel,United States,385.7799987792969,131723845.0,True,
+Specialty Steel & Metals,Foreign,US,MTRN,MATERION Corp,Metals & Mining,United States,287.0199890136719,96285603.0,True,
+Specialty Steel & Metals,India,IN,SAIL,"SailPoint, Inc.",Steel,India,173.49000549316406,89040454.0,True,36.09193671528721
+Specialty Steel & Metals,India,IN,NATIONALUM,NATIONAL ALUMINIUM CO LTD,Metals & Mining,India,339.6000061035156,46091314.0,True,84.57524646148948
+Specialty Steel & Metals,India,IN,JINDALSTEL,JINDAL STEEL LIMITED,Steel,India,1060.0999755859375,14126899.0,False,17.913351869157125
+Specialty Steel & Metals,India,IN,AEROFLEX,AEROFLEX INDUSTRIES LTD,Steel,India,471.6000061035156,9574389.0,True,130.6450840162488
+Specialty Steel & Metals,India,IN,JINDALSAW,JINDAL SAW LIMITED,Steel,India,261.489990234375,5988760.0,True,9.17250566550698
+Specialty Steel & Metals,India,IN,MIDHANI,MISHRA DHATU NIGAM LTD,Steel,India,418.45001220703125,5393041.0,True,-5.605679284959287
+Specialty Steel & Metals,India,IN,SHYAMMETL,SHYAM METALICS AND ENGY L,Steel,India,950.0,5358535.0,True,14.963396631843096
+Specialty Steel & Metals,India,IN,JSL,JINDAL STAINLESS LIMITED,Steel,India,692.6500244140625,4758179.0,False,3.3497481047637168
+Textiles & Apparel,Foreign,US,TPR,"TAPESTRY, INC.",Apparel,United States,146.0,418743212.0,True,
+Textiles & Apparel,Foreign,US,RL,RALPH LAUREN CORP,Apparel,United States,411.1600036621094,253648183.0,True,
+Textiles & Apparel,Foreign,US,DECK,DECKERS OUTDOOR CORP,Shoe,United States,104.55999755859375,195070084.0,True,
+Textiles & Apparel,Foreign,US,CROX,"Crocs, Inc.",Shoe,United States,127.76000213623047,152013561.0,True,
+Textiles & Apparel,Foreign,US,VFC,V F CORP,Apparel,United States,17.3700008392334,110855041.0,True,
+Textiles & Apparel,Foreign,US,KTB,"Kontoor Brands, Inc.",Apparel,United States,83.29000091552734,56891691.0,True,
+Textiles & Apparel,Foreign,US,LEVI,LEVI STRAUSS & CO,Apparel,United States,24.540000915527344,48172676.0,True,
+Textiles & Apparel,Foreign,US,SHOO,"STEVEN MADDEN, LTD.",Shoe,United States,43.220001220703125,41817471.0,True,
+Textiles & Apparel,India,IN,PAGEIND,PAGE INDUSTRIES LTD,Apparel,India,41370.0,8912940.0,True,-7.913188647746239
+Textiles & Apparel,India,IN,GOKEX,GOKALDAS EXPORTS LTD.,Apparel,India,873.25,4980288.0,True,0.6512245934823468
+Textiles & Apparel,India,IN,KPRMILL,KPR MILL LTD.,Apparel,India,1177.300048828125,3970537.0,True,7.398294222650836
+Textiles & Apparel,India,IN,SHANTIGOLD,SHANTI GOLD INTERNATION L,Apparel,India,223.69000244140625,2853792.0,True,
+Textiles & Apparel,India,IN,PGIL,PEARL GLOBAL IND LIMITED,Apparel,India,2015.5999755859375,1278948.0,True,35.356927582570854
+Textiles & Apparel,India,IN,SPORTKING,SPORTKING INDIA LIMITED,Apparel,India,174.25999450683594,752093.0,True,62.95117872501934
+Textiles & Apparel,India,IN,NITINSPIN,NITIN SPINNERS LIMITED,Apparel,India,572.0,733239.0,True,54.44849212183398
+Textiles & Apparel,India,IN,LUXIND,LUX INDUSTRIES LIMITED,Apparel,India,1225.4000244140625,566618.0,True,-13.380924103447157
+White Goods & Electricals,Foreign,US,BE,Bloom Energy Corp,Electrical Equipment,United States,252.02000427246094,3378835742.0,True,
+White Goods & Electricals,Foreign,US,GEV,GE Vernova Inc.,Electrical Equipment,United States,1045.1700439453125,3236395868.0,True,
+White Goods & Electricals,Foreign,US,DIA,SPDR DOW JONES INDUSTRIAL AVERAGE ETF TRUST,Electrical Equipment,United States,517.75,2752431167.0,True,
+White Goods & Electricals,Foreign,US,VRT,Vertiv Holdings Co,Electrical Equipment,United States,303.95001220703125,1965392564.0,True,
+White Goods & Electricals,Foreign,US,PG,PROCTER & GAMBLE Co,Household Products,United States,149.02000427246094,1310636697.0,True,
+White Goods & Electricals,Foreign,US,CL,COLGATE PALMOLIVE CO,Household Products,United States,92.06999969482422,509706691.0,True,
+White Goods & Electricals,Foreign,US,KMB,KIMBERLY CLARK CORP,Household Products,United States,109.37000274658203,447093742.0,True,
+White Goods & Electricals,Foreign,US,EMR,EMERSON ELECTRIC CO,Electrical Equipment,United States,143.49000549316406,408213453.0,True,
+White Goods & Electricals,India,IN,POWERINDIA,HITACHI ENERGY INDIA LTD,Electrical Equipment,India,34920.0,59182162.0,True,86.89788053949903
+White Goods & Electricals,India,IN,SUZLON,SUZLON ENERGY LIMITED,Electrical Equipment,India,58.900001525878906,47545903.0,True,-6.848012095057932
+White Goods & Electricals,India,IN,CGPOWER,CG POWER AND IND SOL LTD,Electrical Equipment,India,952.1500244140625,34084337.0,True,38.34362868348165
+White Goods & Electricals,India,IN,AMBER,AMBER ENTERPRISES (I) LTD,Furn/Home Furnishings,India,7530.0,27534372.0,True,15.508513575701798
+White Goods & Electricals,India,IN,POLYCAB,POLYCAB INDIA LIMITED,Electrical Equipment,India,9961.0,26467034.0,True,66.00283309724189
+White Goods & Electricals,India,IN,RRKABEL,R R KABEL LIMITED,Electrical Equipment,India,2395.199951171875,17352061.0,True,81.78506341476883
+White Goods & Electricals,India,IN,ENRIN,SIEMENS ENERGY INDIA LTD,Electrical Equipment,India,3683.300048828125,16326591.0,True,
+White Goods & Electricals,India,IN,SFL,SFL Corp Ltd.,Furn/Home Furnishings,India,746.9000244140625,15928694.0,True,0.6603806487954778

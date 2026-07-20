@@ -1,0 +1,28 @@
+{
+  "purpose": "Foreign companies investing (or positioned to invest) in India's focus sectors, paired with the government initiative that is their vehicle -- each pairing grounded in the trade-policy program's PIB-verified record (PRIDs cited where the pairing is verified; PROSPECTIVE marked where the lane exists but the company's entry is announced/expected rather than scheme-approved). Listed-parent tickers given so the pairing is investable/trackable.",
+  "retrieved": "2026-07-20",
+  "verified_pairs": [
+    {"company": "Foxconn (Hon Hai)", "ticker": "2317.TW", "sector": "Electronics & Semiconductors", "initiative": "PLI-LSEM (first incentive approved, PRID 1885189) -> MPMS successor lane + ECMS components", "status": "PRODUCING (PIB-credited)"},
+    {"company": "Samsung Electronics", "ticker": "005930.KS", "sector": "Electronics & Semiconductors", "initiative": "PLI-LSEM beneficiary (PRID 1662096); Noida plant (PRID 1538166) -> MPMS lane", "status": "PRODUCING (PIB-credited)"},
+    {"company": "Micron Technology", "ticker": "MU", "sector": "Semiconductors", "initiative": "India Semiconductor Mission ATMP, Sanand (unit approved 2023; ISM unit list)", "status": "APPROVED/BUILDING"},
+    {"company": "PSMC (Powerchip)", "ticker": "6770.TW", "sector": "Semiconductors", "initiative": "Technology partner of the Tata Dholera fab (Cabinet approval Feb-2024, PRID 2010132)", "status": "APPROVED (partner)"},
+    {"company": "Renesas Electronics", "ticker": "6723.T", "sector": "Semiconductors", "initiative": "CG Power ATMP JV (Cabinet approval Feb-2024, PRID 2010132)", "status": "APPROVED (partner)"},
+    {"company": "Suzuki Motor", "ticker": "7269.T", "sector": "Auto & EV", "initiative": "PLI Auto ecosystem via Maruti Suzuki; EV exports from India (e-Vitara line)", "status": "PRODUCING"},
+    {"company": "Hyundai Motor", "ticker": "005380.KS", "sector": "Auto & EV / ACC", "initiative": "PLI Auto participant -- CAUTION: affiliate Hyundai Global Motors' 20 GWh ACC award vanished from DHI documents (registry finding)", "status": "PRODUCING (auto); ACC award lapsed"},
+    {"company": "LG Electronics", "ticker": "066570.KS", "sector": "White Goods", "initiative": "PLI White Goods (AC/LED components) -- note beneficiary-list attrition 85->80", "status": "PARTICIPANT"},
+    {"company": "Daikin Industries", "ticker": "6367.T", "sector": "White Goods (AC components)", "initiative": "PLI White Goods compressor/component localization lane", "status": "PARTICIPANT"},
+    {"company": "POSCO Holdings", "ticker": "005490.KS", "sector": "Specialty Steel", "initiative": "POSCO-JSW $7.73bn JV MoU -- NEGATIVE FINDING: no EC application on PARIVESH register; Specialty Steel R1.2 is the live lane", "status": "MoU-STAGE (clearance-proof of stall)"},
+    {"company": "ArcelorMittal (AM/NS India)", "ticker": "MT", "sector": "Specialty Steel", "initiative": "PLI Specialty Steel participant via AM/NS; R1.2 MoUs (Feb-2026)", "status": "PARTICIPANT"},
+    {"company": "First Solar", "ticker": "FSLR", "sector": "Solar Manufacturing", "initiative": "PLI Solar Tranche-II LoA cohort (SECI awards, Apr-2023) + ALMM enlistment", "status": "BUILDING/PRODUCING"}
+  ],
+  "prospective_pairs": [
+    {"company": "Applied Materials", "ticker": "AMAT", "sector": "Semicon equipment", "initiative": "Semicon 2.0's NEW equipment/materials/chemicals/gases pillar (Cabinet 15-Jul-2026, PRID 2284796); Bengaluru R&D commitment announced", "status": "PROSPECTIVE"},
+    {"company": "Lam Research", "ticker": "LRCX", "sector": "Semicon equipment", "initiative": "Semicon 2.0 equipment pillar; India supplier-ecosystem commitments announced", "status": "PROSPECTIVE"},
+    {"company": "Merck KGaA / Linde", "ticker": "MRK.DE / LIN", "sector": "Semicon materials & gases", "initiative": "Semicon 2.0 materials/gases pillar", "status": "PROSPECTIVE"},
+    {"company": "Airbus", "ticker": "AIR.PA", "sector": "Aerospace", "initiative": "C295 Vadodara line with Tata (defence corridor); MRO GST/royalty concessions; HS88 remains an uncovered import head -- the gap is the opportunity", "status": "PRODUCING (defence JV)"},
+    {"company": "Global shipowners/yards (Maersk, HD Hyundai HI, Mitsui OSK)", "ticker": "MAERSK-B.CO / 329180.KS / 9104.T", "sector": "Shipbuilding & Marine", "initiative": "Rs 69,725cr package: SBFAS 2.0 (~14% assistance, to 2036), Maritime Development Fund Rs 25,000cr, SbDS clusters (Porbandar/Vadinar approvals Jul-2026)", "status": "PROSPECTIVE (MoUs reported at ministry events)"},
+    {"company": "Global cell/battery majors (LGES, CATL, Panasonic Energy)", "ticker": "373220.KS / 300750.SZ / 6752.T", "sector": "ACC Battery", "initiative": "ACC 10 GWh re-tender (GSSS) after awardee attrition -- the F-graded scheme is also the open capacity", "status": "PROSPECTIVE (eyes-open: zero disbursal to date)"},
+    {"company": "Urea/ammonia technology majors (KBR, Casale via EPCs)", "ticker": "KBR", "sector": "Fertilizers", "initiative": "NIPU-2026: 8-9 gas-based plants, RoE band 12-16%, forex-risk mitigation (PRID 2284800)", "status": "PROSPECTIVE"}
+  ],
+  "method_note": "Verified pairs come from PIB releases, Cabinet approvals and ministry unit-lists collected by the trade-policy program (india-trade-sector-policy-recommendations); prospective pairs name the Cabinet-approved lane and the company's publicly announced India intent. The negative findings (POSCO EC absence, Hyundai ACC lapse, White Goods attrition) are retained deliberately -- pairing quality includes knowing which pairings are stalled."
+}
