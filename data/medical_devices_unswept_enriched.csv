@@ -1,0 +1,835 @@
+FocusSector,Industry Group,Country,Exchange,Ticker,Company Name,Market,Turnover_USD,Above200DMA,Ret252,profit_margin,roe,revenue_growth,verified,yf,unverified_reason,expansion_signal
+Medical Devices,Healthcare Products,Australia,ASX,ANN,Ansell Limited (ASX:ANN),AU,,,,0.06736,0.06964,0.007,PROFITABLE,ANN.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,AVR,Anteris Technologies Global Corp. (ASX:AVR),AU,,,,0.0,-0.59213,-0.112,NOT-PROFITABLE,AVR.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,AT1,Atomo Diagnostics Limited (ASX:AT1),AU,,,,-1.01447,-0.56611997,0.062,NOT-PROFITABLE,AT1.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,AHC,Austco Healthcare Limited (ASX:AHC),AU,,,,0.083579995,0.14353,0.307,PROFITABLE,AHC.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,CQT,CONNEQT Health Limited (ASX:CQT),AU,,,,-2.96886,-8.308889,-0.078,NOT-PROFITABLE,CQT.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,CSX,CleanSpace Holdings Limited (ASX:CSX),AU,,,,0.08534,0.08756,0.097,PROFITABLE,CSX.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,CC5,Clever Culture Systems Limited (ASX:CC5),AU,,,,-0.14382,-0.1164,-0.102,NOT-PROFITABLE,CC5.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,COH,Cochlear Limited (ASX:COH),AU,,,,0.14766,0.18146,-0.004,PROFITABLE,COH.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,CMP,Compumedics Limited (ASX:CMP),AU,,,,0.00193,0.00505,0.317,PROFITABLE,CMP.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,CBL,Control Bionics Limited (ASX:CBL),AU,,,,-1.0703601,-0.91563004,-0.026,NOT-PROFITABLE,CBL.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,CYC,Cyclopharm Limited (ASX:CYC),AU,,,,-0.53271,-0.49312,0.105,NOT-PROFITABLE,CYC.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,EMV,EMVision Medical Devices Ltd (ASX:EMV),AU,,,,-1.87966,-0.58047,0.108,NOT-PROFITABLE,EMV.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,EPI,Epiminder Limited (ASX:EPI),AU,,,,0.0,,0.898,UNVERIFIED,EPI.AX,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Australia,ASX,HMD,HeraMED Limited (ASX:HMD),AU,,,,0.0,-2.23202,-0.027,NOT-PROFITABLE,HMD.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,IBX,Imagion Biosystems Limited (ASX:IBX),AU,,,,0.0,,-0.954,UNVERIFIED,IBX.AX,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Australia,ASX,IRX,InhaleRx Limited (ASX:IRX),AU,,,,,,,UNVERIFIED,IRX.AX,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Australia,ASX,MX1,Micro-X Limited (ASX:MX1),AU,,,,-0.70018,-2.0119,0.519,NOT-PROFITABLE,MX1.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,NAN,Nanosonics Limited (ASX:NAN),AU,,,,0.09919,0.100600004,0.092,PROFITABLE,NAN.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,NTI,Neurotech International Limited (ASX:NTI),AU,,,,-0.54446,-0.66302,40.694,NOT-PROFITABLE,NTI.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,NXS,Next Science Limited (ASX:NXS),AU,,,,,,,UNVERIFIED,NXS.AX,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Australia,ASX,EYE,Nova Eye Medical Limited (ASX:EYE),AU,,,,-0.21268,-0.42352,0.293,NOT-PROFITABLE,EYE.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,OIL,Optiscan Imaging Limited (ASX:OIL),AU,,,,0.0,-0.4364,-0.462,NOT-PROFITABLE,OIL.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,PNV,PolyNovo Limited (ASX:PNV),AU,,,,0.07082,0.12455,0.181,PROFITABLE,PNV.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,RNV,ReNerve Limited (ASX:RNV),AU,,,,0.0,-0.74944,0.602,NOT-PROFITABLE,RNV.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,RHT,Resonance Health Limited (ASX:RHT),AU,,,,0.05559,0.07335,0.531,PROFITABLE,RHT.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,SDI,SDI Limited (ASX:SDI),AU,,,,0.103590004,0.11605,0.027,PROFITABLE,SDI.AX,,False
+Medical Devices,Healthcare Products,Australia,ASX,SOM,SomnoMed Limited (ASX:SOM),AU,,,,-0.02159,-0.05248,0.13,NOT-PROFITABLE,SOM.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,VHL,Vitasora Health Limited (ASX:VHL),AU,,,,-2.31392,-1.06253,0.845,NOT-PROFITABLE,VHL.AX,,True
+Medical Devices,Healthcare Products,Australia,ASX,DVL,dorsaVi Ltd (ASX:DVL),AU,,,,0.0,-1.1804299,-0.199,NOT-PROFITABLE,DVL.AX,,False
+Medical Devices,Healthcare Products,Bangladesh,DSE,JHRML,JMI Hospital Requisite Manufacturing Limited (DSE:JHRML),,,,,,,,UNVERIFIED,,exchange_not_on_yfinance:DSE,False
+Medical Devices,Healthcare Products,Bangladesh,DSE,JMISMDL,JMI Syringes & Medical Devices Limited (DSE:JMISMDL),,,,,,,,UNVERIFIED,,exchange_not_on_yfinance:DSE,False
+Medical Devices,Healthcare Products,Belgium,ENXTBR,IBAB,Ion Beam Applications SA (ENXTBR:IBAB),,,,,0.02053,0.10694,0.123,PROFITABLE,IBAB.BR,,True
+Medical Devices,Healthcare Products,Belgium,ENXTBR,NYXH,Nyxoah SA (ENXTBR:NYXH),,,,,0.0,-1.22684,4.728,NOT-PROFITABLE,NYXH.BR,,True
+Medical Devices,Healthcare Products,Belgium,OTCPK,REMI,"Remedent, Inc. (OTCPK:REMI)",,,,,0.0,-0.099589996,,NOT-PROFITABLE,REMI,,False
+Medical Devices,Healthcare Products,Belgium,ENXTBR,SEQUA,Sequana Medical NV (ENXTBR:SEQUA),,,,,0.0,,,UNVERIFIED,SEQUA.BR,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Belgium,ENXTPA,MLBON,bonyf N.V. (ENXTPA:MLBON),,,,,0.0,-0.32614,,NOT-PROFITABLE,MLBON.PA,,False
+Medical Devices,Healthcare Products,Bulgaria,BUL,ETR,Etropal AD (BUL:ETR),,,,,,,,UNVERIFIED,,exchange_not_on_yfinance:BUL,False
+Medical Devices,Healthcare Products,Bulgaria,BUL,MKR,Momina Krepost AD (BUL:MKR),,,,,,,,UNVERIFIED,,exchange_not_on_yfinance:BUL,False
+Medical Devices,Healthcare Products,Bulgaria,BUL,SYN,Synthetica AD (BUL:SYN),,,,,,,,UNVERIFIED,,exchange_not_on_yfinance:BUL,False
+Medical Devices,Healthcare Products,Canada,CNSX,ASEP,ASEP Medical Holdings Inc. (CNSX:ASEP),CA,,,,0.0,-1.06279,0.0,NOT-PROFITABLE,ASEP.CN,,False
+Medical Devices,Healthcare Products,Canada,CNSX,ASTI,Aquarius Surgical Technologies Inc. (CNSX:ASTI),CA,,,,0.0,,1.03,UNVERIFIED,ASTI.CN,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Canada,TSXV,ASG,Aurora Spine Corporation (TSXV:ASG),CA,,,,-0.03178,-0.15076,0.004,NOT-PROFITABLE,ASG.V,,False
+Medical Devices,Healthcare Products,Canada,NYSE,BLCO,Bausch + Lomb Corporation (NYSE:BLCO),CA,,,,-0.03212,-0.02517,0.091,NOT-PROFITABLE,BLCO,,False
+Medical Devices,Healthcare Products,Canada,TSXV,CHER,Cheelcare Inc. (TSXV:CHER),CA,,,,-2.10342,,0.194,UNVERIFIED,CHER.V,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Canada,TSXV,CNVI,Conavi Medical Corp. (TSXV:CNVI),CA,,,,0.0,,1.241,UNVERIFIED,CNVI.V,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Canada,TSXV,FREQ,Frequency Exchange Corp. (TSXV:FREQ),CA,,,,-2.5490198,,-0.513,UNVERIFIED,FREQ.V,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,CNSX,IZO,Izotropic Corporation (CNSX:IZO),CA,,,,0.0,,,UNVERIFIED,IZO.CN,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,TSXV,MIR,MedMira Inc. (TSXV:MIR),CA,,,,0.0,,3.08,UNVERIFIED,MIR.V,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Canada,TSXV,MDX,MedX Health Corp (TSXV:MDX),CA,,,,0.0,,0.6,UNVERIFIED,MDX.V,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Canada,TSXV,NSCI,Nanalysis Scientific Corp. (TSXV:NSCI),CA,,,,-0.14009,-0.41444,0.007,NOT-PROFITABLE,NSCI.V,,False
+Medical Devices,Healthcare Products,Canada,TSXV,NGMD,NuGen Medical Devices Inc. (TSXV:NGMD),CA,,,,0.0,,-0.789,UNVERIFIED,NGMD.V,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,TSXV,OTC,Ocumetics Technology Corp. (TSXV:OTC),CA,,,,0.0,,,UNVERIFIED,OTC.V,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,AIM,OBI,Ondine Biomedical Inc. (AIM:OBI),CA,,,,0.0,-5.6971602,0.372,NOT-PROFITABLE,OBI.L,,True
+Medical Devices,Healthcare Products,Canada,TSXV,PINK,"Perimeter Medical Imaging AI, Inc. (TSXV:PINK)",CA,,,,0.0,-2.8487,-0.301,NOT-PROFITABLE,PINK.V,,False
+Medical Devices,Healthcare Products,Canada,TSX,PRN,Profound Medical Corp. (TSX:PRN),CA,,,,-1.7156,-0.73527,0.123,NOT-PROFITABLE,PRN.TO,,True
+Medical Devices,Healthcare Products,Canada,OTCPK,STME,StimCell Energetics Inc. (OTCPK:STME),CA,,,,0.0,,,UNVERIFIED,STME,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,CNSX,VIVI,TempraMed Technologies Ltd. (CNSX:VIVI),CA,,,,0.0,,,UNVERIFIED,VIVI.CN,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,TSXV,TLT,Theralase Technologies Inc. (TSXV:TLT),CA,,,,0.0,-2.4219298,0.454,NOT-PROFITABLE,TLT.V,,True
+Medical Devices,Healthcare Products,Canada,TSXV,THRM,Therma Bright Inc. (TSXV:THRM),CA,,,,0.0,,37.714,UNVERIFIED,THRM.V,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Canada,TSXV,VPT,Ventripoint Diagnostics Ltd. (TSXV:VPT),CA,,,,0.0,,,UNVERIFIED,VPT.V,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,NasdaqCM,VERO,Venus Concept Inc. (NasdaqCM:VERO),CA,,,,,,,UNVERIFIED,VERO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,OTCPK,VRSE.F,Verisante Technology Inc. (OTCPK:VRSE.F),CA,,,,,,,UNVERIFIED,VRSE.F,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Canada,TSXV,ZEN,Zentek Ltd. (TSXV:ZEN),CA,,,,0.0,-0.79570997,-0.955,NOT-PROFITABLE,ZEN.V,,False
+Medical Devices,Healthcare Products,Canada,TSXV,ZCT,"Zero Candida Technologies, Inc. (TSXV:ZCT)",CA,,,,0.0,,,UNVERIFIED,ZCT.V,yfinance_data_gap,False
+Medical Devices,Healthcare Products,China,SEHK,1789,AK Medical Holdings Limited (SEHK:1789),CN,,,,0.22874,0.12217,0.144,PROFITABLE,1789.HK,,True
+Medical Devices,Healthcare Products,China,SHSE,688617,APT Medical Inc. (SHSE:688617),CN,,,,0.31829,0.29716,0.248,PROFITABLE,688617.SS,,True
+Medical Devices,Healthcare Products,China,SHSE,688067,"AVE Science&Technology CO.,LTD (SHSE:688067)",CN,,,,0.1366,0.05854,-0.005,PROFITABLE,688067.SS,,False
+Medical Devices,Healthcare Products,China,SEHK,6669,Acotec Scientific Holdings Limited (SEHK:6669),CN,,,,0.18489,0.084350005,0.214,PROFITABLE,6669.HK,,True
+Medical Devices,Healthcare Products,China,SZSE,301580,"Aidite (Qinhuangdao) Technology Co., Ltd. (SZSE:301580)",CN,,,,0.18697001,0.09631,0.253,PROFITABLE,301580.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688613,"Allgens Medical Technology CO., LTD. (SHSE:688613)",CN,,,,0.06179,0.00712,0.147,PROFITABLE,688613.SS,,True
+Medical Devices,Healthcare Products,China,SZSE,002950,"Allmed Medical Products Co.,Ltd (SZSE:002950)",CN,,,,0.07123,0.07831,0.181,PROFITABLE,002950.SZ,,True
+Medical Devices,Healthcare Products,China,SZSE,002432,"Andon Health Co., Ltd. (SZSE:002432)",CN,,,,1.97746,0.10553,-0.405,PROFITABLE,002432.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,6699,Angelalign Technology Inc. (SEHK:6699),CN,,,,0.076799996,0.053489998,0.416,PROFITABLE,6699.HK,,True
+Medical Devices,Healthcare Products,China,SZSE,301234,"Anhui Hongyu Wuzhou Medical Manufacturer Co.,LTD. (SZSE:301234)",CN,,,,0.04685,0.02773,-0.033,PROFITABLE,301234.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688075,"Assure Tech (Hangzhou) Co., Ltd. (SHSE:688075)",CN,,,,0.061479997,0.00475,-0.382,PROFITABLE,688075.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300595,Autek China Inc. (SZSE:300595),CN,,,,0.25263,0.098290004,-0.039,PROFITABLE,300595.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,603658,"Autobio Diagnostics Co., Ltd. (SHSE:603658)",CN,,,,0.24500999,0.11549,-0.004,PROFITABLE,603658.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,301367,"BMC Medical Co., Ltd. (SZSE:301367)",CN,,,,0.1597,0.0661,0.165,PROFITABLE,301367.SZ,,True
+Medical Devices,Healthcare Products,China,NasdaqCM,BDMD,Baird Medical Investment Holdings Limited (NasdaqCM:BDMD),CN,,,,-1.21036,-0.77598,-0.39,NOT-PROFITABLE,BDMD,,False
+Medical Devices,Healthcare Products,China,SHSE,688198,"Beijing Balance Medical Technology Co.,Ltd. (SHSE:688198)",CN,,,,0.30508,0.14614001,0.434,PROFITABLE,688198.SS,,True
+Medical Devices,Healthcare Products,China,SZSE,300318,"Beijing Bohui Innovation Biotechnology Group Co., Ltd. (SZSE:300318)",CN,,,,-0.11707,-0.080010004,-0.058,NOT-PROFITABLE,300318.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,1858,"Beijing Chunlizhengda Medical Instruments Co., Ltd. (SEHK:1858)",CN,,,,0.26739,0.093210004,-0.056,PROFITABLE,1858.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,688338,Beijing Succeeder Technology Inc. (SHSE:688338),CN,,,,0.33653,0.05092,-0.122,PROFITABLE,688338.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,600055,"Beijing Wandong Medical Technology Co.,Ltd. (SHSE:600055)",CN,,,,-0.20201999,-0.05881,0.089,NOT-PROFITABLE,600055.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,002382,"Blue Sail Medical Co.,Ltd. (SZSE:002382)",CN,,,,-0.14413999,-0.08816,0.063,NOT-PROFITABLE,002382.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,2216,Broncus Holding Corporation (SEHK:2216),CN,,,,0.0,-0.11191,,NOT-PROFITABLE,2216.HK,,False
+Medical Devices,Healthcare Products,China,SZSE,301122,"Caina Technology Co., Ltd. (SZSE:301122)",CN,,,,0.025980001,0.0035899999,0.944,PROFITABLE,301122.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688607,"CareRay Digital Medical Technology Co., Ltd. (SHSE:688607)",CN,,,,-0.05919,-0.02476,0.173,NOT-PROFITABLE,688607.SS,,True
+Medical Devices,Healthcare Products,China,SHSE,688468,"Chemclin Diagnostics Co., Ltd. (SHSE:688468)",CN,,,,0.118039995,0.026889998,-0.098,PROFITABLE,688468.SS,,False
+Medical Devices,Healthcare Products,China,SEHK,1763,China Isotope & Radiation Corporation (SEHK:1763),CN,,,,0.04555,0.08371,-0.091,PROFITABLE,1763.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,688358,"Chison Medical Technologies Co., Ltd. (SHSE:688358)",CN,,,,0.27772,0.083909996,-0.003,PROFITABLE,688358.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,603976,"ChongQing Zhengchuan Pharmaceutical Packaging Co.,Ltd (SHSE:603976)",CN,,,,0.02083,0.01211,0.291,PROFITABLE,603976.SS,,True
+Medical Devices,Healthcare Products,China,SHSE,688576,"Chongqing Xishan Science & Technology Co., Ltd. (SHSE:688576)",CN,,,,0.13715,0.02753,0.09,PROFITABLE,688576.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,301087,"Cofoe Medical Technology Co.,Ltd. (SZSE:301087)",CN,,,,0.10574,0.07981,0.372,PROFITABLE,301087.SZ,,True
+Medical Devices,Healthcare Products,China,SZSE,300869,"Contec Medical Systems Co.,Ltd (SZSE:300869)",CN,,,,-0.10757,-0.027290002,-0.103,NOT-PROFITABLE,300869.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,6922,"Cryofocus Medtech (Shanghai) Co., Ltd. (SEHK:6922)",CN,,,,-0.40065,-0.69755,0.297,NOT-PROFITABLE,6922.HK,,True
+Medical Devices,Healthcare Products,China,SZSE,300396,"Dirui Industrial Co.,Ltd. (SZSE:300396)",CN,,,,-0.24289,-0.11995,0.371,NOT-PROFITABLE,300396.SZ,,True
+Medical Devices,Healthcare Products,China,SZSE,002901,Double Medical Technology Inc. (SZSE:002901),CN,,,,0.23888999,0.19165,0.166,PROFITABLE,002901.SZ,,True
+Medical Devices,Healthcare Products,China,SZSE,300206,"Edan Instruments, Inc. (SZSE:300206)",CN,,,,0.16498,0.15967,0.228,PROFITABLE,300206.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688050,"Eyebright Medical Technology (Beijing) Co., Ltd. (SHSE:688050)",CN,,,,0.17384,0.08169,0.115,PROFITABLE,688050.SS,,True
+Medical Devices,Healthcare Products,China,SEHK,2407,Gaush Meditech Ltd (SEHK:2407),CN,,,,0.06968,0.05552,-0.075,PROFITABLE,2407.HK,,False
+Medical Devices,Healthcare Products,China,SZSE,300246,"Guangdong Biolight Meditech Co., Ltd. (SZSE:300246)",CN,,,,-0.063379996,-0.052259997,-0.019,NOT-PROFITABLE,300246.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,300562,"Guangdong Transtek Medical Electronics Co., Ltd (SZSE:300562)",CN,,,,0.09144,0.08754,0.038,PROFITABLE,300562.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688026,"Guangzhou Jet Bio-Filtration Co., Ltd. (SHSE:688026)",CN,,,,0.050100002,0.02238,-0.129,PROFITABLE,688026.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,688393,"Guangzhou LBP Medicine Science & Technology Co., Ltd. (SHSE:688393)",CN,,,,-0.10754,-0.03388,0.097,NOT-PROFITABLE,688393.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300482,"Guangzhou Wondfo Biotech Co.,Ltd (SZSE:300482)",CN,,,,-0.08979,-0.03041,-0.273,NOT-PROFITABLE,300482.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688581,"Hangzhou AGS MedTech Co., Ltd. (SHSE:688581)",CN,,,,0.36064,0.08568,-0.073,PROFITABLE,688581.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,688606,"Hangzhou Alltest Biotech Co., Ltd. (SHSE:688606)",CN,,,,0.19990999,0.04547,-0.063,PROFITABLE,688606.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,301371,"Harbin Fuerjia Technology Co., Ltd. (SZSE:301371)",CN,,,,0.23959999,0.08826999,0.821,PROFITABLE,301371.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688151,"Hubei Huaqiang High-Tech Co., Ltd. (SHSE:688151)",CN,,,,0.07092,0.01121,0.595,PROFITABLE,688151.SS,,True
+Medical Devices,Healthcare Products,China,SHSE,688253,"Innovita Biological Technology Co., Ltd. (SHSE:688253)",CN,,,,0.27732,0.0432,-0.474,PROFITABLE,688253.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300677,"Intco Medical Technology Co., Ltd. (SZSE:300677)",CN,,,,0.06474,0.038039997,0.158,PROFITABLE,300677.SZ,,True
+Medical Devices,Healthcare Products,China,SZSE,300529,"Jafron Biomedical Co.,Ltd. (SZSE:300529)",CN,,,,0.27492002,0.15984,-0.196,PROFITABLE,300529.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,9877,"Jenscare Scientific Co., Ltd. (SEHK:9877)",CN,,,,-2.99413,-0.32271,,NOT-PROFITABLE,9877.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,603205,"Jianerkang Medical Co.,Ltd. (SHSE:603205)",CN,,,,0.10779,0.07407,-0.012,PROFITABLE,603205.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300753,"Jiangsu Apon Medical Technology Co., Ltd. (SZSE:300753)",CN,,,,-0.03115,-0.01979,0.054,NOT-PROFITABLE,300753.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688399,"Jiangsu Bioperfectus Technologies Co., Ltd. (SHSE:688399)",CN,,,,-0.100530006,-0.01055,-0.142,NOT-PROFITABLE,688399.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,301290,"Jiangsu Canopus Wisdom Medical Technology Co.,Ltd. (SZSE:301290)",CN,,,,-0.08026,-0.01535,0.157,NOT-PROFITABLE,301290.SZ,,True
+Medical Devices,Healthcare Products,China,SZSE,301093,"Jiangsu Hualan New Pharmaceutical Material Co.,Ltd. (SZSE:301093)",CN,,,,0.07027,0.01868,-0.11,PROFITABLE,301093.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,603880,"Jiangsu Nanfang Medical Co., Ltd. (SHSE:603880)",CN,,,,-0.16912001,-0.43318,-0.093,NOT-PROFITABLE,603880.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300165,"Jiangsu Skyray Instrument Co., Ltd. (SZSE:300165)",CN,,,,-0.35708,-0.19319001,0.051,NOT-PROFITABLE,300165.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,002223,"Jiangsu Yuyue Medical Equipment & Supply Co., Ltd. (SZSE:002223)",CN,,,,0.16292,0.0956,-0.027,PROFITABLE,002223.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,300453,"Jiangxi Sanxin Medtec Co.,Ltd. (SZSE:300453)",CN,,,,0.16556999,0.19811001,0.134,PROFITABLE,300453.SZ,,True
+Medical Devices,Healthcare Products,China,NasdaqCM,ZJYL,Jin Medical International Ltd. (NasdaqCM:ZJYL),CN,,,,0.05945,0.04018,-0.097,PROFITABLE,ZJYL,,False
+Medical Devices,Healthcare Products,China,SHSE,688314,"Kontour (Xi'an) Medical Technology Co., Ltd. (SHSE:688314)",CN,,,,0.25656998,0.12367,-0.107,PROFITABLE,688314.SS,,False
+Medical Devices,Healthcare Products,China,SEHK,2291,"LEPU ScienTech Medical Technology (Shanghai) Co., Ltd. (SEHK:2291)",CN,,,,0.45408002,0.11885,-0.109,PROFITABLE,2291.HK,,False
+Medical Devices,Healthcare Products,China,SZSE,300003,"Lepu Medical Technology (Beijing) Co., Ltd. (SZSE:300003)",CN,,,,0.12936,0.049239997,-0.037,PROFITABLE,300003.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,1302,LifeTech Scientific Corporation (SEHK:1302),CN,,,,0.10792,0.03234,0.065,PROFITABLE,1302.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,688310,Maider Medical Industry Equipment Co. Ltd. (SHSE:688310),CN,,,,0.12683,0.040689997,-0.008,PROFITABLE,688310.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,301363,MeHow Innovative Ltd. (SZSE:301363),CN,,,,0.16614,0.0788,0.363,PROFITABLE,301363.SZ,,True
+Medical Devices,Healthcare Products,China,SZSE,301033,"Medprin Regenerative Medical Technologies Co., Ltd. (SZSE:301033)",CN,,,,0.29367,0.14171,0.063,PROFITABLE,301033.SZ,,False
+Medical Devices,Healthcare Products,China,OTCPK,MHUA.F,"Meihua International Medical Technologies Co., Ltd. (OTCPK:MHUA.F)",CN,,,,,,,UNVERIFIED,MHUA.F,yfinance_data_gap,False
+Medical Devices,Healthcare Products,China,SHSE,688029,"Micro-Tech (Nanjing) Co.,Ltd (SHSE:688029)",CN,,,,0.1665,0.13126001,0.221,PROFITABLE,688029.SS,,True
+Medical Devices,Healthcare Products,China,SEHK,2160,MicroPort CardioFlow Medtech Corporation (SEHK:2160),CN,,,,-0.32990003,-0.066599995,0.2,NOT-PROFITABLE,2160.HK,,True
+Medical Devices,Healthcare Products,China,SEHK,2172,MicroPort NeuroScientific Corporation (SEHK:2172),CN,,,,0.23341,0.105,0.153,PROFITABLE,2172.HK,,True
+Medical Devices,Healthcare Products,China,SEHK,853,MicroPort Scientific Corporation (SEHK:853),CN,,,,0.04389,0.029059999,0.181,PROFITABLE,0853.HK,,True
+Medical Devices,Healthcare Products,China,SEHK,2235,"MicroTech Medical (Hangzhou) Co., Ltd. (SEHK:2235)",CN,,,,0.060760003,0.020130001,1.13,PROFITABLE,2235.HK,,True
+Medical Devices,Healthcare Products,China,SZSE,301101,"Mingyue Optical Lens Co.,Ltd. (SZSE:301101)",CN,,,,0.23381001,0.11666001,0.183,PROFITABLE,301101.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688273,"Nanjing Medlander Medical Technology Co.,Ltd. (SHSE:688273)",CN,,,,0.20774001,0.05983,-0.161,PROFITABLE,688273.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,688580,"Nanjing Vishee Medical Technology Co., Ltd (SHSE:688580)",CN,,,,0.35196,0.09739,0.106,PROFITABLE,688580.SS,,True
+Medical Devices,Healthcare Products,China,SZSE,300314,"Ningbo David Medical Device Co., Ltd. (SZSE:300314)",CN,,,,0.12919,0.061100002,-0.069,PROFITABLE,300314.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,301097,"Ningbo Tianyi Medical Appliance Co., Ltd. (SZSE:301097)",CN,,,,-0.01841,-0.01022,0.663,NOT-PROFITABLE,301097.SZ,,True
+Medical Devices,Healthcare Products,China,SEHK,1358,PW Medtech Group Limited (SEHK:1358),CN,,,,0.1146,0.028010001,-0.05,PROFITABLE,1358.HK,,False
+Medical Devices,Healthcare Products,China,SEHK,9996,Peijia Medical Limited (SEHK:9996),CN,,,,-0.28517,-0.10669,0.144,NOT-PROFITABLE,9996.HK,,True
+Medical Devices,Healthcare Products,China,SZSE,300061,"QITIAN Technology Group Co., Ltd. (SZSE:300061)",CN,,,,-0.17965999,-0.1415,0.062,NOT-PROFITABLE,300061.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688139,"Qingdao Haier Biomedical Co.,Ltd (SHSE:688139)",CN,,,,0.095970005,0.046529997,-0.054,PROFITABLE,688139.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,688677,"Qingdao NovelBeam Technology Co.,Ltd. (SHSE:688677)",CN,,,,0.27175,0.12195,0.188,PROFITABLE,688677.SS,,True
+Medical Devices,Healthcare Products,China,SEHK,2297,Rainmed Medical Limited (SEHK:2297),CN,,,,0.0,-0.20681,-0.323,NOT-PROFITABLE,2297.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,688410,"SWS Hemodialysis Care Co., Ltd. (SHSE:688410)",CN,,,,0.1928,0.09106,0.213,PROFITABLE,688410.SS,,True
+Medical Devices,Healthcare Products,China,SHSE,688289,Sansure Biotech Inc. (SHSE:688289),CN,,,,0.09788,0.015700001,-0.08,PROFITABLE,688289.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,600529,Shandong Pharmaceutical Glass Co.Ltd (SHSE:600529),CN,,,,0.14755,0.08035,0.041,PROFITABLE,600529.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,603014,"Shandong Weigao Blood Purification Products Co., Ltd. (SHSE:603014)",CN,,,,0.12927,0.07533,0.009,PROFITABLE,603014.SS,,False
+Medical Devices,Healthcare Products,China,SEHK,1066,Shandong Weigao Group Medical Polymer Company Limited (SEHK:1066),CN,,,,0.12041,0.06688,0.045,PROFITABLE,1066.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,688161,"Shandong Weigao Orthopaedic Device Co., Ltd (SHSE:688161)",CN,,,,0.17076,0.06418,0.021,PROFITABLE,688161.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,688212,"Shanghai Aohua Photoelectricity Endoscope Co., Ltd. (SHSE:688212)",CN,,,,0.02007,0.011820001,0.111,PROFITABLE,688212.SS,,True
+Medical Devices,Healthcare Products,China,SEHK,2185,"Shanghai Bio-heart Biological Technology Co., Ltd. (SEHK:2185)",CN,,,,-1.55909,-0.10588,,NOT-PROFITABLE,2185.HK,,False
+Medical Devices,Healthcare Products,China,SEHK,2276,"Shanghai Conant Optical Co., Ltd. (SEHK:2276)",CN,,,,0.25514,0.25768,0.016,PROFITABLE,2276.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,605186,"Shanghai General Healthy Information and Technology Co., Ltd. (SHSE:605186)",CN,,,,0.089329995,0.02163,-0.014,PROFITABLE,605186.SS,,False
+Medical Devices,Healthcare Products,China,SEHK,6609,Shanghai HeartCare Medical Technology Corporation Limited (SEHK:6609),CN,,,,0.20411,0.07595,0.491,PROFITABLE,6609.HK,,True
+Medical Devices,Healthcare Products,China,SEHK,1501,"Shanghai INT Medical Instruments Co., Ltd. (SEHK:1501)",CN,,,,0.20534,0.1201,0.315,PROFITABLE,1501.HK,,True
+Medical Devices,Healthcare Products,China,SHSE,603987,"Shanghai Kindly Enterprise Development Group Co.,LTD. (SHSE:603987)",CN,,,,0.102189995,0.083000004,-0.021,PROFITABLE,603987.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300326,"Shanghai Kinetic Medical Co., Ltd (SZSE:300326)",CN,,,,0.20618,0.05864,-0.354,PROFITABLE,300326.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688351,"Shanghai MicroPort EP MedTech Co., Ltd. (SHSE:688351)",CN,,,,0.12809,0.0349,0.21,PROFITABLE,688351.SS,,True
+Medical Devices,Healthcare Products,China,SHSE,688016,"Shanghai MicroPort Endovascular MedTech Co., Ltd. (SHSE:688016)",CN,,,,0.42381,0.14261,0.115,PROFITABLE,688016.SS,,True
+Medical Devices,Healthcare Products,China,SEHK,2252,"Shanghai MicroPort MedBot (Group) Co., Ltd. (SEHK:2252)",CN,,,,-0.45305002,-0.77285004,1.376,NOT-PROFITABLE,2252.HK,,True
+Medical Devices,Healthcare Products,China,SHSE,688193,"Shanghai Rendu Biotechnology Co., Ltd. (SHSE:688193)",CN,,,,0.08487,0.01513,0.034,PROFITABLE,688193.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,688085,"Shanghai Sanyou Medical Co., Ltd (SHSE:688085)",CN,,,,0.10426,0.017380001,0.061,PROFITABLE,688085.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,688271,"Shanghai United Imaging Healthcare Co., Ltd. (SHSE:688271)",CN,,,,0.13339,0.08861,0.173,PROFITABLE,688271.SS,,True
+Medical Devices,Healthcare Products,China,SHSE,688317,"Shanghai ZJ Bio-Tech Co., Ltd (SHSE:688317)",CN,,,,-0.37078,-0.01281,-0.209,NOT-PROFITABLE,688317.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,301602,"Shantou Institute of Ultrasonic Instrument Co., Ltd. (SZSE:301602)",CN,,,,0.31792998,0.08916,-0.326,PROFITABLE,301602.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,300942,"Shenzhen Bioeasy Biotechnology Co., Ltd. (SZSE:300942)",CN,,,,0.025150001,0.01044,0.168,PROFITABLE,300942.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688389,"Shenzhen Lifotronic Technology Co., Ltd. (SHSE:688389)",CN,,,,0.15055001,0.07446,0.209,PROFITABLE,688389.SS,,True
+Medical Devices,Healthcare Products,China,SZSE,300760,"Shenzhen Mindray Bio-Medical Electronics Co., Ltd. (SZSE:300760)",CN,,,,0.23466,0.18518,0.014,PROFITABLE,300760.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,300832,"Shenzhen New Industries Biomedical Engineering Co., Ltd. (SZSE:300832)",CN,,,,0.3547,0.17573999,0.003,PROFITABLE,300832.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688575,"Shenzhen YHLO Biotech Co., Ltd. (SHSE:688575)",CN,,,,0.01739,0.02783,-0.048,PROFITABLE,688575.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,600587,"Shinva Medical Instrument Co.,Ltd. (SHSE:600587)",CN,,,,0.0506,0.06043,-0.023,PROFITABLE,600587.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,301515,"Sichuan Gangtong Medical Equipment Group Co., Ltd (SZSE:301515)",CN,,,,-0.00654,-0.00667,1.079,NOT-PROFITABLE,301515.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688108,Sino Medical Sciences Technology Inc. (SHSE:688108),CN,,,,0.12189,0.07308,0.386,PROFITABLE,688108.SS,,True
+Medical Devices,Healthcare Products,China,SZSE,300298,Sinocare Inc. (SZSE:300298),CN,,,,0.02703,0.01863,0.062,PROFITABLE,300298.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,300633,SonoScape Medical Corp. (SZSE:300633),CN,,,,0.07526,0.0556,0.118,PROFITABLE,300633.SZ,,True
+Medical Devices,Healthcare Products,China,SEHK,2170,Suzhou Basecare Medical Corporation Limited (SEHK:2170),CN,,,,-0.95792,-0.21521999,-0.243,NOT-PROFITABLE,2170.HK,,False
+Medical Devices,Healthcare Products,China,SHSE,688329,"Suzhou Iron Technology CO.,LTD (SHSE:688329)",CN,,,,0.02251,0.01273,-0.26,PROFITABLE,688329.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300642,Tellgen Corporation (SZSE:300642),CN,,,,-0.00658,-0.00411,0.103,NOT-PROFITABLE,300642.SZ,,True
+Medical Devices,Healthcare Products,China,OTCPK,TANA.F,Tian'an Technology Group Ltd. (OTCPK:TANA.F),CN,,,,,,,UNVERIFIED,TANA.F,yfinance_data_gap,False
+Medical Devices,Healthcare Products,China,SHSE,688277,"Tinavi Medical Technologies Co.,Ltd. (SHSE:688277)",CN,,,,-0.79130995,-0.18505,-0.1,NOT-PROFITABLE,688277.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300171,"Tofflon Science and Technology Group Co., Ltd. (SZSE:300171)",CN,,,,0.039920002,0.026819998,-0.025,PROFITABLE,300171.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,688013,"Touchstone International Medical Science Co., Ltd. (SHSE:688013)",CN,,,,0.25806,0.14228,-0.154,PROFITABLE,688013.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300358,Truking Technology Limited (SZSE:300358),CN,,,,0.05718,0.06567,0.024,PROFITABLE,300358.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,2500,Venus Medtech (Hangzhou) Inc. (SEHK:2500),CN,,,,-1.32892,-0.20518999,-0.502,NOT-PROFITABLE,2500.HK,,False
+Medical Devices,Healthcare Products,China,NasdaqCM,WOK,WORK Medical Technology Group LTD (NasdaqCM:WOK),CN,,,,-0.108909994,-0.06451,-0.144,NOT-PROFITABLE,WOK,,False
+Medical Devices,Healthcare Products,China,SHSE,603309,"Well Lead Medical Co., Ltd. (SHSE:603309)",CN,,,,0.0346,0.03717,0.037,PROFITABLE,603309.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300888,"Winner Medical Co., Ltd. (SZSE:300888)",CN,,,,0.06993,0.06668,0.028,PROFITABLE,300888.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,002932,"Wuhan Easy Diagnosis Biomedicine Co.,Ltd. (SZSE:002932)",CN,,,,-0.049569998,-0.01198,0.01,NOT-PROFITABLE,002932.SZ,,False
+Medical Devices,Healthcare Products,China,SZSE,301235,"Wuhan Huakang Century Clean Technology Co., Ltd. (SZSE:301235)",CN,,,,0.053969998,0.070939995,0.373,PROFITABLE,301235.SZ,,True
+Medical Devices,Healthcare Products,China,SHSE,688626,"Xiangyu Medical Co.,Ltd (SHSE:688626)",CN,,,,0.10394,0.037720002,0.038,PROFITABLE,688626.SS,,False
+Medical Devices,Healthcare Products,China,SEHK,2393,Yestar Healthcare Holdings Company Limited (SEHK:2393),CN,,,,-0.05035,-0.15104,-0.395,NOT-PROFITABLE,2393.HK,,False
+Medical Devices,Healthcare Products,China,SZSE,300412,Zhejiang Canaan Technology Limited (SZSE:300412),CN,,,,0.022739999,0.02335,-0.473,PROFITABLE,300412.SZ,,False
+Medical Devices,Healthcare Products,China,SHSE,605369,"Zhejiang Gongdong Medical Technology Co., Ltd. (SHSE:605369)",CN,,,,0.04836,0.03215,0.091,PROFITABLE,605369.SS,,False
+Medical Devices,Healthcare Products,China,SHSE,603301,"Zhende Medical Co., Ltd. (SHSE:603301)",CN,,,,0.06086,0.045489997,0.009,PROFITABLE,603301.SS,,False
+Medical Devices,Healthcare Products,China,SZSE,300981,"Zhonghong Pulin Medical Products Co., Ltd. (SZSE:300981)",CN,,,,-0.05387,-0.023629999,-0.043,NOT-PROFITABLE,300981.SZ,,False
+Medical Devices,Healthcare Products,China,SEHK,2190,"Zylox-Tonbridge Medical Technology Co., Ltd. (SEHK:2190)",CN,,,,0.23109,0.077199996,0.382,PROFITABLE,2190.HK,,True
+Medical Devices,Healthcare Products,China,SHSE,688301,iRay Group (SHSE:688301),CN,,,,0.27924,0.1158,0.425,PROFITABLE,688301.SS,,True
+Medical Devices,Healthcare Products,Costa Rica,NasdaqCM,ESTA,Establishment Labs Holdings Inc. (NasdaqCM:ESTA),,,,,-0.15821,-1.75303,0.317,NOT-PROFITABLE,ESTA,,True
+Medical Devices,Healthcare Products,Denmark,OM,2CUREX,2cureX AB (publ) (OM:2CUREX),DK,,,,,,,UNVERIFIED,2CUREX.CO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Denmark,CPSE,AMBU B,Ambu A/S (CPSE:AMBU B),DK,,,,0.078150004,0.0794,0.012,PROFITABLE,AMBU-B.CO,,False
+Medical Devices,Healthcare Products,Denmark,CPSE,COLO B,Coloplast A/S (CPSE:COLO B),DK,,,,0.07509,0.14141,0.022,PROFITABLE,COLO-B.CO,,False
+Medical Devices,Healthcare Products,Denmark,CPSE,DEMANT,Demant A/S (CPSE:DEMANT),DK,,,,0.06726,0.24199,0.034,PROFITABLE,DEMANT.CO,,False
+Medical Devices,Healthcare Products,Denmark,CPSE,VIRO,ViroGates A/S (CPSE:VIRO),DK,,,,-1.13537,-0.82442003,0.084,NOT-PROFITABLE,VIRO.CO,,False
+Medical Devices,Healthcare Products,Finland,HLSE,BIOBV,Biohit Oyj (HLSE:BIOBV),FI,,,,0.19452,0.2142,0.054,PROFITABLE,BIOBV.HE,,False
+Medical Devices,Healthcare Products,Finland,HLSE,BRETEC,Bioretec Oy (HLSE:BRETEC),FI,,,,0.0,,,UNVERIFIED,BRETEC.HE,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Finland,HLSE,MODU,Modulight Oyj (HLSE:MODU),FI,,,,-0.3783,-0.08638,-0.031,NOT-PROFITABLE,MODU.HE,,False
+Medical Devices,Healthcare Products,Finland,HLSE,NXTMH,Nexstim Plc (HLSE:NXTMH),FI,,,,0.04618,0.14545,0.125,PROFITABLE,NXTMH.HE,,True
+Medical Devices,Healthcare Products,Finland,HLSE,OPTOMED,Optomed Oyj (HLSE:OPTOMED),FI,,,,-0.37502,-0.27264,-0.167,NOT-PROFITABLE,OPTOMED.HE,,False
+Medical Devices,Healthcare Products,Finland,HLSE,REG1V,Revenio Group Oyj (HLSE:REG1V),FI,,,,0.14149,0.13704,0.046,PROFITABLE,REG1V.HE,,False
+Medical Devices,Healthcare Products,France,ENXTPA,AFME,Affluent Medical SA (ENXTPA:AFME),,,,,,,,UNVERIFIED,AFME.PA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALBIO,Biosynex SA (ENXTPA:ALBIO),,,,,-0.61164004,-0.95942,-0.058,NOT-PROFITABLE,ALBIO.PA,,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALBLU,Bluelinea Société Anonyme (ENXTPA:ALBLU),,,,,-0.13548,-0.70605004,-0.089,NOT-PROFITABLE,ALBLU.PA,,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALCJ,Crossject Société Anonyme (ENXTPA:ALCJ),,,,,0.0,,-0.594,UNVERIFIED,ALCJ.PA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALDMS,Diagnostic Medical Systems S.A. (ENXTPA:ALDMS),,,,,-0.00316,0.0027599998,0.137,NOT-PROFITABLE,ALDMS.PA,,True
+Medical Devices,Healthcare Products,France,ENXTPA,EL,EssilorLuxottica Société anonyme (ENXTPA:EL),,,,,0.085159995,0.06723,0.057,PROFITABLE,EL.PA,,False
+Medical Devices,Healthcare Products,France,ENXTPA,GBT,Guerbet SA (ENXTPA:GBT),,,,,-0.13564,-0.34575,-0.052,NOT-PROFITABLE,GBT.PA,,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALIKO,Ikonisys S.A. (ENXTPA:ALIKO),,,,,-2.5625901,,0.232,UNVERIFIED,ALIKO.PA,yfinance_data_gap,True
+Medical Devices,Healthcare Products,France,ENXTPA,ALIMP,Implanet S.A. (ENXTPA:ALIMP),,,,,-0.35129002,-7.74889,0.26,NOT-PROFITABLE,ALIMP.PA,,True
+Medical Devices,Healthcare Products,France,ENXTPA,ALKLH,Klea Holding SA (ENXTPA:ALKLH),,,,,0.102910005,0.08229999,0.139,PROFITABLE,ALKLH.PA,,True
+Medical Devices,Healthcare Products,France,ENXTPA,ALEMG,Laboratoires Euromedis Société anonyme (ENXTPA:ALEMG),,,,,-0.00321,-0.00801,0.136,NOT-PROFITABLE,ALEMG.PA,,True
+Medical Devices,Healthcare Products,France,ENXTPA,ALMKT,Mauna Kea Technologies SA (ENXTPA:ALMKT),,,,,1.20909,,0.177,UNVERIFIED,ALMKT.PA,yfinance_data_gap,True
+Medical Devices,Healthcare Products,France,ENXTPA,ALSMA,S.M.A.I.O S.A. (ENXTPA:ALSMA),,,,,-0.24326,-0.34669,0.267,NOT-PROFITABLE,ALSMA.PA,,True
+Medical Devices,Healthcare Products,France,ENXTPA,ALSAF,Safe Orthopaedics SA (ENXTPA:ALSAF),,,,,-0.87136,,,UNVERIFIED,ALSAF.PA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALSGD,SpineGuard SA (ENXTPA:ALSGD),,,,,-0.55028,-0.44099998,-0.257,NOT-PROFITABLE,ALSGD.PA,,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALSPW,Spineway SA (ENXTPA:ALSPW),,,,,-0.18226999,,-0.001,UNVERIFIED,ALSPW.PA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,France,ENXTPA,ALTHE,Theraclion SA (ENXTPA:ALTHE),,,,,0.0,,,UNVERIFIED,ALTHE.PA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,France,ENXTPA,BIM,bioMérieux S.A. (ENXTPA:BIM),,,,,0.11592,0.1122,-0.039,PROFITABLE,BIM.PA,,False
+Medical Devices,Healthcare Products,Germany,XTRA,AFX,Carl Zeiss Meditec AG (XTRA:AFX),DE,,,,0.055710003,,0.024,UNVERIFIED,AFX.DE,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Germany,XTRA,EUZ,Eckert & Ziegler SE (XTRA:EUZ),DE,,,,0.15612,0.19839,0.07,PROFITABLE,EUZ.DE,,False
+Medical Devices,Healthcare Products,Germany,XTRA,GME,Geratherm Medical AG (XTRA:GME),DE,,,,-0.05331,-0.041139998,0.177,NOT-PROFITABLE,GME.DE,,True
+Medical Devices,Healthcare Products,Germany,BST,MF6,MagForce AG (BST:MF6),DE,,,,,,,UNVERIFIED,MF6.DE,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Germany,XTRA,NN6,NanoRepro AG (XTRA:NN6),DE,,,,-0.45832002,-0.053489998,-0.303,NOT-PROFITABLE,NN6.DE,,False
+Medical Devices,Healthcare Products,Germany,XTRA,OBCK,Ottobock SE & Co. KGaA (XTRA:OBCK),DE,,,,0.05422,0.27175,0.034,PROFITABLE,OBCK.DE,,False
+Medical Devices,Healthcare Products,Germany,DB,PHH2,Paul Hartmann AG (DB:PHH2),DE,,,,,,,UNVERIFIED,PHH2.DE,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Germany,XTRA,PTP,Pentixapharm Holding AG (XTRA:PTP),DE,,,,0.0,-0.43268,-0.912,NOT-PROFITABLE,PTP.DE,,False
+Medical Devices,Healthcare Products,Germany,XTRA,SHL,Siemens Healthineers AG (XTRA:SHL),DE,,,,0.09552,0.121470004,0.018,PROFITABLE,SHL.DE,,False
+Medical Devices,Healthcare Products,Germany,XTRA,SBS,Stratec SE (XTRA:SBS),DE,,,,-0.013940001,-0.0141900005,-0.115,NOT-PROFITABLE,SBS.DE,,False
+Medical Devices,Healthcare Products,Germany,XTRA,AAQ1,aap Implantate AG (XTRA:AAQ1),DE,,,,-0.20188999,-0.26988,0.11,NOT-PROFITABLE,AAQ1.DE,,True
+Medical Devices,Healthcare Products,Germany,XTRA,E8X,elexxion AG (XTRA:E8X),DE,,,,,,,UNVERIFIED,E8X.DE,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Greece,ATSE,MEDIC,Medicon Hellas S.A. (ATSE:MEDIC),,,,,0.09649,0.09227,-0.06,PROFITABLE,MEDIC.AT,,False
+Medical Devices,Healthcare Products,Hong Kong,SEHK,630,AMCO United Holding Limited (SEHK:630),HK,,,,0.86484003,0.65918,1.611,PROFITABLE,0630.HK,,True
+Medical Devices,Healthcare Products,Hong Kong,SEHK,1120,Arts Optical International Holdings Limited (SEHK:1120),HK,,,,0.015520001,0.05213,0.093,PROFITABLE,1120.HK,,False
+Medical Devices,Healthcare Products,Hong Kong,SEHK,8622,Huakang Biomedical Holdings Company Limited (SEHK:8622),HK,,,,-0.177,-0.0953,0.187,NOT-PROFITABLE,8622.HK,,True
+Medical Devices,Healthcare Products,Hong Kong,SEHK,876,Kaisa Health Group Holdings Limited (SEHK:876),HK,,,,-0.33554,-0.113570005,-0.282,NOT-PROFITABLE,0876.HK,,False
+Medical Devices,Healthcare Products,Hong Kong,SEHK,1134,Kelfred Holdings Limited (SEHK:1134),HK,,,,-0.03022,-0.09948,0.006,NOT-PROFITABLE,1134.HK,,False
+Medical Devices,Healthcare Products,Hong Kong,SEHK,3600,Modern Dental Group Limited (SEHK:3600),HK,,,,0.15977,0.19971001,0.144,PROFITABLE,3600.HK,,True
+Medical Devices,Healthcare Products,Hong Kong,SEHK,6929,OrbusNeich Medical Group Holdings Limited (SEHK:6929),HK,,,,0.23219,0.103970006,0.138,PROFITABLE,6929.HK,,True
+Medical Devices,Healthcare Products,Hong Kong,SEHK,1612,Vincent Medical Holdings Limited (SEHK:1612),HK,,,,0.111899994,0.17246,0.15,PROFITABLE,1612.HK,,True
+Medical Devices,Healthcare Products,Iceland,CPSE,EMBLA,Embla Medical hf. (CPSE:EMBLA),,,,,0.09543,0.10707,0.113,PROFITABLE,EMBLA.CO,,True
+Medical Devices,Healthcare Products,India,BSE,543309,Adeshwar Meditex Limited (BSE:543309),IN,,,,,,,UNVERIFIED,543309.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,544169,Amkay Products Limited (BSE:544169),IN,,,,,,,UNVERIFIED,544169.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,531380,Centenial Surgical Suture Ltd. (BSE:531380),IN,,,,,,,UNVERIFIED,531380.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,530427,Choksi Asia Limited (BSE:530427),IN,,,,,,,UNVERIFIED,530427.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,544549,Earkart Limited (BSE:544549),IN,,,,,,,UNVERIFIED,544549.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,524743,Fischer Medical Ventures Limited (BSE:524743),IN,,,,,,,UNVERIFIED,524743.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,533212,GKB Ophthalmics Limited (BSE:533212),IN,,,,,,,UNVERIFIED,533212.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,NSEI,GSMFOILS,GSM Foils Limited (NSEI:GSMFOILS),IN,,,,,,,UNVERIFIED,GSMFOILS.NS,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,NSEI,GML,Galaxy Medicare Limited (NSEI:GML),IN,,,,,,,UNVERIFIED,GML.NS,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,NSEI,LAXMIDENTL,Laxmi Dental Limited (NSEI:LAXMIDENTL),IN,313013.0,False,-44.44389444240265,0.10742,,0.174,UNVERIFIED,LAXMIDENTL.NS,yfinance_data_gap,True
+Medical Devices,Healthcare Products,India,BSE,538401,Maestros Electronics & Telecommunications Systems Limited (BSE:538401),IN,,,,,,,UNVERIFIED,538401.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,NSEI,MHHL,Mohini Health & Hygiene Limited (NSEI:MHHL),IN,,,,,,,UNVERIFIED,MHHL.NS,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,NSEI,NURECA,Nureca Limited (NSEI:NURECA),IN,22972.0,False,,0.02832,,0.18,UNVERIFIED,NURECA.NS,yfinance_data_gap,True
+Medical Devices,Healthcare Products,India,BSE,531768,Poly Medicure Limited (BSE:531768),IN,,,,,,,UNVERIFIED,531768.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,543363,Prevest Denpro Limited (BSE:543363),IN,,,,,,,UNVERIFIED,543363.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,NasdaqCM,SSII,"SS Innovations International, Inc. (NasdaqCM:SSII)",IN,,,,-0.20692,-0.21096,1.168,NOT-PROFITABLE,SSII,,True
+Medical Devices,Healthcare Products,India,BSE,527005,Shree Pacetronix Limited (BSE:527005),IN,,,,,,,UNVERIFIED,527005.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,BSE,530057,Vivanza Biosciences Limited (BSE:530057),IN,,,,,,,UNVERIFIED,530057.BO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,India,NSEI,YASHOPTICS,Yash Optics & Lens Limited (NSEI:YASHOPTICS),IN,,,,,,,UNVERIFIED,YASHOPTICS.NS,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Indonesia,IDX,HALO,PT Haloni Jane Tbk (IDX:HALO),,,,,0.07785,0.0799,0.076,PROFITABLE,HALO.JK,,False
+Medical Devices,Healthcare Products,Indonesia,IDX,MEDS,PT Hetzer Medical Indonesia Tbk (IDX:MEDS),,,,,-0.27684,-0.08199,4.055,NOT-PROFITABLE,MEDS.JK,,True
+Medical Devices,Healthcare Products,Indonesia,IDX,OMED,PT Jayamas Medica Industri Tbk (IDX:OMED),,,,,0.18772,0.16099001,0.215,PROFITABLE,OMED.JK,,True
+Medical Devices,Healthcare Products,Indonesia,IDX,SURI,PT Maja Agung Latexindo Tbk (IDX:SURI),,,,,0.00595,0.0027200002,0.148,PROFITABLE,SURI.JK,,True
+Medical Devices,Healthcare Products,Ireland,NYSE,MDT,Medtronic plc (NYSE:MDT),,,,,0.13203,0.098409995,0.099,PROFITABLE,MDT,,False
+Medical Devices,Healthcare Products,Israel,TASE,ABOU,Abou Family Residence Ltd (TASE:ABOU),,,,,0.15006,0.01006,0.158,PROFITABLE,ABOU.TA,,True
+Medical Devices,Healthcare Products,Israel,TASE,ALMD,Allmed Solutions Ltd (TASE:ALMD),,,,,0.0,-0.46939,,NOT-PROFITABLE,ALMD.TA,,False
+Medical Devices,Healthcare Products,Israel,NasdaqCM,DRTS,Alpha Tau Medical Ltd. (NasdaqCM:DRTS),,,,,0.0,-1.41683,,NOT-PROFITABLE,DRTS,,False
+Medical Devices,Healthcare Products,Israel,OTCPK,APYP,"AppYea, Inc. (OTCPK:APYP)",,,,,0.0,-4.32931,,NOT-PROFITABLE,APYP,,False
+Medical Devices,Healthcare Products,Israel,TASE,BIOV,Bio-View Ltd (TASE:BIOV),,,,,-0.76929003,-0.94755995,0.238,NOT-PROFITABLE,BIOV.TA,,True
+Medical Devices,Healthcare Products,Israel,TASE,BWAY,BrainsWay Ltd. (TASE:BWAY),,,,,0.15578,0.12552,0.346,PROFITABLE,BWAY.TA,,True
+Medical Devices,Healthcare Products,Israel,NasdaqCM,MBAI,Check-Cap Ltd. (NasdaqCM:MBAI),,,,,0.0,4.16709,,NOT-PROFITABLE,MBAI,,False
+Medical Devices,Healthcare Products,Israel,CNSX,DTR,DiagnosTear Technologies Inc. (CNSX:DTR),,,,,0.0,,,UNVERIFIED,DTR.CN,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Israel,TASE,EMITF,Elbit Imaging Ltd. (TASE:EMITF),,,,,,,,UNVERIFIED,EMITF.TA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Israel,TASE,EMTC-M,Elbit Medical Technologies Ltd (TASE:EMTC-M),,,,,,,,UNVERIFIED,EMTC-M.TA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Israel,TASE,EPIT,Epitomee Medical Ltd (TASE:EPIT),,,,,0.0,-0.28748,,NOT-PROFITABLE,EPIT.TA,,False
+Medical Devices,Healthcare Products,Israel,TASE,ERKA,Erika Carmel-Tech Ltd (TASE:ERKA),,,,,-0.15675001,-0.47154,-0.122,NOT-PROFITABLE,ERKA.TA,,False
+Medical Devices,Healthcare Products,Israel,TASE,HUMX-M,Human Xtensions Ltd. (TASE:HUMX-M),,,,,0.0,-2.3329,,NOT-PROFITABLE,HUMX-M.TA,,False
+Medical Devices,Healthcare Products,Israel,OTCPK,IRME,IR-Med Inc. (OTCPK:IRME),,,,,0.0,,,UNVERIFIED,IRME,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Israel,NasdaqCM,ICCM,IceCure Medical Ltd (NasdaqCM:ICCM),,,,,0.0,-2.17235,0.257,NOT-PROFITABLE,ICCM,,True
+Medical Devices,Healthcare Products,Israel,TASE,IDNT,Identi Healthcare Ltd (TASE:IDNT),,,,,-0.54139,-0.73092,0.206,NOT-PROFITABLE,IDNT.TA,,True
+Medical Devices,Healthcare Products,Israel,TASE,IMED,Imed Infinity Medical-Limited Partnership (TASE:IMED),,,,,-0.84956,-0.02495,,NOT-PROFITABLE,IMED.TA,,False
+Medical Devices,Healthcare Products,Israel,NasdaqGS,INMD,InMode Ltd. (NasdaqGS:INMD),,,,,0.20691,0.12328,-0.0,PROFITABLE,INMD,,False
+Medical Devices,Healthcare Products,Israel,NasdaqCM,IINN,Inspira Technologies Oxy B.H.N. Ltd. (NasdaqCM:IINN),,,,,,,,UNVERIFIED,IINN,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Israel,NasdaqCM,LFWD,Lifeward Ltd. (NasdaqCM:LFWD),,,,,-1.23658,-2.091,-0.221,NOT-PROFITABLE,LFWD,,False
+Medical Devices,Healthcare Products,Israel,TASE,MRHL,Merchavia Holdings and Investments Ltd (TASE:MRHL),,,,,0.0,-0.52404,,NOT-PROFITABLE,MRHL.TA,,False
+Medical Devices,Healthcare Products,Israel,TASE,NISA,Nissan Medical Industries Ltd (TASE:NISA),,,,,0.0059399996,0.02543,-0.075,PROFITABLE,NISA.TA,,False
+Medical Devices,Healthcare Products,Israel,NasdaqCM,ODYS,Odysight.ai Inc. (NasdaqCM:ODYS),,,,,0.0,-0.63066,-0.96,NOT-PROFITABLE,ODYS,,False
+Medical Devices,Healthcare Products,Israel,TASE,PULS,Pulsenmore Ltd. (TASE:PULS),,,,,,,,UNVERIFIED,PULS.TA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Israel,TASE,SLCL,Silver Castle Holdings Ltd (TASE:SLCL),,,,,,,,UNVERIFIED,SLCL.TA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Israel,SEHK,1696,Sisram Medical Ltd (SEHK:1696),,,,,0.05205,0.05059,0.108,PROFITABLE,1696.HK,,True
+Medical Devices,Healthcare Products,Israel,TASE,SOFW,SofWave Medical Ltd. (TASE:SOFW),,,,,0.08485,0.27425,0.427,PROFITABLE,SOFW.TA,,True
+Medical Devices,Healthcare Products,Israel,TSXV,VVTM,VVT Med Inc. (TSXV:VVTM),,,,,0.0,,-0.182,UNVERIFIED,VVTM.V,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Italy,BIT,DIA,DiaSorin S.p.A. (BIT:DIA),,,,,0.11939,0.091630004,0.027,PROFITABLE,DIA.MI,,False
+Medical Devices,Healthcare Products,Italy,BIT,ELN,EL.En. S.p.A. (BIT:ELN),,,,,0.0791,0.12991,0.248,PROFITABLE,ELN.MI,,True
+Medical Devices,Healthcare Products,Italy,BIT,GVS,GVS S.p.A. (BIT:GVS),,,,,0.0962,0.09277,0.015,PROFITABLE,GVS.MI,,False
+Medical Devices,Healthcare Products,Italy,BIT,IMD,I.M.D. International Medical Devices S.p.A. (BIT:IMD),,,,,0.040510003,0.060370002,-0.109,PROFITABLE,IMD.MI,,False
+Medical Devices,Healthcare Products,Italy,BIT,SVS,Svas Biosana S.p.A. (BIT:SVS),,,,,0.04783,0.103819996,0.104,PROFITABLE,SVS.MI,,True
+Medical Devices,Healthcare Products,Italy,BIT,IVN,iVision Tech S.p.A. (BIT:IVN),,,,,0.0014,0.00343,-0.09,PROFITABLE,IVN.MI,,False
+Medical Devices,Healthcare Products,Japan,TSE,9340,"ASO International, Inc. (TSE:9340)",JP,,,,0.12434,0.16780001,0.132,PROFITABLE,9340.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,7747,"Asahi Intecc Co., Ltd. (TSE:7747)",JP,,,,0.22428,0.19239001,0.223,PROFITABLE,7747.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,7779,CYBERDYNE Inc. (TSE:7779),JP,,,,0.03978,0.0037099998,-0.216,PROFITABLE,7779.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7792,"Colan Totte.Co.,Ltd. (TSE:7792)",JP,,,,0.16871999,0.26700002,0.368,PROFITABLE,7792.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,5187,"Create Medic Co., Ltd. (TSE:5187)",JP,,,,0.040110003,0.03529,0.067,PROFITABLE,5187.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7775,"Daiken Medical Co., Ltd. (TSE:7775)",JP,,,,0.08537,0.116809994,-0.023,PROFITABLE,7775.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,4549,"Eiken Chemical Co., Ltd. (TSE:4549)",JP,,,,0.083739996,0.08336,0.052,PROFITABLE,4549.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,6960,"Fukuda Denshi Co., Ltd. (TSE:6960)",JP,,,,0.1357,0.10468,0.02,PROFITABLE,6960.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7741,HOYA Corporation (TSE:7741),JP,,,,0.27176002,0.2653,0.162,PROFITABLE,7741.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,3593,"Hogy Medical Co.,Ltd. (TSE:3593)",JP,,,,,,,UNVERIFIED,3593.T,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Japan,TSE,7634,"Hoshi Iryo-Sanki Co., Ltd. (TSE:7634)",JP,,,,0.08941,0.07096,0.01,PROFITABLE,7634.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7702,"JMS Co.,Ltd. (TSE:7702)",JP,,,,-0.01074,-0.01787,-0.027,NOT-PROFITABLE,7702.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,3446,JTEC Corporation (TSE:3446),JP,,,,-0.041220002,-0.01513,-0.097,NOT-PROFITABLE,3446.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7575,"Japan Lifeline Co., Ltd. (TSE:7575)",JP,,,,0.15472999,0.15239,0.088,PROFITABLE,7575.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,4556,"KAINOS Laboratories, Inc. (TSE:4556)",JP,,,,0.01865,0.03111,0.015,PROFITABLE,4556.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,368A,Kitazato Corporation (TSE:368A),JP,,,,0.36054,0.22333999,0.24,PROFITABLE,368A.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,7963,Koken Ltd. (TSE:7963),JP,,,,0.06958,0.06242,0.094,PROFITABLE,7963.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7807,"Kowa Co.,Ltd. (TSE:7807)",JP,,,,0.07854,0.15469,0.02,PROFITABLE,7807.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7730,"Mani, Inc. (TSE:7730)",JP,,,,0.20431,0.10975,0.11,PROFITABLE,7730.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,7749,"Medikit Co.,Ltd. (TSE:7749)",JP,,,,0.12933,0.06861,0.081,PROFITABLE,7749.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7780,"Menicon Co., Ltd. (TSE:7780)",JP,,,,0.056020003,0.07904,0.07,PROFITABLE,7780.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,4595,"Mizuho Medy Co.,Ltd. (TSE:4595)",JP,,,,0.30031002,0.18396999,-0.166,PROFITABLE,4595.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7447,"Nagaileben Co., Ltd. (TSE:7447)",JP,,,,0.0,0.06368,-0.021,NOT-PROFITABLE,7447.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7716,Nakanishi Inc. (TSE:7716),JP,,,,0.02506,0.01869,0.199,PROFITABLE,7716.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,6849,Nihon Kohden Corporation (TSE:6849),JP,,,,0.058579996,0.07677,-0.052,PROFITABLE,6849.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,8086,Nipro Corporation (TSE:8086),JP,,,,0.02104,0.051939998,0.052,PROFITABLE,8086.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7733,Olympus Corporation (TSE:7733),JP,,,,0.074939996,0.105749995,0.164,PROFITABLE,7733.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,6523,PHC Holdings Corporation (TSE:6523),JP,,,,0.02471,0.05878,0.081,PROFITABLE,6523.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7817,"Paramount Bed Holdings Co., Ltd. (TSE:7817)",JP,,,,,,,UNVERIFIED,7817.T,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Japan,TSE,7813,"Platz Co., Ltd. (TSE:7813)",JP,,,,0.02833,0.07251,-0.043,PROFITABLE,7813.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,6823,"Rion Co., Ltd. (TSE:6823)",JP,,,,0.11951,0.10281,0.039,PROFITABLE,6823.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7743,"SEED Co.,Ltd. (TSE:7743)",JP,,,,0.03344,0.059660003,0.047,PROFITABLE,7743.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,7979,Shofu Inc. (TSE:7979),JP,,,,0.1497,0.13174,0.135,PROFITABLE,7979.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,7782,"Sincere Co., LTD. (TSE:7782)",JP,,,,0.031159999,0.091129996,0.24,PROFITABLE,7782.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,6869,Sysmex Corporation (TSE:6869),JP,,,,0.075430006,0.08335,0.236,PROFITABLE,6869.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,197A,"TAUNS Laboratories,Inc. (TSE:197A)",JP,,,,0.18090001,0.12439,-0.576,PROFITABLE,197A.T,,False
+Medical Devices,Healthcare Products,Japan,TSE,4574,"Taiko Pharmaceutical Co.,Ltd. (TSE:4574)",JP,,,,0.18605,0.20142001,0.159,PROFITABLE,4574.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,6678,"Techno Medica Co., Ltd. (TSE:6678)",JP,,,,0.103760004,0.08769,0.253,PROFITABLE,6678.T,,True
+Medical Devices,Healthcare Products,Japan,TSE,4543,Terumo Corporation (TSE:4543),JP,,,,0.13897,0.10854,0.199,PROFITABLE,4543.T,,True
+Medical Devices,Healthcare Products,Malaysia,KLSE,ADVENTA,Adventa Berhad (KLSE:ADVENTA),,,,,,,,UNVERIFIED,ADVENTA.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,CAREPLS,Careplus Group Berhad (KLSE:CAREPLS),,,,,,,,UNVERIFIED,CAREPLS.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,COMFORT,Comfort Gloves Berhad (KLSE:COMFORT),,,,,,,,UNVERIFIED,COMFORT.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,HARTA,Hartalega Holdings Berhad (KLSE:HARTA),,,,,,,,UNVERIFIED,HARTA.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,KOSSAN,Kossan Rubber Industries Bhd (KLSE:KOSSAN),,,,,,,,UNVERIFIED,KOSSAN.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,LKL,LKL International Berhad (KLSE:LKL),,,,,,,,UNVERIFIED,LKL.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,ONEGLOVE,One Glove Group Berhad (KLSE:ONEGLOVE),,,,,,,,UNVERIFIED,ONEGLOVE.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,SUPERMX,Supermax Corporation Berhad (KLSE:SUPERMX),,,,,,,,UNVERIFIED,SUPERMX.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Malaysia,KLSE,TOPGLOV,Top Glove Corporation Bhd. (KLSE:TOPGLOV),,,,,,,,UNVERIFIED,TOPGLOV.KL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Netherlands,ENXTAM,PHIA,Koninklijke Philips N.V. (ENXTAM:PHIA),,,,,0.06306,0.10154,0.005,PROFITABLE,PHIA.AS,,False
+Medical Devices,Healthcare Products,Netherlands,ENXTBR,ONWD,Onward Medical N.V. (ENXTBR:ONWD),,,,,0.0,-0.80849,1.762,NOT-PROFITABLE,ONWD.BR,,True
+Medical Devices,Healthcare Products,New Zealand,NZSE,FPH,Fisher & Paykel Healthcare Corporation Limited (NZSE:FPH),,,,,0.20295,0.23391001,0.14,PROFITABLE,FPH.NZ,,True
+Medical Devices,Healthcare Products,New Zealand,NZSE,TRU,TruScreen Group Limited (NZSE:TRU),,,,,-0.79776,-1.25367,1.205,NOT-PROFITABLE,TRU.NZ,,True
+Medical Devices,Healthcare Products,Norway,OB,GENT,Gentian Diagnostics ASA (OB:GENT),,,,,-0.04616,-0.04423,0.142,NOT-PROFITABLE,GENT.OL,,True
+Medical Devices,Healthcare Products,Norway,OB,LIFE,Lifecare ASA (OB:LIFE),,,,,0.0,-3.32547,194.0,NOT-PROFITABLE,LIFE.OL,,True
+Medical Devices,Healthcare Products,Norway,OB,MEDI,Medistim ASA (OB:MEDI),,,,,0.21681,0.32077,0.111,PROFITABLE,MEDI.OL,,True
+Medical Devices,Healthcare Products,Norway,OB,OBSRV,Observe Medical ASA (OB:OBSRV),,,,,-2.5856698,-1.90387,0.426,NOT-PROFITABLE,OBSRV.OL,,True
+Medical Devices,Healthcare Products,Poland,WSE,AME,Advanced Medical Equipment Spolka Akcyjna (WSE:AME),,,,,,,,UNVERIFIED,AME.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,AWM,Airway Medix S.A. (WSE:AWM),,,,,14.37079,,,UNVERIFIED,AWM.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,BMX,BioMaxima S.A. (WSE:BMX),,,,,-0.00261,-0.0032600001,-0.076,NOT-PROFITABLE,BMX.WA,,False
+Medical Devices,Healthcare Products,Poland,WSE,BSN,BrainScan Sp. z o. o. (WSE:BSN),,,,,,,,UNVERIFIED,BSN.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,CMI,CM International S.A. (WSE:CMI),,,,,,,,UNVERIFIED,CMI.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,GMZ,Grupa Modne Zakupy S.A. (WSE:GMZ),,,,,,,,UNVERIFIED,GMZ.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,INM,InventionMed S.A. (WSE:INM),,,,,,,,UNVERIFIED,INM.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,MDG,Medicalgorithmics S.A. (WSE:MDG),,,,,-0.27963,-0.14195,0.512,NOT-PROFITABLE,MDG.WA,,True
+Medical Devices,Healthcare Products,Poland,WSE,ICE,Medinice S.A. (WSE:ICE),,,,,0.0,-0.08202,,NOT-PROFITABLE,ICE.WA,,False
+Medical Devices,Healthcare Products,Poland,WSE,MRC,Mercator Medical S.A. (WSE:MRC),,,,,0.02149,0.01311,-0.014,PROFITABLE,MRC.WA,,False
+Medical Devices,Healthcare Products,Poland,WSE,MTN,Milton Essex Spólka Akcyjna (WSE:MTN),,,,,,,,UNVERIFIED,MTN.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,NST,Nestmedic S.A. (WSE:NST),,,,,,,,UNVERIFIED,NST.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,CRM,PZ Cormay S.A. (WSE:CRM),,,,,-0.072670005,-0.14838,0.021,NOT-PROFITABLE,CRM.WA,,False
+Medical Devices,Healthcare Products,Poland,WSE,SDS,SDS Optic Spolka Akcyjna (WSE:SDS),,,,,,,,UNVERIFIED,SDS.WA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Poland,WSE,SCP,Scope Fluidics S.A. (WSE:SCP),,,,,0.0,-0.34355,0.174,NOT-PROFITABLE,SCP.WA,,True
+Medical Devices,Healthcare Products,Qatar,DSM,QGMD,Qatari German Company for Medical Devices (Q.P.S.C.) (DSM:QGMD),,,,,,,,UNVERIFIED,,exchange_not_on_yfinance:DSM,False
+Medical Devices,Healthcare Products,Romania,BVB,DENT,Dr. Fischer Dental S.A. (BVB:DENT),,,,,0.0,,,UNVERIFIED,DENT.RO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Romania,BVB,IORB,S.C. IOR S.A. (BVB:IORB),,,,,0.04296,0.01174,0.485,PROFITABLE,IORB.RO,,True
+Medical Devices,Healthcare Products,Saudi Arabia,SASE,9587,Lana Medical Company (SASE:9587),SA,,,,0.02921,0.04275,-0.116,PROFITABLE,9587.SR,,False
+Medical Devices,Healthcare Products,Singapore,Catalist,584,AJJ Medtech Holdings Limited (Catalist:584),SG,,,,-1.20206,,-0.508,UNVERIFIED,584.SI,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Singapore,OTCPK,ALRT.F,ALR Technologies SG Ltd. (OTCPK:ALRT.F),SG,,,,,,,UNVERIFIED,ALRT.F,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Singapore,NasdaqCM,CUPR,Cuprina Holdings (Cayman) Limited (NasdaqCM:CUPR),SG,,,,0.0,-15.690551,2.674,NOT-PROFITABLE,CUPR,,True
+Medical Devices,Healthcare Products,Singapore,Catalist,8YY,Embracing Future Holdings Limited (Catalist:8YY),SG,,,,-0.75308996,-2.44451,1.454,NOT-PROFITABLE,8YY.SI,,True
+Medical Devices,Healthcare Products,Singapore,SEHK,8513,MaxWin International Holdings Limited (SEHK:8513),SG,,,,-0.03293,-0.33673,1.062,NOT-PROFITABLE,8513.HK,,True
+Medical Devices,Healthcare Products,Singapore,ASX,OSX,Osteopore Limited (ASX:OSX),SG,,,,-1.2176,,0.165,UNVERIFIED,OSX.AX,yfinance_data_gap,True
+Medical Devices,Healthcare Products,Singapore,Catalist,V8Y,Quantum Healthcare Limited (Catalist:V8Y),SG,,,,-0.20492001,,0.008,UNVERIFIED,V8Y.SI,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Singapore,SGX,AP4,Riverstone Holdings Limited (SGX:AP4),SG,,,,0.20106001,,-0.151,UNVERIFIED,AP4.SI,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Singapore,Catalist,8K7,UG Healthcare Corporation Limited (Catalist:8K7),SG,,,,-0.02947,-0.02503,0.028,NOT-PROFITABLE,8K7.SI,,False
+Medical Devices,Healthcare Products,Singapore,SGX,ULG,UltraGreen.ai Limited (SGX:ULG),SG,,,,0.54824,0.35935003,,PROFITABLE,ULG.SI,,False
+Medical Devices,Healthcare Products,Singapore,SGX,569,Vicplas International Ltd (SGX:569),SG,,,,-0.0471,-0.0842,0.131,NOT-PROFITABLE,569.SI,,True
+Medical Devices,Healthcare Products,South Korea,XKON,A447690,"AIOBIO Co., Ltd. (XKON:A447690)",KR,,,,,,,UNVERIFIED,447690.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,XKON,A495900,"AMCG Co., Ltd. (XKON:A495900)",KR,,,,,,,UNVERIFIED,495900.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A455900,"ANGEL ROBOTICS Co., Ltd. (KOSDAQ:A455900)",KR,,,,-2.40647,-0.28603,-0.527,NOT-PROFITABLE,455900.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A246720,ASTA Corporation (KOSDAQ:A246720),KR,,,,-0.84944,-0.49675,-0.646,NOT-PROFITABLE,246720.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A450950,"ASTERASYS Co.,Ltd (KOSDAQ:A450950)",KR,,,,0.19954,0.19288999,0.117,PROFITABLE,450950.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A043100,"Alpha AI Co.,Ltd. (KOSDAQ:A043100)",KR,,,,,,,UNVERIFIED,043100.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,XKON,A390110,Anymedi Inc. (XKON:A390110),KR,,,,,,,UNVERIFIED,390110.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A099430,"Bio Plus Co., Ltd (KOSDAQ:A099430)",KR,,,,0.14822,0.106429994,0.154,PROFITABLE,099430.KQ,,True
+Medical Devices,Healthcare Products,South Korea,XKON,A199290,Bio Protech Inc. (XKON:A199290),KR,,,,,,,UNVERIFIED,199290.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A314930,"Biodyne Co., Ltd. (KOSDAQ:A314930)",KR,,,,0.20663,0.03296,-0.054,PROFITABLE,314930.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A419540,"Bistos Co., Ltd. (KOSDAQ:A419540)",KR,,,,,,,UNVERIFIED,419540.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A206640,Boditech Med Inc. (KOSDAQ:A206640),KR,,,,0.15672,0.10840999,0.096,PROFITABLE,206640.KQ,,False
+Medical Devices,Healthcare Products,South Korea,XKON,A402420,CALTH. Inc (XKON:A402420),KR,,,,,,,UNVERIFIED,402420.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A056090,"CG MedTech Co.,Ltd. (KOSDAQ:A056090)",KR,,,,0.13611001,0.07251,0.109,PROFITABLE,056090.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A214150,CLASSYS Inc. (KOSDAQ:A214150),KR,,,,0.39130002,0.27188,0.13,PROFITABLE,214150.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A115480,"CU Medical Systems, Inc. (KOSDAQ:A115480)",KR,,,,,,,UNVERIFIED,115480.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A049180,"Cellumed Co.,Ltd. (KOSDAQ:A049180)",KR,,,,-0.0197,-0.13769001,-0.403,NOT-PROFITABLE,049180.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A104540,"Corentec Co., Ltd. (KOSDAQ:A104540)",KR,,,,0.04524,0.041739997,0.086,PROFITABLE,104540.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A494120,"Curiosis, Inc. (KOSDAQ:A494120)",KR,,,,-0.93319,-0.50348,0.729,NOT-PROFITABLE,494120.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A261200,"DENTIS CO.,Ltd (KOSDAQ:A261200)",KR,,,,-0.06725,-0.17392999,-0.07,NOT-PROFITABLE,261200.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A039840,DIO Corporation (KOSDAQ:A039840),KR,,,,0.048049998,0.04147,0.154,PROFITABLE,039840.KQ,,True
+Medical Devices,Healthcare Products,South Korea,XKON,A227420,DOBU Inc. (XKON:A227420),KR,,,,,,,UNVERIFIED,227420.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A263690,DRGEM Corporation (KOSDAQ:A263690),KR,,,,0.09003,0.10649,0.171,PROFITABLE,263690.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A214680,DRTECH Corporation (KOSDAQ:A214680),KR,,,,-0.16713,-0.2738,0.255,NOT-PROFITABLE,214680.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSE,A145720,"Dentium CO., LTD (KOSE:A145720)",KR,,,,0.06156,0.03601,-0.071,PROFITABLE,145720.KS,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A240550,"Dongbang Medical Co., Ltd (KOSDAQ:A240550)",KR,,,,0.118769996,0.108839996,0.139,PROFITABLE,240550.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A176750,"DuChemBIO Co.,Ltd. (KOSDAQ:A176750)",KR,,,,0.17516,0.14915,0.147,PROFITABLE,176750.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A387570,"Finemedix Co., Ltd. (KOSDAQ:A387570)",KR,,,,-0.18108,-0.093439996,0.175,NOT-PROFITABLE,387570.KQ,,True
+Medical Devices,Healthcare Products,South Korea,,,"GTG Wellness CO.,LTD",KR,,,,,,,UNVERIFIED,,unmapped_exchange:nan,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A229000,Gencurix Inc. (KOSDAQ:A229000),KR,,,,0.0,-1.16643,0.5,NOT-PROFITABLE,229000.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A122310,"Genoray Co., Ltd. (KOSDAQ:A122310)",KR,,,,0.0020299999,0.0012899999,0.009,PROFITABLE,122310.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A142280,Green Cross Medical Science Corporation (KOSDAQ:A142280),KR,,,,0.0424,0.09874,-0.111,PROFITABLE,142280.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A450330,HASS Corp. (KOSDAQ:A450330),KR,,,,0.08494,0.03252,-0.005,PROFITABLE,450330.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A028300,"HLB Co., Ltd. (KOSDAQ:A028300)",KR,,,,-2.2804499,-0.3815,0.058,NOT-PROFITABLE,028300.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A205470,Humasis Co. Ltd. (KOSDAQ:A205470),KR,,,,-0.3173,-0.06514,0.448,NOT-PROFITABLE,205470.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A065510,"Huvitz Co., Ltd. (KOSDAQ:A065510)",KR,,,,-0.03213,-0.03233,-0.007,NOT-PROFITABLE,065510.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A460470,"IVIM Technology, Inc (KOSDAQ:A460470)",KR,,,,-0.87264,-0.13347,-0.489,NOT-PROFITABLE,460470.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A041830,"InBody Co.,Ltd (KOSDAQ:A041830)",KR,,,,,,,UNVERIFIED,041830.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A119610,Interojo Inc. (KOSDAQ:A119610),KR,,,,0.13085,0.102790006,0.328,PROFITABLE,119610.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A0010V0,"JPI Healthcare Co.,Ltd. (KOSDAQ:A0010V0)",KR,,,,,,,UNVERIFIED,A0010V0.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A083550,KM Corporation (KOSDAQ:A083550),KR,,,,,,,UNVERIFIED,083550.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A156100,L&K Biomed Ltd. (KOSDAQ:A156100),KR,,,,-0.18629,-0.18254,0.068,NOT-PROFITABLE,156100.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A462510,"LAMEDITECH Co., Ltd. (KOSDAQ:A462510)",KR,,,,-1.8934,-1.0243801,-0.576,NOT-PROFITABLE,462510.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A199550,"Laseroptek Co., Ltd. (KOSDAQ:A199550)",KR,,,,-0.34328997,-0.36199,0.208,NOT-PROFITABLE,199550.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A491000,Livsmed Inc (KOSDAQ:A491000),KR,,,,-0.43418998,-0.20951,0.055,NOT-PROFITABLE,491000.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A179290,"M.I.TECH Co.,Ltd (KOSDAQ:A179290)",KR,,,,0.29048002,0.16420999,-0.03,PROFITABLE,179290.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A041920,"MEDIANA Co.,Ltd (KOSDAQ:A041920)",KR,,,,,,,UNVERIFIED,041920.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,XKON,A200580,"MEDYSSEY Co.,Ltd (XKON:A200580)",KR,,,,,,,UNVERIFIED,200580.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A058110,"MEKICS CO., Ltd (KOSDAQ:A058110)",KR,,,,,,,UNVERIFIED,058110.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A059210,"Meta Biomed Co., Ltd. (KOSDAQ:A059210)",KR,,,,,,,UNVERIFIED,059210.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A305090,"Micro Digital Co., Ltd. (KOSDAQ:A305090)",KR,,,,-1.0235701,-0.45259997,-0.402,NOT-PROFITABLE,305090.KQ,,False
+Medical Devices,Healthcare Products,South Korea,XKON,A448780,"Micro-Nx Co., Ltd. (XKON:A448780)",KR,,,,,,,UNVERIFIED,448780.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,XKON,A244880,"NANOOMTECH Co.,Ltd. (XKON:A244880)",KR,,,,,,,UNVERIFIED,244880.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A290660,"Neofect Co., Ltd. (KOSDAQ:A290660)",KR,,,,-1.0259,-0.31871998,-0.16,NOT-PROFITABLE,290660.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A389650,"Next Biomedical Co.,Ltd. (KOSDAQ:A389650)",KR,,,,-0.0021600001,-0.00077,0.092,NOT-PROFITABLE,389650.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A376930,"Noul Co.,Ltd. (KOSDAQ:A376930)",KR,,,,0.0,-1.09715,-0.769,NOT-PROFITABLE,376930.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A131030,"OPTUS Pharmaceutical Co., Ltd. (KOSDAQ:A131030)",KR,,,,0.13856,0.07907,0.238,PROFITABLE,131030.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A226400,"OSTEONIC Co., Ltd. (KOSDAQ:A226400)",KR,,,,0.19261,0.14319,0.354,PROFITABLE,226400.KQ,,True
+Medical Devices,Healthcare Products,South Korea,XKON,A332190,"OceansBio co.,ltd. (XKON:A332190)",KR,,,,,,,UNVERIFIED,332190.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A036220,"Osang Healthcare Co.,Ltd (KOSDAQ:A036220)",KR,,,,-0.03712,-0.01572,-0.288,NOT-PROFITABLE,036220.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A460940,"P&S Robotics Co., Ltd. (KOSDAQ:A460940)",KR,,,,0.36299,0.07764,-0.45,PROFITABLE,460940.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A405000,"Plasmapp Co., Ltd. (KOSDAQ:A405000)",KR,,,,-0.60830003,-2.2298899,1.708,NOT-PROFITABLE,405000.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A335810,"Precision Biosensor, Inc. (KOSDAQ:A335810)",KR,,,,-0.35252,-0.23545,0.522,NOT-PROFITABLE,335810.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A303360,Protia Inc. (KOSDAQ:A303360),KR,,,,0.29147,0.16157,0.418,PROFITABLE,303360.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A228670,"Ray Co., Ltd. (KOSDAQ:A228670)",KR,,,,0.03192,0.0127799995,0.049,PROFITABLE,228670.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A228850,"Rayence Co., Ltd. (KOSDAQ:A228850)",KR,,,,0.0031299999,0.0012800001,0.349,PROFITABLE,228850.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A302550,"Remed Co.,Ltd. (KOSDAQ:A302550)",KR,,,,0.04701,0.018029999,0.114,PROFITABLE,302550.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A214610,"RollingStone Co., Ltd. (KOSDAQ:A214610)",KR,,,,,,,UNVERIFIED,214610.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,XKON,A253610,"RootLoc Co., Ltd. (XKON:A253610)",KR,,,,,,,UNVERIFIED,253610.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A246960,SCL Science Inc. (KOSDAQ:A246960),KR,,,,-0.11557,-0.13252,2.379,NOT-PROFITABLE,246960.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSE,A137310,"SD Biosensor, Inc (KOSE:A137310)",KR,,,,-0.65489,-0.17982,0.044,NOT-PROFITABLE,137310.KS,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A208370,"SELVAS Healthcare, Inc. (KOSDAQ:A208370)",KR,,,,0.56033003,0.22797,-0.088,PROFITABLE,208370.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A398120,"SG HealthCare Co., Ltd. (KOSDAQ:A398120)",KR,,,,0.052729998,0.056560002,0.349,PROFITABLE,398120.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A188260,Sanigen Co. Ltd (KOSDAQ:A188260),KR,,,,-0.35307997,-0.94263,-0.215,NOT-PROFITABLE,188260.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A458870,"Seers Technology Co., LTD. (KOSDAQ:A458870)",KR,,,,0.39703998,0.80367994,6.996,PROFITABLE,458870.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A100700,"Sewoon Medical Co., Ltd (KOSDAQ:A100700)",KR,,,,,,,UNVERIFIED,100700.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSE,A004080,"Shinhung Co., Ltd (KOSE:A004080)",KR,,,,0.03184,0.030350002,0.065,PROFITABLE,004080.KS,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A035610,"Solborn, Inc. (KOSDAQ:A035610)",KR,,,,0.23694,0.17177999,0.422,PROFITABLE,035610.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A253840,Sugentech Inc. (KOSDAQ:A253840),KR,,,,-2.4783,-0.29455,0.242,NOT-PROFITABLE,253840.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSE,A008490,"Suheung Co., Ltd. (KOSE:A008490)",KR,,,,0.06645,0.10353,0.115,PROFITABLE,008490.KS,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A048870,"Synergy Innovation Co., Ltd. (KOSDAQ:A048870)",KR,,,,0.053590003,0.0559,-0.008,PROFITABLE,048870.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A340570,"T&L Co., Ltd. (KOSDAQ:A340570)",KR,,,,0.24485001,0.19984,-0.122,PROFITABLE,340570.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A246710,"T&R Biofab Co., Ltd. (KOSDAQ:A246710)",KR,,,,-1.04973,-1.46056,0.465,NOT-PROFITABLE,246710.KQ,,True
+Medical Devices,Healthcare Products,South Korea,XKON,A336040,"TASCOM Co.,Ltd. (XKON:A336040)",KR,,,,,,,UNVERIFIED,336040.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A475960,"Tomocube, Inc. (KOSDAQ:A475960)",KR,,,,-0.25219,-0.08733,3.206,NOT-PROFITABLE,475960.KQ,,True
+Medical Devices,Healthcare Products,South Korea,XKON,A337840,"UXN Co., Ltd. (XKON:A337840)",KR,,,,,,,UNVERIFIED,337840.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A043150,"Value Added Technology Co., Ltd. (KOSDAQ:A043150)",KR,,,,,,,UNVERIFIED,043150.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A100120,"Vieworks Co., Ltd. (KOSDAQ:A100120)",KR,,,,0.12003,0.118310004,0.069,PROFITABLE,100120.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A338220,Vuno Inc. (KOSDAQ:A338220),KR,,,,-0.19429001,-0.18857001,-0.197,NOT-PROFITABLE,338220.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A336570,"WON TECH Co.,Ltd. (KOSDAQ:A336570)",KR,,,,0.21122,0.22662,0.076,PROFITABLE,336570.KQ,,False
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A307280,"Wonbiogen Co., Ltd. (KOSDAQ:A307280)",KR,,,,0.19416,0.17719999,0.124,PROFITABLE,307280.KQ,,True
+Medical Devices,Healthcare Products,South Korea,KOSDAQ,A099190,"i-SENS, Inc. (KOSDAQ:A099190)",KR,,,,,,,UNVERIFIED,099190.KQ,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Spain,BME,PRM,"Prim, S.A. (BME:PRM)",,,,,0.051999997,0.09646,-0.01,PROFITABLE,PRM.MC,,False
+Medical Devices,Healthcare Products,Sweden,OM,ADDV A,ADDvise Group AB (publ) (OM:ADDV A),SE,,,,,,,UNVERIFIED,ADDV-A.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Sweden,OM,ACARIX,Acarix AB (publ) (OM:ACARIX),SE,,,,0.0,-0.88295996,0.402,NOT-PROFITABLE,ACARIX.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,ARCOMA,Arcoma AB (OM:ARCOMA),SE,,,,0.029879998,0.05546,-0.107,PROFITABLE,ARCOMA.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,ARJO B,Arjo AB (publ) (OM:ARJO B),SE,,,,0.03518,0.050219998,0.03,PROFITABLE,ARJO-B.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,ASKER,Asker Healthcare Group AB (OM:ASKER),SE,,,,0.03797,0.104890004,0.175,PROFITABLE,ASKER.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,BACTI B,Bactiguard Holding AB (publ) (OM:BACTI B),SE,,,,-0.042340003,-0.02855,0.119,NOT-PROFITABLE,BACTI-B.ST,,True
+Medical Devices,Healthcare Products,Sweden,XSAT,BIBB,BiBBInstruments AB (XSAT:BIBB),SE,,,,0.0,-0.40987,1.923,NOT-PROFITABLE,BIBB.ST,,True
+Medical Devices,Healthcare Products,Sweden,NGM,BIOWKS,Bio-Works Technologies AB (publ) (NGM:BIOWKS),SE,,,,-0.03131,-0.056700002,2.265,NOT-PROFITABLE,BIOWKS.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,BOUL,Boule Diagnostics AB (publ) (OM:BOUL),SE,,,,-0.00597,-0.01637,-0.132,NOT-PROFITABLE,BOUL.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,BRAIN,BrainCool AB (publ) (OM:BRAIN),SE,,,,-0.83629,-0.24152,-0.052,NOT-PROFITABLE,BRAIN.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,CRAD B,C-Rad AB (publ) (OM:CRAD B),SE,,,,0.11219,0.1409,0.157,PROFITABLE,CRAD-B.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,CARE,Careium AB (Publ) (OM:CARE),SE,,,,0.04151,0.05878,0.243,PROFITABLE,CARE.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,CEVI,CellaVision AB (publ) (OM:CEVI),SE,,,,0.17465,0.15108,0.045,PROFITABLE,CEVI.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,CMH,Chordate Medical Holding AB (publ) (OM:CMH),SE,,,,,,,UNVERIFIED,CMH.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Sweden,OM,CLS B,Clinical Laserthermia Systems AB (publ) (OM:CLS B),SE,,,,0.0,-0.73307,-0.183,NOT-PROFITABLE,CLS-B.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,EKTA B,Elekta AB (publ) (OM:EKTA B),SE,,,,-0.031040002,-0.06452,-0.076,NOT-PROFITABLE,EKTA-B.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,EPIS B,Episurf Medical AB (publ) (OM:EPIS B),SE,,,,0.0,-0.27864,2.36,NOT-PROFITABLE,EPIS-B.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,FLUI,Fluicell AB (publ) (OM:FLUI),SE,,,,-0.116510004,-0.15262,1.86,NOT-PROFITABLE,FLUI.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,GETI B,Getinge AB (publ) (OM:GETI B),SE,,,,0.07816,0.08948,0.017,PROFITABLE,GETI-B.ST,,False
+Medical Devices,Healthcare Products,Sweden,NGM,GTAB B,Glycorex Transplantation AB (publ) (NGM:GTAB B),SE,,,,,,,UNVERIFIED,GTAB-B.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Sweden,OM,ICO,Iconovo AB (publ) (OM:ICO),SE,,,,-2.91314,-0.29196,-0.142,NOT-PROFITABLE,ICO.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,IMMNOV,Immunovia AB (publ) (OM:IMMNOV),SE,,,,0.0,-4.26966,3.511,NOT-PROFITABLE,IMMNOV.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,INTEG B,Integrum AB (publ) (OM:INTEG B),SE,,,,-0.48198003,-0.26503,-0.073,NOT-PROFITABLE,INTEG-B.ST,,False
+Medical Devices,Healthcare Products,Sweden,NGM,LUMITO,Lumito AB (publ) (NGM:LUMITO),SE,,,,,,,UNVERIFIED,LUMITO.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Sweden,OM,LXB,Luxbright AB (publ) (OM:LXB),SE,,,,-1.4159801,-0.63719004,-0.02,NOT-PROFITABLE,LXB.ST,,False
+Medical Devices,Healthcare Products,Sweden,NGM,MCLR,Medclair AB (NGM:MCLR),SE,,,,,,,UNVERIFIED,MCLR.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Sweden,XSAT,MONI,Monivent AB (XSAT:MONI),SE,,,,-1.9398199,-1.98158,0.299,NOT-PROFITABLE,MONI.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,NANEXA,Nanexa AB (publ) (OM:NANEXA),SE,,,,-0.30186,-0.14840999,-0.2,NOT-PROFITABLE,NANEXA.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,NANECH,NanoEcho AB (publ) (OM:NANECH),SE,,,,0.0,-0.73877996,,NOT-PROFITABLE,NANECH.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,NEOLA,Neola Medical AB (publ) (OM:NEOLA),SE,,,,-1.3249099,-0.1528,0.326,NOT-PROFITABLE,NEOLA.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,NOSA,Nosa Plugs AB (OM:NOSA),SE,,,,-0.30515,-0.31199,0.935,NOT-PROFITABLE,NOSA.ST,,True
+Medical Devices,Healthcare Products,Sweden,NGM,ODIN,Odinwell AB (publ) (NGM:ODIN),SE,,,,-1.3401401,-0.15828,-0.05,NOT-PROFITABLE,ODIN.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,ORT B,Ortoma AB (publ) (OM:ORT B),SE,,,,-1.94468,-0.37293,-0.456,NOT-PROFITABLE,ORT-B.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,OSSD,OssDsign AB (publ) (OM:OSSD),SE,,,,-0.27752,-0.1908,-0.171,NOT-PROFITABLE,OSSD.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,PAX,Paxman AB (publ) (OM:PAX),SE,,,,-0.03285,-0.03311,0.307,NOT-PROFITABLE,PAX.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,PERP B,Perpetua Medical AB (publ) (OM:PERP B),SE,,,,0.10411,-0.016900001,0.544,NOT-PROFITABLE,PERP-B.ST,,True
+Medical Devices,Healthcare Products,Sweden,NGM,POLAR,PolarCool AB (publ) (NGM:POLAR),SE,,,,0.0,-1.38202,0.646,NOT-PROFITABLE,POLAR.ST,,True
+Medical Devices,Healthcare Products,Sweden,NGM,PRLD,Prolight Diagnostics AB (publ) (NGM:PRLD),SE,,,,,,,UNVERIFIED,PRLD.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Sweden,OM,QLINEA,Q-linea AB (publ) (OM:QLINEA),SE,,,,0.0,-0.75504,2.093,NOT-PROFITABLE,QLINEA.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,QLIFE,Qlife Holding AB (publ) (OM:QLIFE),SE,,,,0.0,-26.86996,-0.809,NOT-PROFITABLE,QLIFE.ST,,False
+Medical Devices,Healthcare Products,Sweden,XSAT,REDS,Redsense Medical AB (publ) (XSAT:REDS),SE,,,,-0.10107,-0.07985,0.389,NOT-PROFITABLE,REDS.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,S2M,S2Medical AB (publ) (OM:S2M),SE,,,,-0.62579,-0.70609003,0.085,NOT-PROFITABLE,S2M.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,SDOS,ScandiDos AB (publ) (OM:SDOS),SE,,,,-0.05913,-0.07929,0.077,NOT-PROFITABLE,SDOS.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,CMOTEC B,Scandinavian ChemoTech AB (publ) (OM:CMOTEC B),SE,,,,-0.50012,-2.36483,0.132,NOT-PROFITABLE,CMOTEC-B.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,HEART,Scandinavian Real Heart AB (Publ) (OM:HEART),SE,,,,0.0,-0.5468,,NOT-PROFITABLE,HEART.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,SCIB,SciBase Holding AB (publ) (OM:SCIB),SE,,,,-1.98049,-1.7973399,0.612,NOT-PROFITABLE,SCIB.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,SEDANA,Sedana Medical AB (publ) (OM:SEDANA),SE,,,,-0.18332,-0.039619997,-0.014,NOT-PROFITABLE,SEDANA.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,SEZI,Senzime AB (publ) (OM:SEZI),SE,,,,-1.09296,-0.35351002,-0.04,NOT-PROFITABLE,SEZI.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,SPEC,SpectraCure AB (publ) (OM:SPEC),SE,,,,0.0,-0.40162,,NOT-PROFITABLE,SPEC.ST,,False
+Medical Devices,Healthcare Products,Sweden,OM,STIL,Stille AB (OM:STIL),SE,,,,0.10682,0.09849,0.499,PROFITABLE,STIL.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,SUS,Surgical Science Sweden AB (publ) (OM:SUS),SE,,,,0.05343,0.01174,-0.061,PROFITABLE,SUS.ST,,False
+Medical Devices,Healthcare Products,Sweden,XSAT,VSD B,Vibrosense Dynamics AB (publ) (XSAT:VSD B),SE,,,,-2.9309201,,-0.495,UNVERIFIED,VSD-B.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Sweden,OM,VIMIAN,Vimian Group AB (publ) (OM:VIMIAN),SE,,,,0.08161,0.052729998,0.166,PROFITABLE,VIMIAN.ST,,True
+Medical Devices,Healthcare Products,Sweden,OM,XVIVO,Xvivo Perfusion AB (publ) (OM:XVIVO),SE,,,,0.09894,0.04127,0.34,PROFITABLE,XVIVO.ST,,True
+Medical Devices,Healthcare Products,Switzerland,SWX,ALC,Alcon Inc. (SWX:ALC),CH,,,,0.0592,0.029409999,0.087,PROFITABLE,ALC.SW,,False
+Medical Devices,Healthcare Products,Switzerland,SWX,CLTN,COLTENE Holding AG (SWX:CLTN),CH,,,,0.06273,0.16036,-0.044,PROFITABLE,CLTN.SW,,False
+Medical Devices,Healthcare Products,Switzerland,SWX,VBSN,IVF Hartmann Holding AG (SWX:VBSN),CH,,,,0.11303,0.11902001,0.026,PROFITABLE,VBSN.SW,,False
+Medical Devices,Healthcare Products,Switzerland,SWX,MOVE,Medacta Group SA (SWX:MOVE),CH,,,,0.1396,0.22830999,0.125,PROFITABLE,MOVE.SW,,True
+Medical Devices,Healthcare Products,Switzerland,SWX,MED,Medartis Holding AG (SWX:MED),CH,,,,0.03101,0.03423,0.29,PROFITABLE,MED.SW,,True
+Medical Devices,Healthcare Products,Switzerland,SWX,METN,Metall Zug AG (SWX:METN),CH,,,,-0.07828,-0.03573,-0.018,NOT-PROFITABLE,METN.SW,,False
+Medical Devices,Healthcare Products,Switzerland,NasdaqGS,NVCR,NovoCure Limited (NasdaqGS:NVCR),CH,,,,-0.21248,-0.43217,0.156,NOT-PROFITABLE,NVCR,,True
+Medical Devices,Healthcare Products,Switzerland,SWX,SOON,Sonova Holding AG (SWX:SOON),CH,,,,0.11942001,0.20524,,PROFITABLE,SOON.SW,,False
+Medical Devices,Healthcare Products,Switzerland,SWX,STMN,Straumann Holding AG (SWX:STMN),CH,,,,0.13661,0.17014,0.022,PROFITABLE,STMN.SW,,False
+Medical Devices,Healthcare Products,Switzerland,SWX,YPSN,Ypsomed Holding AG (SWX:YPSN),CH,,,,0.3036,0.31086,-0.133,PROFITABLE,YPSN.SW,,False
+Medical Devices,Healthcare Products,Switzerland,SWX,MEDX,medmix AG (SWX:MEDX),CH,,,,0.00023,0.00209,-0.049,PROFITABLE,MEDX.SW,,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,6918,"A Plus Biotechnology Co., Ltd. (TWSE:6918)",TW,,,,0.20172001,0.17461,0.117,PROFITABLE,6918.TW,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,6758,"A-SPINE Asia Co., Ltd. (TPEX:6758)",TW,,,,0.0,,,UNVERIFIED,6758.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4735,AViTA Corporation (TPEX:4735),TW,,,,0.13525,0.12555,0.082,PROFITABLE,4735.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4188,AmCad BioMed Corporation (TPEX:4188),TW,,,,-1.78591,-0.11218,-0.058,NOT-PROFITABLE,4188.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,7575,"Amed Co., Ltd. (TPEX:7575)",TW,,,,0.0,,,UNVERIFIED,7575.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,1733,Apex Biotechnology Corp. (TWSE:1733),TW,,,,0.10193,0.10436,-0.077,PROFITABLE,1733.TW,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4116,BenQ Medical Technology Corporation (TPEX:4116),TW,,,,0.02161,0.12953,0.071,PROFITABLE,4116.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6850,BiOptic Inc. (TPEX:6850),TW,,,,0.0,,,UNVERIFIED,6850.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,4737,Bionime Corporation (TWSE:4737),TW,,,,-0.14051,-0.11983,-0.158,NOT-PROFITABLE,4737.TW,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4161,Bioptik Technology Incorporation (TPEX:4161),TW,,,,0.08541001,0.07796,0.146,PROFITABLE,4161.TWO,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,4107,Bioteque Corporation (TPEX:4107),TW,,,,0.25406998,0.16614,0.054,PROFITABLE,4107.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4744,CVC Technologies Inc. (TPEX:4744),TW,,,,0.080740005,0.09488,-0.147,PROFITABLE,4744.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,7726,"Carilex Medical, Inc. (TPEX:7726)",TW,,,,0.0,,,UNVERIFIED,7726.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6527,Crystalvue Medical Corporation (TPEX:6527),TW,,,,0.16991,0.14946,-0.151,PROFITABLE,6527.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6762,Delta Asia International Corporation (TPEX:6762),TW,,,,0.025910001,0.01352,0.061,PROFITABLE,6762.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6815,"Diamond Biotechnology Co., Ltd (TPEX:6815)",TW,,,,-0.14021,-0.12072,-0.517,NOT-PROFITABLE,6815.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4138,Dynamic Medical Technologies Inc. (TPEX:4138),TW,,,,0.10443,0.09743,-0.024,PROFITABLE,4138.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4183,EPS Bio Technology Corp. (TPEX:4183),TW,,,,-0.023510002,-0.03618,-0.19,NOT-PROFITABLE,4183.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4171,GeneReach Biotechnology Corp. (TPEX:4171),TW,,,,-0.45288,-0.16500999,-0.004,NOT-PROFITABLE,4171.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6934,"HCmed Innovations Co., Ltd. (TPEX:6934)",TW,,,,,,,UNVERIFIED,6934.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,1781,"Health & Life Co., Ltd. (TPEX:1781)",TW,,,,-0.20427999,-0.2146,-0.206,NOT-PROFITABLE,1781.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,7799,Heron Neutron Medical Corp. (TWSE:7799),TW,,,,0.0,-0.07671,-0.717,NOT-PROFITABLE,7799.TW,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,7814,"Horien Biochemical Technology Co., Ltd. (TPEX:7814)",TW,,,,0.0,,,UNVERIFIED,7814.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6612,"ICARES Medicus, Inc. (TPEX:6612)",TW,,,,0.0373,-0.00525,0.003,NOT-PROFITABLE,6612.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4163,INTAI Technology Corporation (TPEX:4163),TW,,,,0.09596,0.08394,0.017,PROFITABLE,4163.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,7725,LabTurbo Biotech Corporation (TPEX:7725),TW,,,,0.0,,,UNVERIFIED,7725.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6730,"Lagis Enterprise Co., Ltd. (TPEX:6730)",TW,,,,0.13936,0.10524999,-0.01,PROFITABLE,6730.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6499,"Medeon Biodesign, Inc. (TPEX:6499)",TW,,,,-1.41704,-0.48113,0.122,NOT-PROFITABLE,6499.TWO,,True
+Medical Devices,Healthcare Products,Taiwan,TWSE,6796,Medimaging Integrated Solution Inc. (TWSE:6796),TW,,,,-0.0095,-0.00794,0.103,NOT-PROFITABLE,6796.TW,,True
+Medical Devices,Healthcare Products,Taiwan,Catalist,546,Medtecs International Corporation Limited (Catalist:546),TW,,,,-0.06034,-0.045619998,0.472,NOT-PROFITABLE,546.SI,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,3184,MicroBase Technology Corp. (TPEX:3184),TW,,,,0.14237,0.04686,-0.055,PROFITABLE,3184.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6872,NaviFUS Corp. (TPEX:6872),TW,,,,0.0,,,UNVERIFIED,6872.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,4155,"OK Biotech Co., Ltd. (TWSE:4155)",TW,,,,0.07397,0.051570002,-0.069,PROFITABLE,4155.TW,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4126,"Pacific Hospital Supply Co., Ltd (TPEX:4126)",TW,,,,0.17938,0.15505,0.066,PROFITABLE,4126.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,6491,Pegavision Corporation (TWSE:6491),TW,,,,0.23556,0.16514,0.3,PROFITABLE,6491.TW,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,6543,"Perfect Medical Industry Co., Ltd. (TPEX:6543)",TW,,,,0.06964,0.06669,0.109,PROFITABLE,6543.TWO,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,6572,"PlexBio Co., Ltd. (TPEX:6572)",TW,,,,-0.49152002,-0.18243,-0.274,NOT-PROFITABLE,6572.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,1813,"Polylite Taiwan Co., Ltd. (TPEX:1813)",TW,,,,-0.14676,-0.07417,-0.118,NOT-PROFITABLE,1813.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6847,"Puriblood Medical Co., Ltd. (TPEX:6847)",TW,,,,-0.47370997,-0.24716,-0.454,NOT-PROFITABLE,6847.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,3373,Radiant Innovation Inc. (TPEX:3373),TW,,,,-0.13721,-0.06504,0.02,NOT-PROFITABLE,3373.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4121,Rossmax International Ltd. (TPEX:4121),TW,,,,-0.01066,-0.041350003,-0.036,NOT-PROFITABLE,4121.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4198,S&S Healthcare Holding Ltd. (TPEX:4198),TW,,,,-0.27334,-0.17362,-0.395,NOT-PROFITABLE,4198.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,1786,SciVision Biotech Inc. (TWSE:1786),TW,,,,0.14357,0.07089,0.005,PROFITABLE,1786.TW,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,7790,"Spirit Scientific Co., Ltd. (TPEX:7790)",TW,,,,0.0734,0.05367,-0.09,PROFITABLE,7790.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,1565,"St.Shine Optical Co.,Ltd. (TPEX:1565)",TW,,,,0.10853,0.063769996,-0.167,PROFITABLE,1565.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4115,"Sunder Biomedical Tech. Co., Ltd. (TPEX:4115)",TW,,,,0.0,,,UNVERIFIED,4115.TWO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,Taiwan,TWSE,4736,TaiDoc Technology Corporation (TWSE:4736),TW,,,,0.40493,0.1924,0.1,PROFITABLE,4736.TW,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,6797,Taiwan Advanced Nanotech Inc. (TPEX:6797),TW,,,,-1.46793,-0.25465,-0.169,NOT-PROFITABLE,6797.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6649,"Taiwan Biomaterial Co., Ltd. (TPEX:6649)",TW,,,,0.14523,0.03996,-0.61,PROFITABLE,6649.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6493,Ttbio Corp. (TPEX:6493),TW,,,,-0.053400002,-0.06529,0.034,NOT-PROFITABLE,6493.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4150,"Unicon Optical Co., Ltd. (TPEX:4150)",TW,,,,-0.42729,-0.43668,-0.234,NOT-PROFITABLE,4150.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,4129,United Orthopedic Corporation (TPEX:4129),TW,,,,0.0785,0.109799996,0.152,PROFITABLE,4129.TWO,,True
+Medical Devices,Healthcare Products,Taiwan,TWSE,6782,Visco Vision Inc. (TWSE:6782),TW,,,,0.22126,0.25855,0.178,PROFITABLE,6782.TW,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,4197,Visgeneer Inc. (TPEX:4197),TW,,,,0.0293,0.02671,0.277,PROFITABLE,4197.TWO,,True
+Medical Devices,Healthcare Products,Taiwan,TWSE,4771,Vizionfocus Inc. (TWSE:4771),TW,,,,0.20573999,0.19191,0.272,PROFITABLE,4771.TW,,True
+Medical Devices,Healthcare Products,Taiwan,TWSE,4106,Wellell Inc. (TWSE:4106),TW,,,,0.074250005,0.07646,0.115,PROFITABLE,4106.TW,,True
+Medical Devices,Healthcare Products,Taiwan,TPEX,6767,"Wiltrom Co., Ltd. (TPEX:6767)",TW,,,,-0.06676,-0.035550002,0.008,NOT-PROFITABLE,6767.TWO,,False
+Medical Devices,Healthcare Products,Taiwan,TPEX,6734,"iXensor Co., Ltd. (TPEX:6734)",TW,,,,-1.74692,-2.8337202,0.19,NOT-PROFITABLE,6734.TWO,,True
+Medical Devices,Healthcare Products,Thailand,SET,NAM,Namwiwat Medical Corporation Public Company Limited (SET:NAM),,,,,0.039890002,0.03354,-0.299,PROFITABLE,NAM.BK,,False
+Medical Devices,Healthcare Products,Thailand,SET,STGT,Sri Trang Gloves (Thailand) Public Company Limited (SET:STGT),,,,,-0.0065200003,-0.0039,-0.162,NOT-PROFITABLE,STGT.BK,,False
+Medical Devices,Healthcare Products,Thailand,SET,TOG,Thai Optical Group Public Company Limited (SET:TOG),,,,,0.07446,0.11201999,-0.04,PROFITABLE,TOG.BK,,False
+Medical Devices,Healthcare Products,Turkey,IBSE,MEDTR,Meditera Tibbi Malzeme Sanayi ve Ticaret Anonim Sirketi (IBSE:MEDTR),,,,,0.01001,0.0103400005,-0.178,PROFITABLE,MEDTR.IS,,False
+Medical Devices,Healthcare Products,Turkey,IBSE,ONCSM,Oncosem Onkolojik Sistemler Sanayi Ve Ticaret Anonim Sirketi (IBSE:ONCSM),,,,,0.0638,0.12304,0.089,PROFITABLE,ONCSM.IS,,False
+Medical Devices,Healthcare Products,Turkey,IBSE,SEYKM,Seyitler Kimya Sanayi A.S. (IBSE:SEYKM),,,,,0.03174,0.01577,0.115,PROFITABLE,SEYKM.IS,,True
+Medical Devices,Healthcare Products,United Kingdom,AIM,ABDX,Abingdon Health Plc (AIM:ABDX),UK,,,,-0.3388,-0.50983,0.369,NOT-PROFITABLE,ABDX.L,,True
+Medical Devices,Healthcare Products,United Kingdom,AIM,AMS,Advanced Medical Solutions Group plc (AIM:AMS),UK,,,,0.04348,0.04025,0.079,PROFITABLE,AMS.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,CNSL,Cambridge Nutritional Sciences plc (AIM:CNSL),UK,,,,0.16938,0.13256,-0.066,PROFITABLE,CNSL.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,CLBX,CelLBxHealth plc (AIM:CLBX),UK,,,,0.0,-1.6378101,-0.25,NOT-PROFITABLE,CLBX.L,,False
+Medical Devices,Healthcare Products,United Kingdom,LSE,CTEC,Convatec Group PLC (LSE:CTEC),UK,,,,0.04978,0.07654,0.044,PROFITABLE,CTEC.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,CREO,Creo Medical Group PLC (AIM:CREO),UK,,,,0.0,-0.76505995,,NOT-PROFITABLE,CREO.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,EKF,EKF Diagnostics Holdings plc (AIM:EKF),UK,,,,0.041149996,0.03528,0.054,PROFITABLE,EKF.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,EMVC,EMV Capital plc (AIM:EMVC),UK,,,,-0.00733,-0.046230003,0.385,NOT-PROFITABLE,EMVC.L,,True
+Medical Devices,Healthcare Products,United Kingdom,AIM,FORF,Fortis Frontier PLC (AIM:FORF),UK,,,,0.0,-0.106350005,,NOT-PROFITABLE,FORF.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,SPEC,INSPECS Group plc (AIM:SPEC),UK,,,,-0.04986,-0.03809,0.014,NOT-PROFITABLE,SPEC.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,IHC,Inspiration Healthcare Group plc (AIM:IHC),UK,,,,-0.02187,-0.06439,0.111,NOT-PROFITABLE,IHC.L,,True
+Medical Devices,Healthcare Products,United Kingdom,NasdaqGS,LIVN,LivaNova PLC (NasdaqGS:LIVN),UK,,,,0.12813,0.15404001,0.108,PROFITABLE,LIVN,,True
+Medical Devices,Healthcare Products,United Kingdom,AIM,NIOX,NIOX Group Plc (AIM:NIOX),UK,,,,0.14374,0.11015,,PROFITABLE,NIOX.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,RUA,RUA Life Sciences plc (AIM:RUA),UK,,,,0.061,,0.061,UNVERIFIED,RUA.L,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United Kingdom,LSE,SN.,Smith & Nephew plc (LSE:SN.),UK,,,,,,,UNVERIFIED,SN..L,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United Kingdom,NGM,SIN,Solution International Nordics AB (publ) (NGM:SIN),UK,,,,-0.04853,,,UNVERIFIED,SIN.ST,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,SUN,Surgical Innovations Group plc (AIM:SUN),UK,,,,-0.07714,-0.11058,-0.054,NOT-PROFITABLE,SUN.L,,False
+Medical Devices,Healthcare Products,United Kingdom,AIM,TSTL,Tristel plc (AIM:TSTL),UK,,,,0.15875,0.24193001,0.136,PROFITABLE,TSTL.L,,True
+Medical Devices,Healthcare Products,United States,AIM,AOTI,"AOTI, Inc. (AIM:AOTI)",US,,,,0.04007,0.14265001,0.084,PROFITABLE,AOTI.L,,False
+Medical Devices,Healthcare Products,United States,NYSE,ABT,Abbott Laboratories (NYSE:ABT),US,1174901628.0,False,,0.116450004,0.10576,0.13,PROFITABLE,ABT,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,ARAY,Accuray Incorporated (NasdaqGS:ARAY),US,463437.0,False,,-0.10764,-1.01063,-0.074,NOT-PROFITABLE,ARAY,,False
+Medical Devices,Healthcare Products,United States,NYSEAM,ACU,Acme United Corporation (NYSEAM:ACU),US,579847.0,True,,0.04638,0.08352,0.161,PROFITABLE,ACU,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,ADGM,"Adagio Medical Holdings, Inc. (NasdaqCM:ADGM)",US,39927.0,False,,0.0,-6.57763,,NOT-PROFITABLE,ADGM,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,ADVB,Advanced Biomed Inc. (NasdaqCM:ADVB),US,53989.0,False,,0.0,0.71332,,NOT-PROFITABLE,ADVB,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,AEMD,"Aethlon Medical, Inc. (NasdaqCM:AEMD)",US,431223.0,False,,0.0,-1.4288901,,NOT-PROFITABLE,AEMD,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,ATEC,"Alphatec Holdings, Inc. (NasdaqGS:ATEC)",US,20827719.0,False,,-0.13495,-3.7344298,0.151,NOT-PROFITABLE,ATEC,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,ANGO,"AngioDynamics, Inc. (NasdaqGS:ANGO)",US,3995091.0,True,,-0.11476,-0.2077,0.08,NOT-PROFITABLE,ANGO,,False
+Medical Devices,Healthcare Products,United States,TWSE,6598,Applied BioCode Corporation (TWSE:6598),US,,,,-0.25245002,-0.18891001,0.809,NOT-PROFITABLE,6598.TW,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,APYX,Apyx Medical Corporation (NasdaqGS:APYX),US,641152.0,True,,-0.1478,-0.90693,0.221,NOT-PROFITABLE,APYX,,True
+Medical Devices,Healthcare Products,United States,NYSE,AORT,"Artivion, Inc. (NYSE:AORT)",US,16827199.0,False,,-0.00671,-0.0073100002,0.113,NOT-PROFITABLE,AORT,,True
+Medical Devices,Healthcare Products,United States,OTCPK,AWHL,Aspira Women's Health Inc. (OTCPK:AWHL),US,22253.0,True,,-1.1512799,,-0.137,UNVERIFIED,AWHL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,ATRC,"AtriCure, Inc. (NasdaqGM:ATRC)",US,20433084.0,False,,0.01852,0.02151,0.128,PROFITABLE,ATRC,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,AMIX,"Autonomix Medical, Inc. (NasdaqCM:AMIX)",US,60549.0,False,,0.0,-2.38888,,NOT-PROFITABLE,AMIX,,False
+Medical Devices,Healthcare Products,United States,NYSE,AVNS,"Avanos Medical, Inc. (NYSE:AVNS)",US,23442390.0,True,,-0.10393,-0.09177,0.088,NOT-PROFITABLE,AVNS,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,AGPU,Axe Compute Inc. (NasdaqCM:AGPU),US,1779896.0,True,,0.0,-11.876751,-0.68,NOT-PROFITABLE,AGPU,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,AXGN,"Axogen, Inc. (NasdaqCM:AXGN)",US,50218902.0,True,,-0.13356,-0.18205999,0.231,NOT-PROFITABLE,AXGN,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,BBNX,"Beta Bionics, Inc. (NasdaqGM:BBNX)",US,14834913.0,False,,-0.61315,-0.26155,0.378,NOT-PROFITABLE,BBNX,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,XAIR,"Beyond Air, Inc. (NasdaqCM:XAIR)",US,94791.0,False,,0.0,-3.34135,0.655,NOT-PROFITABLE,XAIR,,True
+Medical Devices,Healthcare Products,United States,OTCPK,BIEL,BioElectronics Corporation (OTCPK:BIEL),US,,,,-0.18007,,-0.651,UNVERIFIED,BIEL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,BMRA,"Biomerica, Inc. (NasdaqCM:BMRA)",US,30506.0,False,,-0.96463996,-0.94317,-0.118,NOT-PROFITABLE,BMRA,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,BVS,Bioventus Inc. (NasdaqGS:BVS),US,5586170.0,True,,0.09361,0.25684,0.038,PROFITABLE,BVS,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,BJDX,"Bluejay Diagnostics, Inc. (NasdaqCM:BJDX)",US,332859.0,False,,0.0,-1.7156199,,NOT-PROFITABLE,BJDX,,False
+Medical Devices,Healthcare Products,United States,NYSE,BSX,Boston Scientific Corporation (NYSE:BSX),US,934055861.0,False,,0.17499,0.15338999,0.075,PROFITABLE,BSX,,False
+Medical Devices,Healthcare Products,United States,NYSE,BFLY,"Butterfly Network, Inc. (NYSE:BFLY)",US,36830912.0,True,,-0.66745,-0.35457,0.395,NOT-PROFITABLE,BFLY,,True
+Medical Devices,Healthcare Products,United States,NYSE,CNMD,CONMED Corporation (NYSE:CNMD),US,19033900.0,False,,0.04119,0.05527,0.003,PROFITABLE,CNMD,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,CVRX,"CVRx, Inc. (NasdaqGS:CVRX)",US,1438629.0,False,,-0.84932,-1.3344501,0.156,NOT-PROFITABLE,CVRX,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,CV,"CapsoVision, Inc. (NasdaqCM:CV)",US,868924.0,True,,-1.9887199,-1.85089,0.003,NOT-PROFITABLE,CV,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,CARL,"Carlsmed, Inc. (NasdaqGS:CARL)",US,1105293.0,False,,-0.57422,-0.66141,0.567,NOT-PROFITABLE,CARL,,True
+Medical Devices,Healthcare Products,United States,NYSEAM,VTAK,"Catheter Precision, Inc. (NYSEAM:VTAK)",US,84448.0,False,,0.0,-1.79699,2.021,NOT-PROFITABLE,VTAK,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,CBLL,"CeriBell, Inc. (NasdaqGS:CBLL)",US,5036317.0,True,,-0.64725995,-0.43929002,0.325,NOT-PROFITABLE,CBLL,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,CERS,Cerus Corporation (NasdaqGM:CERS),US,6539469.0,True,,-0.030620001,-0.10772,0.095,NOT-PROFITABLE,CERS,,False
+Medical Devices,Healthcare Products,United States,OTCPK,KKUR,"ChromoCure, Inc. (OTCPK:KKUR)",US,,,,,,,UNVERIFIED,KKUR,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,CLPT,"ClearPoint Neuro, Inc. (NasdaqCM:CLPT)",US,8972881.0,True,,-0.81757003,-2.26521,0.181,NOT-PROFITABLE,CLPT,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,CODX,"Co-Diagnostics, Inc. (NasdaqCM:CODX)",US,1984898.0,False,,0.0,-1.5165801,1.903,NOT-PROFITABLE,CODX,,True
+Medical Devices,Healthcare Products,United States,ASX,CVB,CurveBeam AI Limited (ASX:CVB),US,,,,-1.3305,-0.41804,0.011,NOT-PROFITABLE,CVB.AX,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,CTSO,Cytosorbents Corporation (NasdaqCM:CTSO),US,51937.0,False,,-0.48941,-3.36207,0.002,NOT-PROFITABLE,CTSO,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,XRAY,DENTSPLY SIRONA Inc. (NasdaqGS:XRAY),US,49848858.0,False,,-0.14987999,-0.33031,-0.041,NOT-PROFITABLE,XRAY,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,DXR,Daxor Corporation (NasdaqCM:DXR),US,14021.0,False,,343.59164,0.22453,-0.826,PROFITABLE,DXR,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,DCTH,"Delcath Systems, Inc. (NasdaqCM:DCTH)",US,6008327.0,True,,0.00558,0.00471,0.206,PROFITABLE,DCTH,,True
+Medical Devices,Healthcare Products,United States,OTCPK,DYNT,Dynatronics Corporation (OTCPK:DYNT),US,,,,,,,UNVERIFIED,DYNT,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,ECGI,"ECGI Holdings, Inc. (OTCPK:ECGI)",US,,,,0.0,,,UNVERIFIED,ECGI,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,NDRA,ENDRA Life Sciences Inc. (NasdaqCM:NDRA),US,70869.0,True,,0.0,-4.12598,,NOT-PROFITABLE,NDRA,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,FEED,"ENvue Medical, Inc. (NasdaqCM:FEED)",US,272473.0,False,,0.0,-0.59492,-0.363,NOT-PROFITABLE,FEED,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,EKSO,"Ekso Bionics Holdings, Inc. (NasdaqCM:EKSO)",US,,,,,,,UNVERIFIED,EKSO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NYSEAM,ELMD,"Electromed, Inc. (NYSEAM:ELMD)",US,2144934.0,True,,0.14082,0.21704,0.184,PROFITABLE,ELMD,,True
+Medical Devices,Healthcare Products,United States,OTCPK,EMED,"Electromedical Technologies, Inc. (OTCPK:EMED)",US,239.0,False,,-1.8203,,-0.869,UNVERIFIED,EMED,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,EMBC,Embecta Corp. (NasdaqGS:EMBC),US,6111401.0,False,,0.085889995,,-0.081,UNVERIFIED,EMBC,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,ECIA,Encision Inc. (OTCPK:ECIA),US,,,,-0.06047,-0.21360001,-0.022,NOT-PROFITABLE,ECIA,,False
+Medical Devices,Healthcare Products,United States,NYSE,ENOV,Enovis Corporation (NYSE:ENOV),US,23098500.0,False,,-0.4797,-0.54142,0.032,NOT-PROFITABLE,ENOV,,False
+Medical Devices,Healthcare Products,United States,NYSE,NVST,Envista Holdings Corporation (NYSE:NVST),US,62622401.0,True,,0.03326,0.030569999,0.071,PROFITABLE,NVST,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,COCH,"Envoy Medical, Inc. (NasdaqCM:COCH)",US,65566.0,False,,0.0,,-0.346,UNVERIFIED,COCH,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,ESMC,Escalon Medical Corp. (OTCPK:ESMC),US,90.0,False,,0.16177,0.57488996,-0.249,PROFITABLE,ESMC,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,FONR,FONAR Corporation (NasdaqCM:FONR),US,,,,,,,UNVERIFIED,FONR,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,FEMY,Femasys Inc. (NasdaqCM:FEMY),US,257673.0,False,,0.0,-2.55959,0.245,NOT-PROFITABLE,FEMY,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,GUTS,"Fractyl Health, Inc. (NasdaqGM:GUTS)",US,1203595.0,False,,0.0,,,UNVERIFIED,GUTS,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,GEHC,GE HealthCare Technologies Inc. (NasdaqGS:GEHC),US,304399831.0,False,,0.093339995,0.19376,0.058,PROFITABLE,GEHC,,False
+Medical Devices,Healthcare Products,United States,OTCPK,EMDF,Garrison Film Productions Inc. (OTCPK:EMDF),US,,,,-2.47261,,190.925,UNVERIFIED,EMDF,yfinance_data_gap,True
+Medical Devices,Healthcare Products,United States,NYSE,GKOS,Glaukos Corporation (NYSE:GKOS),US,126536888.0,True,,-0.30685,-0.25981,0.495,NOT-PROFITABLE,GKOS,,True
+Medical Devices,Healthcare Products,United States,OTCPK,GIPL,Global Innovative Platforms Inc. (OTCPK:GIPL),US,,True,,0.0,-1.71826,,NOT-PROFITABLE,GIPL,,False
+Medical Devices,Healthcare Products,United States,NYSE,GMED,"Globus Medical, Inc. (NYSE:GMED)",US,130886047.0,True,,0.17025,0.118140005,0.059,PROFITABLE,GMED,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,GCTK,"GlucoTrack, Inc. (NasdaqCM:GCTK)",US,217551.0,False,,0.0,-5.2720504,,NOT-PROFITABLE,GCTK,,False
+Medical Devices,Healthcare Products,United States,OTCPK,GTHP,"Guided Therapeutics, Inc. (OTCPK:GTHP)",US,168.0,False,,0.0,,,UNVERIFIED,GTHP,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NYSE,HAE,Haemonetics Corporation (NYSE:HAE),US,73758375.0,True,,0.07122,0.111999996,0.056,PROFITABLE,HAE,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,BEAT,"HeartBeam, Inc. (NasdaqCM:BEAT)",US,455210.0,False,,0.0,-4.95615,,NOT-PROFITABLE,BEAT,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,HSCS,HeartSciences Inc. (NasdaqCM:HSCS),US,81914.0,True,,0.0,-42.39907,-1.0,NOT-PROFITABLE,HSCS,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,HOLX,"Hologic, Inc. (NasdaqGS:HOLX)",US,,,,,,,UNVERIFIED,HOLX,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,HYPR,"Hyperfine, Inc. (NasdaqGM:HYPR)",US,732376.0,True,,-2.10752,-0.96967006,0.448,NOT-PROFITABLE,HYPR,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,ICUI,"ICU Medical, Inc. (NasdaqGS:ICUI)",US,37979321.0,True,,0.01393,0.014099999,0.005,PROFITABLE,ICUI,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,IDXX,"IDEXX Laboratories, Inc. (NasdaqGS:IDXX)",US,342533999.0,False,,0.25030002,0.74211,0.097,PROFITABLE,IDXX,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,IVF,"INVO Fertility, Inc. (NasdaqCM:IVF)",US,215076.0,False,,-1.5872501,-1.0221701,0.231,NOT-PROFITABLE,IVF,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,IRMD,IRADIMED CORPORATION (NasdaqGM:IRMD),US,13443968.0,True,,0.26703,0.2352,0.003,PROFITABLE,IRMD,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,IRIX,IRIDEX Corporation (NasdaqCM:IRIX),US,60427.0,False,,-0.06229,-0.56544,-0.008,NOT-PROFITABLE,IRIX,,False
+Medical Devices,Healthcare Products,United States,ASX,IPD,ImpediMed Limited (ASX:IPD),US,,,,-1.71255,-1.17918,0.251,NOT-PROFITABLE,IPD.AX,,True
+Medical Devices,Healthcare Products,United States,OTCPK,IVRO,"InVitro International, Inc. (OTCPK:IVRO)",US,,,,0.13152,0.0706,-0.129,PROFITABLE,IVRO,,False
+Medical Devices,Healthcare Products,United States,OTCPK,INND,"InnerScope Hearing Technologies, Inc. (OTCPK:INND)",US,,,,0.0,,,UNVERIFIED,INND,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,INGN,"Inogen, Inc. (NasdaqGS:INGN)",US,2032450.0,True,,-0.06942,-0.1314,0.03,NOT-PROFITABLE,INGN,,False
+Medical Devices,Healthcare Products,United States,NYSE,INSP,"Inspire Medical Systems, Inc. (NYSE:INSP)",US,37342018.0,False,,0.15026,0.17965001,-0.076,PROFITABLE,INSP,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,NSPR,"InspireMD, Inc. (NasdaqCM:NSPR)",US,98198.0,False,,0.0,-1.4260001,1.222,NOT-PROFITABLE,NSPR,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,PODD,Insulet Corporation (NasdaqGS:PODD),US,223363790.0,False,,0.12291,0.26016,0.235,PROFITABLE,PODD,,True
+Medical Devices,Healthcare Products,United States,NYSE,ITGR,Integer Holdings Corporation (NYSE:ITGR),US,33817226.0,True,,0.06965,0.075040005,-0.026,PROFITABLE,ITGR,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,IART,Integra LifeSciences Holdings Corporation (NasdaqGS:IART),US,15245017.0,True,,-0.0044,-0.00696,0.008,NOT-PROFITABLE,IART,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,INBS,Intelligent Bio Solutions Inc. (NasdaqCM:INBS),US,134403.0,False,,-2.96771,-1.7019,0.455,NOT-PROFITABLE,INBS,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,ISRG,"Intuitive Surgical, Inc. (NasdaqGS:ISRG)",US,1080038413.0,False,,0.28445998,0.17423001,0.185,PROFITABLE,ISRG,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,KRMD,"KORU Medical Systems, Inc. (NasdaqCM:KRMD)",US,422493.0,False,,-0.04034,-0.10524,0.182,NOT-PROFITABLE,KRMD,,True
+Medical Devices,Healthcare Products,United States,OTCPK,KLYG,"Kelyniam Global, Inc. (OTCPK:KLYG)",US,154.0,True,,-0.081750005,-0.31639,0.131,NOT-PROFITABLE,KLYG,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,KMTS,"Kestra Medical Technologies, Ltd. (NasdaqGS:KMTS)",US,5977500.0,True,,-1.3835499,-0.566,0.662,NOT-PROFITABLE,KMTS,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,KEQU,Kewaunee Scientific Corporation (NasdaqGM:KEQU),US,88945.0,False,,0.03411,0.14631,-0.075,PROFITABLE,KEQU,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,LNSR,"LENSAR, Inc. (NasdaqCM:LNSR)",US,283969.0,False,,0.50944,3.6254501,-0.052,PROFITABLE,LNSR,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,LNTH,"Lantheus Holdings, Inc. (NasdaqGM:LNTH)",US,86013904.0,True,,0.1769,0.22215,0.027,PROFITABLE,LNTH,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,LMAT,"LeMaitre Vascular, Inc. (NasdaqGM:LMAT)",US,25636770.0,True,,0.25024998,0.16774,0.096,PROFITABLE,LMAT,,False
+Medical Devices,Healthcare Products,United States,OTCPK,LLBO,"Lifeline Biotechnologies, Inc. (OTCPK:LLBO)",US,,,,0.0,,,UNVERIFIED,LLBO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,LGMK,"LogicMark, Inc. (OTCPK:LGMK)",US,1162.0,False,,-0.55842,-0.33929002,0.24,NOT-PROFITABLE,LGMK,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,LUCD,Lucid Diagnostics Inc. (NasdaqCM:LUCD),US,917484.0,False,,0.0,,0.517,UNVERIFIED,LUCD,yfinance_data_gap,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,LUCY,"Lucyd, Inc (NasdaqCM:LUCY)",US,52273.0,False,,-2.72479,-1.02398,0.702,NOT-PROFITABLE,LUCY,,True
+Medical Devices,Healthcare Products,United States,ASX,LDX,Lumos Diagnostics Holdings Limited (ASX:LDX),US,,,,-0.75806,-1.23273,-0.03,NOT-PROFITABLE,LDX.AX,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,MDLN,Medline Inc. (NasdaqGS:MDLN),US,380292784.0,False,,0.02315,0.04935,0.116,PROFITABLE,MDLN,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,MMSI,"Merit Medical Systems, Inc. (NasdaqGS:MMSI)",US,48012585.0,False,,0.0922,0.0919,0.095,PROFITABLE,MMSI,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,MBOT,Microbot Medical Inc. (NasdaqCM:MBOT),US,1621112.0,False,,0.0,-0.32914,,NOT-PROFITABLE,MBOT,,False
+Medical Devices,Healthcare Products,United States,NYSEAM,MLSS,Milestone Scientific Inc. (NYSEAM:MLSS),US,60112.0,False,,-0.51299,-1.3538499,-0.032,NOT-PROFITABLE,MLSS,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,MODD,"Modular Medical, Inc. (NasdaqCM:MODD)",US,125208.0,False,,0.0,-1.88054,,NOT-PROFITABLE,MODD,,False
+Medical Devices,Healthcare Products,United States,OTCPK,MCIC,"MultiCorp International, Inc. (OTCPK:MCIC)",US,,,,0.0,,,UNVERIFIED,MCIC,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NYSEAM,MYO,"Myomo, Inc. (NYSEAM:MYO)",US,1325812.0,True,,-0.33534,-1.23761,0.213,NOT-PROFITABLE,MYO,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,NXGL,"NEXGEL, Inc. (NasdaqCM:NXGL)",US,79502.0,False,,-0.2854,-0.61412996,-0.056,NOT-PROFITABLE,NXGL,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,NEOG,Neogen Corporation (NasdaqGS:NEOG),US,16554585.0,True,,-0.00908,-0.00379,-0.001,NOT-PROFITABLE,NEOG,,False
+Medical Devices,Healthcare Products,United States,NYSEAM,NRXS,"NeurAxis, Inc. (NYSEAM:NRXS)",US,670971.0,True,,-1.44441,-1.3975999,1.157,NOT-PROFITABLE,NRXS,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,NMTC,NeuroOne Medical Technologies Corporation (NasdaqCM:NMTC),US,99137.0,False,,-0.52227,-2.0443602,0.725,NOT-PROFITABLE,NMTC,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,NPCE,"NeuroPace, Inc. (NasdaqGM:NPCE)",US,2577932.0,True,,-0.21666999,-1.11381,-0.02,NOT-PROFITABLE,NPCE,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,STIM,"Neuronetics, Inc. (NasdaqGM:STIM)",US,1577570.0,False,,-0.19621,-1.16097,0.091,NOT-PROFITABLE,STIM,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,NXL,"Nexalin Technology, Inc. (NasdaqCM:NXL)",US,81303.0,False,,0.0,-3.19695,-0.636,NOT-PROFITABLE,NXL,,False
+Medical Devices,Healthcare Products,United States,OTCPK,NIMU,"Non-Invasive Monitoring Systems, Inc. (OTCPK:NIMU)",US,378.0,True,,0.0,,,UNVERIFIED,NIMU,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,NUMD,"Nu-Med Plus, Inc. (OTCPK:NUMD)",US,,False,,0.0,,,UNVERIFIED,NUMD,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,NUWE,"Nuwellis, Inc. (NasdaqCM:NUWE)",US,423534.0,False,,-2.1722,-6.09438,0.262,NOT-PROFITABLE,NUWE,,True
+Medical Devices,Healthcare Products,United States,OTCPK,ODYY,"Odyssey Health, Inc. (OTCPK:ODYY)",US,682.0,False,,0.0,,,UNVERIFIED,ODYY,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,OMWS,Omnia Wellness Inc. (OTCPK:OMWS),US,,,,0.0,,-0.508,UNVERIFIED,OMWS,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,OMCL,"Omnicell, Inc. (NasdaqGS:OMCL)",US,27894132.0,True,,0.03135,0.03059,0.075,PROFITABLE,OMCL,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,OSUR,"OraSure Technologies, Inc. (NasdaqGS:OSUR)",US,3086762.0,True,,-0.43702,-0.14066,-0.019,NOT-PROFITABLE,OSUR,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,OBIO,"Orchestra BioMed Holdings, Inc. (NasdaqGM:OBIO)",US,808197.0,True,,-1.84604,-3.97301,-0.895,NOT-PROFITABLE,OBIO,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,KIDS,OrthoPediatrics Corp. (NasdaqGM:KIDS),US,2468630.0,True,,-0.15719,-0.11364,0.154,NOT-PROFITABLE,KIDS,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,OFIX,Orthofix Medical Inc. (NasdaqGS:OFIX),US,3523095.0,False,,-0.07408,-0.13909,0.038,NOT-PROFITABLE,OFIX,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,OM,"Outset Medical, Inc. (NasdaqGS:OM)",US,934102.0,False,,-0.63064,-0.59167,0.007,NOT-PROFITABLE,OM,,False
+Medical Devices,Healthcare Products,United States,NYSE,OWLT,"Owlet, Inc. (NYSE:OWLT)",US,1363304.0,False,,-0.43003,-5.2619,0.064,NOT-PROFITABLE,OWLT,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,PAVM,PAVmed Inc. (NasdaqCM:PAVM),US,64437.0,False,,0.0,-0.67221,1.75,NOT-PROFITABLE,PAVM,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,PRCT,PROCEPT BioRobotics Corporation (NasdaqGM:PRCT),US,37310551.0,False,,-0.32535,-0.30241,0.193,NOT-PROFITABLE,PRCT,,True
+Medical Devices,Healthcare Products,United States,NYSE,PEN,"Penumbra, Inc. (NYSE:PEN)",US,124131076.0,True,,0.106709994,0.1137,0.149,PROFITABLE,PEN,,True
+Medical Devices,Healthcare Products,United States,OTCPK,PETV,"PetVivo Holdings, Inc. (OTCPK:PETV)",US,5776.0,False,,0.0,-3.26349,0.133,NOT-PROFITABLE,PETV,,True
+Medical Devices,Healthcare Products,United States,NYSEAM,PMI,"Picard Medical, Inc. (NYSEAM:PMI)",US,2007796.0,False,,0.0,,0.855,UNVERIFIED,PMI,yfinance_data_gap,True
+Medical Devices,Healthcare Products,United States,OTCPK,POSC,Positron Corporation (OTCPK:POSC),US,47208.0,True,,0.0,,-0.07,UNVERIFIED,POSC,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,POCI,"Precision Optics Corporation, Inc. (NasdaqCM:POCI)",US,179962.0,True,,-0.17031,-0.29615998,1.08,NOT-PROFITABLE,POCI,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,PDEX,"Pro-Dex, Inc. (NasdaqCM:PDEX)",US,4364471.0,True,,0.1608,0.29826,0.146,PROFITABLE,PDEX,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,PFSA,"Profusa, Inc. (NasdaqGM:PFSA)",US,138190.0,False,,0.0,,,UNVERIFIED,PFSA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,LUNG,Pulmonx Corporation (NasdaqGS:LUNG),US,499472.0,False,,-0.55026,-0.88868,-0.046,NOT-PROFITABLE,LUNG,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,PLSE,"Pulse Biosciences, Inc. (NasdaqCM:PLSE)",US,7158456.0,True,,0.0,-0.78490996,,NOT-PROFITABLE,PLSE,,False
+Medical Devices,Healthcare Products,United States,OTCPK,QTIH,"QT Imaging Holdings, Inc. (OTCPK:QTIH)",US,,,,,,,UNVERIFIED,QTIH,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,QYBX,"Qian Yuan Baixing, Inc. (OTCPK:QYBX)",US,,,,-0.044889998,,-0.208,UNVERIFIED,QYBX,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,QDEL,QuidelOrtho Corporation (NasdaqGS:QDEL),US,19722984.0,False,,-0.39203998,-0.45905998,0.028,NOT-PROFITABLE,QDEL,,False
+Medical Devices,Healthcare Products,United States,OTCPK,RMSL,"REMSleep Holdings, Inc. (OTCPK:RMSL)",US,2788.0,False,,0.0,-50.12647,,NOT-PROFITABLE,RMSL,,False
+Medical Devices,Healthcare Products,United States,OTCPK,RTSL,"Rapid Therapeutic Science Laboratories, Inc. (OTCPK:RTSL)",US,,,,0.0,,,UNVERIFIED,RTSL,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,,,ReShape Lifesciences Inc.,US,,,,,,,UNVERIFIED,,unmapped_exchange:nan,False
+Medical Devices,Healthcare Products,United States,NYSE,RMD,ResMed Inc. (NYSE:RMD),US,303498707.0,False,,0.26945,0.24269,0.086,PROFITABLE,RMD,,False
+Medical Devices,Healthcare Products,United States,NYSEAM,RVP,"Retractable Technologies, Inc. (NYSEAM:RVP)",US,75753.0,False,,-0.16931,-0.08575,-0.135,NOT-PROFITABLE,RVP,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,RMTI,"Rockwell Medical, Inc. (NasdaqCM:RMTI)",US,214073.0,False,,-0.07985,-0.16041,-0.083,NOT-PROFITABLE,RMTI,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,RXST,"RxSight, Inc. (NasdaqGM:RXST)",US,4782935.0,False,,-0.36799,-0.17345,0.003,NOT-PROFITABLE,RXST,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,SNWV,"SANUWAVE Health, Inc. (NasdaqGM:SNWV)",US,1156504.0,False,,0.33601,,-0.042,UNVERIFIED,SNWV,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,SIBN,"SI-BONE, Inc. (NasdaqGM:SIBN)",US,7015546.0,True,,-0.0685,-0.08297,0.152,NOT-PROFITABLE,SIBN,,True
+Medical Devices,Healthcare Products,United States,NasdaqGM,STAA,STAAR Surgical Company (NasdaqGM:STAA),US,17094714.0,True,,-0.07243,-0.05989,1.196,NOT-PROFITABLE,STAA,,True
+Medical Devices,Healthcare Products,United States,NYSE,STE,STERIS plc (NYSE:STE),US,176853001.0,False,,0.13333,0.11389,0.073,PROFITABLE,STE,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,SSKN,"STRATA Skin Sciences, Inc. (NasdaqCM:SSKN)",US,704.0,False,,-0.20397,-1.58909,-0.03,NOT-PROFITABLE,SSKN,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,SMTI,Sanara MedTech Inc. (NasdaqCM:SMTI),US,1350600.0,True,,-0.31239,0.028619999,0.186,NOT-PROFITABLE,SMTI,,True
+Medical Devices,Healthcare Products,United States,OTCPK,SCND,"Scientific Industries, Inc. (OTCPK:SCND)",US,625.0,False,,-0.19316,-0.77898,0.302,NOT-PROFITABLE,SCND,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,ICU,SeaStar Medical Holding Corporation (NasdaqCM:ICU),US,282474.0,False,,0.0,-3.02005,0.689,NOT-PROFITABLE,ICU,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,SMLR,"Semler Scientific, Inc. (NasdaqCM:SMLR)",US,,,,,,,UNVERIFIED,SMLR,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,SENS,"Senseonics Holdings, Inc. (NasdaqGS:SENS)",US,3792822.0,False,,-2.25339,-1.18239,1.178,NOT-PROFITABLE,SENS,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,SRTS,"Sensus Healthcare, Inc. (NasdaqCM:SRTS)",US,127268.0,False,,-0.34498,-0.15771,-0.593,NOT-PROFITABLE,SRTS,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,STSS,"Sharps Technology, Inc. (NasdaqCM:STSS)",US,,,,,,,UNVERIFIED,STSS,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NYSE,SI,"Shoulder Innovations, Inc. (NYSE:SI)",US,1730612.0,True,,,,,UNVERIFIED,SI,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,SGHT,"Sight Sciences, Inc. (NasdaqGS:SGHT)",US,716446.0,True,,-0.35689998,-0.48422,0.195,NOT-PROFITABLE,SGHT,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,SINT,"Sintx Technologies, Inc. (NasdaqCM:SINT)",US,76446.0,False,,0.0,-3.1140702,0.03,NOT-PROFITABLE,SINT,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,HSDT,Solana Company (NasdaqCM:HSDT),US,715032.0,False,,0.0,-1.37416,72.898,NOT-PROFITABLE,HSDT,,True
+Medical Devices,Healthcare Products,United States,OTCPK,SONX,"Sonendo, Inc. (OTCPK:SONX)",US,,True,,-0.88427,-1.99595,-0.29,NOT-PROFITABLE,SONX,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,MDAI,"Spectral AI, Inc. (NasdaqCM:MDAI)",US,678308.0,False,,-0.81964993,,-0.405,UNVERIFIED,MDAI,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,TUTH,Standard Dental Labs Inc. (OTCPK:TUTH),US,215.0,True,,0.0,,-0.492,UNVERIFIED,TUTH,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NYSEAM,STXS,"Stereotaxis, Inc. (NYSEAM:STXS)",US,651700.0,False,,-0.69499,-1.56124,-0.158,NOT-PROFITABLE,STXS,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,STEX,Streamex Corp. (NasdaqCM:STEX),US,1448946.0,False,,0.0,-6.2517104,,NOT-PROFITABLE,STEX,,False
+Medical Devices,Healthcare Products,United States,NYSE,SYK,Stryker Corporation (NYSE:SYK),US,749352603.0,False,,0.14433,0.16508,0.094,PROFITABLE,SYK,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,TELA,"TELA Bio, Inc. (NasdaqGM:TELA)",US,100016.0,False,,-0.51533,,-0.045,UNVERIFIED,TELA,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,TCMD,"Tactile Systems Technology, Inc. (NasdaqGM:TCMD)",US,5038067.0,True,,0.07098,0.11875,0.086,PROFITABLE,TCMD,,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,TNDM,"Tandem Diabetes Care, Inc. (NasdaqGM:TNDM)",US,43584715.0,False,,-0.0608,-0.48026,0.058,NOT-PROFITABLE,TNDM,,False
+Medical Devices,Healthcare Products,United States,NYSE,TFX,Teleflex Incorporated (NYSE:TFX),US,69504613.0,True,,-0.45761,-0.00701,0.289,NOT-PROFITABLE,TFX,,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,TNON,"Tenon Medical, Inc. (NasdaqCM:TNON)",US,64742.0,False,,-2.7008898,-2.2031798,0.899,NOT-PROFITABLE,TNON,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,COO,"The Cooper Companies, Inc. (NasdaqGS:COO)",US,245235670.0,False,,0.05573,0.02853,0.079,PROFITABLE,COO,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,TIVC,"Tivic Health Systems, Inc. (NasdaqCM:TIVC)",US,,,,,,,UNVERIFIED,TIVC,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGM,TMDX,"TransMedics Group, Inc. (NasdaqGM:TMDX)",US,73925163.0,False,,0.22694,0.36285,0.207,PROFITABLE,TMDX,,True
+Medical Devices,Healthcare Products,United States,NasdaqGS,TMCI,"Treace Medical Concepts, Inc. (NasdaqGS:TMCI)",US,3213776.0,True,,-0.28989,-0.71987,-0.042,NOT-PROFITABLE,TMCI,,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,UFPT,"UFP Technologies, Inc. (NasdaqCM:UFPT)",US,49688447.0,True,,0.11446,0.17052001,0.151,PROFITABLE,UFPT,,True
+Medical Devices,Healthcare Products,United States,NYSEAM,USBC,"USBC, Inc. (NYSEAM:USBC)",US,192386.0,False,,0.0,,,UNVERIFIED,USBC,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,UAHC,United American Healthcare Corporation (OTCPK:UAHC),US,,,,-0.36756,,0.233,UNVERIFIED,UAHC,yfinance_data_gap,True
+Medical Devices,Healthcare Products,United States,OTCPK,UEEC,"United Health Products, Inc. (OTCPK:UEEC)",US,6492.0,False,,0.0,,,UNVERIFIED,UEEC,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,UNVC,"Univec, Inc. (OTCPK:UNVC)",US,,,,0.0,,,UNVERIFIED,UNVC,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,UTMD,"Utah Medical Products, Inc. (NasdaqGS:UTMD)",US,636139.0,True,,0.29042998,0.08755,-0.143,PROFITABLE,UTMD,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,VREX,Varex Imaging Corporation (NasdaqGS:VREX),US,3377581.0,False,,0.02555,0.04592,0.037,PROFITABLE,VREX,,False
+Medical Devices,Healthcare Products,United States,OTCPK,VASO,Vaso Corporation (OTCPK:VASO),US,5975.0,True,,0.01974,0.0636,-0.005,PROFITABLE,VASO,,False
+Medical Devices,Healthcare Products,United States,NYSE,RBOT,Vicarious Surgical Inc. (NYSE:RBOT),US,14366.0,False,,0.0,-2.23753,,NOT-PROFITABLE,RBOT,,False
+Medical Devices,Healthcare Products,United States,OTCPK,VXIT,"VirExit Technologies, Inc. (OTCPK:VXIT)",US,,,,0.0,,,UNVERIFIED,VXIT,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,VANI,"Vivani Medical, Inc. (NasdaqCM:VANI)",US,189306.0,False,,0.0,-1.76411,,NOT-PROFITABLE,VANI,,False
+Medical Devices,Healthcare Products,United States,OTCPK,RDGL,Vivos Inc. (OTCPK:RDGL),US,51436.0,False,,0.0,-1.1612101,0.348,NOT-PROFITABLE,RDGL,,True
+Medical Devices,Healthcare Products,United States,NYSEAM,VNRX,VolitionRx Limited (NYSEAM:VNRX),US,499576.0,False,,0.0,,2.998,UNVERIFIED,VNRX,yfinance_data_gap,True
+Medical Devices,Healthcare Products,United States,OTCPK,VYCO,"Vycor Medical, Inc. (OTCPK:VYCO)",US,,False,,-0.0072899996,,0.051,UNVERIFIED,VYCO,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,WYPH,"WayPoint Biomedical Holdings, Inc. (OTCPK:WYPH)",US,,,,0.0,,-0.528,UNVERIFIED,WYPH,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NYSEAM,XTNT,"Xtant Medical Holdings, Inc. (NYSEAM:XTNT)",US,32287.0,False,,-0.10168,-0.25164,-0.35,NOT-PROFITABLE,XTNT,,False
+Medical Devices,Healthcare Products,United States,OTCPK,ZOMD.F,Zomedica Corp. (OTCPK:ZOMD.F),US,,,,,,,UNVERIFIED,ZOMD.F,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,OTCPK,ZYXI.Q,"Zynex, Inc. (OTCPK:ZYXI.Q)",US,,,,,,,UNVERIFIED,ZYXI.Q,yfinance_data_gap,False
+Medical Devices,Healthcare Products,United States,NasdaqCM,ECOR,"electroCore, Inc. (NasdaqCM:ECOR)",US,1153308.0,True,,-0.39956,,0.28,UNVERIFIED,ECOR,yfinance_data_gap,True
+Medical Devices,Healthcare Products,United States,NasdaqCM,NVNO,enVVeno Medical Corporation (NasdaqCM:NVNO),US,61207.0,False,,0.0,-0.58533,,NOT-PROFITABLE,NVNO,,False
+Medical Devices,Healthcare Products,United States,NasdaqGS,IRTC,"iRhythm Technologies, Inc. (NasdaqGS:IRTC)",US,60785310.0,False,,-0.016900001,-0.0963,0.201,NOT-PROFITABLE,IRTC,,True
