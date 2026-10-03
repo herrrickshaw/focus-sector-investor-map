@@ -1,0 +1,693 @@
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "scripts_build_global_catalog",
+      "label": "build_global_catalog.py",
+      "file_type": "code",
+      "source_file": "scripts/build_global_catalog.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_build_global_catalog_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/build_global_catalog.py",
+      "source_location": "L47",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_build_global_catalog_rationale_2",
+      "label": "build_global_catalog.py — the COVERAGE layer: every company in the global…",
+      "file_type": "rationale",
+      "source_file": "scripts/build_global_catalog.py",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_build_screen",
+      "label": "build_screen.py",
+      "file_type": "code",
+      "source_file": "scripts/build_screen.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_build_screen_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/build_screen.py",
+      "source_location": "L59",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_build_screen_rationale_2",
+      "label": "build_screen.py — screen the multi-market equity universe into the trade-policy…",
+      "file_type": "rationale",
+      "source_file": "scripts/build_screen.py",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_electronics_semiconductors_unswept",
+      "label": "enrich_electronics_semiconductors_unswept.py",
+      "file_type": "code",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_electronics_semiconductors_unswept_yf_ticker",
+      "label": "yf_ticker()",
+      "file_type": "code",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L85",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_electronics_semiconductors_unswept_checkpoint",
+      "label": "checkpoint()",
+      "file_type": "code",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L130",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_electronics_semiconductors_unswept_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L139",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_electronics_semiconductors_unswept_rationale_2",
+      "label": "enrich_electronics_semiconductors_unswept.py -- financial verification pass…",
+      "file_type": "rationale",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_electronics_semiconductors_unswept_rationale_86",
+      "label": "Returns (ticker_or_None, reason_if_None).",
+      "file_type": "rationale",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_medical_devices_unswept",
+      "label": "enrich_medical_devices_unswept.py",
+      "file_type": "code",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_medical_devices_unswept_yf_ticker",
+      "label": "yf_ticker()",
+      "file_type": "code",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L87",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_medical_devices_unswept_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L120",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_medical_devices_unswept_rationale_2",
+      "label": "enrich_medical_devices_unswept.py — financial verification pass over the 834…",
+      "file_type": "rationale",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_medical_devices_unswept_rationale_88",
+      "label": "Build a yfinance ticker from Exchange + Ticker (+ Country for a few ambiguous…",
+      "file_type": "rationale",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L88",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_profitability",
+      "label": "enrich_profitability.py",
+      "file_type": "code",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_profitability_yf_ticker",
+      "label": "yf_ticker()",
+      "file_type": "code",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_profitability_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L36",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_enrich_profitability_rationale_2",
+      "label": "enrich_profitability.py — verify profitability per shortlisted company via…",
+      "file_type": "rationale",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_focus_sector_investor_map",
+      "label": "Focus-Sector Investor Map",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_method_and_its_stated_limits",
+      "label": "Method (and its stated limits)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_outputs",
+      "label": "Outputs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_reproduce",
+      "label": "Reproduce",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_honest_caveats",
+      "label": "Honest caveats",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "scripts_build_global_catalog",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_global_catalog.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_build_global_catalog",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_global_catalog.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_build_global_catalog",
+      "target": "scripts_build_global_catalog_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_global_catalog.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_build_global_catalog_rationale_2",
+      "target": "scripts_build_global_catalog",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_global_catalog.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_build_screen",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_screen.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_build_screen",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_screen.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_build_screen",
+      "target": "scripts_build_screen_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_screen.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_build_screen_rationale_2",
+      "target": "scripts_build_screen",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build_screen.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept",
+      "target": "scripts_enrich_electronics_semiconductors_unswept_yf_ticker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept",
+      "target": "scripts_enrich_electronics_semiconductors_unswept_checkpoint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept",
+      "target": "scripts_enrich_electronics_semiconductors_unswept_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept_main",
+      "target": "scripts_enrich_electronics_semiconductors_unswept_yf_ticker",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept_main",
+      "target": "scripts_enrich_electronics_semiconductors_unswept_checkpoint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L192",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept_rationale_2",
+      "target": "scripts_enrich_electronics_semiconductors_unswept",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_electronics_semiconductors_unswept_rationale_86",
+      "target": "scripts_enrich_electronics_semiconductors_unswept_yf_ticker",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_electronics_semiconductors_unswept.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept",
+      "target": "scripts_enrich_medical_devices_unswept_yf_ticker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept",
+      "target": "scripts_enrich_medical_devices_unswept_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept_main",
+      "target": "scripts_enrich_medical_devices_unswept_yf_ticker",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept_rationale_2",
+      "target": "scripts_enrich_medical_devices_unswept",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_medical_devices_unswept_rationale_88",
+      "target": "scripts_enrich_medical_devices_unswept_yf_ticker",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_medical_devices_unswept.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability",
+      "target": "scripts_enrich_profitability_yf_ticker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability",
+      "target": "scripts_enrich_profitability_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability_main",
+      "target": "scripts_enrich_profitability_yf_ticker",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_enrich_profitability_rationale_2",
+      "target": "scripts_enrich_profitability",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/enrich_profitability.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "readme_focus_sector_investor_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_focus_sector_investor_map",
+      "target": "readme_method_and_its_stated_limits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_focus_sector_investor_map",
+      "target": "readme_outputs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_focus_sector_investor_map",
+      "target": "readme_reproduce",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_focus_sector_investor_map",
+      "target": "readme_honest_caveats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "directed": false
+}

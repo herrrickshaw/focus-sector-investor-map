@@ -1,0 +1,50 @@
+{
+  "data/focus_sector_companies_final.json": {
+    "mtime": 1784541809.9923546,
+    "seen": 1789193302.893926,
+    "ast_hash": "fd891c96aeacd0e8c9ed1a86e82ea871",
+    "semantic_hash": ""
+  },
+  "data/foreign_investor_initiative_pairs.json": {
+    "mtime": 1784541710.5873656,
+    "seen": 1789193302.893929,
+    "ast_hash": "1488d583f98c1999c9bd9c03cd310bf9",
+    "semantic_hash": ""
+  },
+  "scripts/build_global_catalog.py": {
+    "mtime": 1784542185.0111382,
+    "seen": 1789193302.893931,
+    "ast_hash": "49e56e9fefe796e4f0203e4b9bc363e2",
+    "semantic_hash": ""
+  },
+  "scripts/build_screen.py": {
+    "mtime": 1784541601.0939457,
+    "seen": 1789193302.893932,
+    "ast_hash": "c586dc8e3f088f4488b744d56aed6630",
+    "semantic_hash": ""
+  },
+  "scripts/enrich_electronics_semiconductors_unswept.py": {
+    "mtime": 1786541614.4905186,
+    "seen": 1789193302.893932,
+    "ast_hash": "8fb9e8038f5bda173cfb95ab3b252221",
+    "semantic_hash": ""
+  },
+  "scripts/enrich_medical_devices_unswept.py": {
+    "mtime": 1786540464.9596426,
+    "seen": 1789193302.893933,
+    "ast_hash": "0906c551db1be35d1c2517c2788a2b36",
+    "semantic_hash": ""
+  },
+  "scripts/enrich_profitability.py": {
+    "mtime": 1784541640.1497262,
+    "seen": 1789193302.893934,
+    "ast_hash": "d85207d8732028ac07eab4584f3d2b79",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1789399851.8856628,
+    "seen": 1789968686.769797,
+    "ast_hash": "12fe22bf45afc108e70c84c828d3f217",
+    "semantic_hash": ""
+  }
+}
