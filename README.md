@@ -1,5 +1,9 @@
 # Focus-Sector Investor Map
 
+<!-- how-to-use-with-ai -->
+> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
+
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/herrrickshaw/focus-sector-investor-map/blob/main/notebooks/colab_test.ipynb)
 
 Pairs India's **focus-sector policy machinery** with the **equity universe**: which listed companies operate in the twelve focus sectors, which of them are verified profitable and showing global-expansion signals, and which **foreign investing companies pair with which government initiative** — every pairing grounded in the PIB-verified record of the companion policy program.
