@@ -57,7 +57,7 @@ def main():
         print(f"  {r['Market']}:{r['Symbol']:<12} {rec['verified']:<15} pm={rec['profit_margin']}")
     df = pd.DataFrame(rows)
     df["expansion_signal"] = ((df["revenue_growth"].fillna(-1) >= 0.10)
-                              | (df["Ret252"].fillna(-1) >= 0.25))
+                              | (df["Ret252"].fillna(-1) >= 25))  # Ret252 is in percent
     final = df[df["verified"] == "PROFITABLE"].copy()
     final = final.sort_values(["FocusSector", "Region", "Turnover_USD"], ascending=[True, True, False])
     df.to_csv(OUT / "shortlist_enriched.csv", index=False)
