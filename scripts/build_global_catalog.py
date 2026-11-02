@@ -14,72 +14,65 @@ Outputs:
   data/focus_sector_global_catalog.csv      (one row per company)
   data/focus_sector_country_matrix.csv      (sector x country counts)
 """
-import pandas as pd
+from __future__ import annotations
+
+import argparse
+import logging
+import sys
 from pathlib import Path
 
-HOME = Path.home()
-OUT = Path(__file__).resolve().parent.parent / "data"
+import pandas as pd
 
-FOCUS = {
- "Electronics & Semiconductors": ["Semiconductor", "Semiconductor Equip", "Electronics (Consumer & Office)", "Electronics (General)", "Computers/Peripherals", "Telecom. Equipment"],
- "Pharma & Bulk Drugs": ["Drugs (Pharmaceutical)", "Drugs (Biotechnology)"],
- "Medical Devices": ["Healthcare Products"],
- "Auto, EV & Components": ["Auto & Truck", "Auto Parts"],
- "Specialty Steel & Metals": ["Steel", "Metals & Mining"],
- "Chemicals & Plastics": ["Chemical (Basic)", "Chemical (Diversified)", "Chemical (Specialty)", "Rubber& Tires", "Packaging & Container"],
- "White Goods & Electricals": ["Electrical Equipment", "Furn/Home Furnishings", "Household Products"],
- "Aerospace & Defence": ["Aerospace/Defense"],
- "Shipbuilding & Marine": ["Shipbuilding & Marine"],
- "Textiles & Apparel": ["Apparel", "Shoe"],
- "Food Processing": ["Food Processing"],
- "Green Energy & Fuels": ["Green & Renewable Energy", "Oil/Gas (Production and Exploration)", "Power", "Coal & Related Energy"],
-}
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # run as a script without installing
 
-COUNTRY_TO_MARKET = {
- "India": "IN", "United States": "US", "Japan": "JP", "South Korea": "KR",
- "Taiwan": "TW", "China": "CN", "Germany": "DE", "Canada": "CA",
- "Australia": "AU", "United Kingdom": "UK", "Hong Kong": "HK",
- "Singapore": "SG", "Sweden": "SE", "Brazil": "BR", "Switzerland": "CH",
- "Denmark": "DK", "Finland": "FI", "South Africa": "ZA", "Saudi Arabia": "SA",
-}
+from focus_sector_map import paths  # noqa: E402
+from focus_sector_map.catalog import (  # noqa: E402
+    PROFITABILITY_COLUMNS,
+    attach_market_layer,
+    attach_profitability,
+    country_matrix,
+    finalize_catalog,
+    top_countries_by_sector,
+)
+from focus_sector_map.sectors import tag_focus_sectors  # noqa: E402
+
+log = logging.getLogger(__name__)
 
 
-def main():
-    dam = pd.read_parquet(HOME / "repos/global-stock-screener/reference_seed/damodaran_companies.parquet")
-    ind_to_focus = {ind: sec for sec, inds in FOCUS.items() for ind in inds}
-    cat = dam[dam["Industry Group"].isin(ind_to_focus)].copy()
-    cat["FocusSector"] = cat["Industry Group"].map(ind_to_focus)
-    cat["Market"] = cat["Country"].map(COUNTRY_TO_MARKET)
-
-    # market layer (attributes, not filters)
-    uni = pd.read_parquet(HOME / "repos/global-stock-screener/cache_seed/company_list.parquet")
-    cat = cat.merge(uni[["Market", "Symbol", "Turnover_USD", "Above200DMA", "Ret252", "Close"]],
-                    left_on=["Ticker", "Market"], right_on=["Symbol", "Market"], how="left") \
-             .drop(columns=["Symbol"])
-
-    # profitability layer where enriched (attribute)
+def build_catalog(damodaran_path: Path, universe_path: Path, enriched_path: Path) -> pd.DataFrame:
+    """Sector-tag the full Damodaran universe and left-join market + profitability attributes."""
+    catalog = tag_focus_sectors(pd.read_parquet(damodaran_path))
+    catalog = attach_market_layer(catalog, pd.read_parquet(universe_path))
     try:
-        enr = pd.read_csv(OUT / "shortlist_enriched.csv")[["Market", "Symbol", "profit_margin", "roe", "revenue_growth", "verified"]]
-        cat = cat.merge(enr, left_on=["Ticker", "Market"], right_on=["Symbol", "Market"], how="left") \
-                 .drop(columns=["Symbol"])
+        enriched = pd.read_csv(enriched_path)[PROFITABILITY_COLUMNS]
     except FileNotFoundError:
-        pass
+        log.info("no enriched shortlist at %s; profitability columns left out", enriched_path)
+    else:
+        catalog = attach_profitability(catalog, enriched)
+    return finalize_catalog(catalog)
 
-    cols = ["FocusSector", "Industry Group", "Country", "Exchange", "Ticker", "Company Name",
-            "Market", "Turnover_USD", "Above200DMA", "Ret252",
-            "profit_margin", "roe", "revenue_growth", "verified"]
-    cols = [c for c in cols if c in cat.columns]
-    cat = cat.sort_values(["FocusSector", "Country", "Company Name"])
-    cat[cols].to_csv(OUT / "focus_sector_global_catalog.csv", index=False)
 
-    matrix = cat.groupby(["FocusSector", "Country"]).size().rename("Companies").reset_index()
-    matrix.to_csv(OUT / "focus_sector_country_matrix.csv", index=False)
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--gss-root", type=Path, default=paths.GSS_ROOT,
+                        help="global-stock-screener checkout holding the two input parquets")
+    parser.add_argument("--data-dir", type=Path, default=paths.DATA_DIR,
+                        help="directory holding shortlist_enriched.csv and receiving the outputs")
+    return parser.parse_args(argv)
 
-    print(f"global catalog: {len(cat):,} companies in focus sectors, {cat['Country'].nunique()} countries")
-    top = (cat.groupby("FocusSector")["Country"]
-           .apply(lambda s: ", ".join(f"{c} {n}" for c, n in s.value_counts().head(5).items())))
-    for sec, t in top.items():
-        print(f"  {sec:<32} {len(cat[cat.FocusSector==sec]):>5}  | top: {t}")
+
+def main(argv: list[str] | None = None) -> None:
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    args = parse_args(argv)
+    catalog = build_catalog(args.gss_root / "reference_seed" / "damodaran_companies.parquet",
+                            args.gss_root / "cache_seed" / "company_list.parquet",
+                            args.data_dir / paths.SHORTLIST_ENRICHED_CSV)
+    catalog.to_csv(args.data_dir / paths.CATALOG_CSV, index=False)
+    country_matrix(catalog).to_csv(args.data_dir / paths.COUNTRY_MATRIX_CSV, index=False)
+
+    print(f"global catalog: {len(catalog):,} companies in focus sectors, {catalog['Country'].nunique()} countries")
+    for sector, top in top_countries_by_sector(catalog).items():
+        print(f"  {sector:<32} {len(catalog[catalog.FocusSector == sector]):>5}  | top: {top}")
 
 
 if __name__ == "__main__":
