@@ -17,13 +17,12 @@ Isolated, standalone script:
     checkpointed incrementally every CHECKPOINT_EVERY rows
 
 Two-tier ticker construction:
-  1. Primary: Market column populated -> reuse the exact SUFFIX dict logic
-     from scripts/enrich_profitability.py (IN/JP/KR/TW/DE/UK/HK/AU/CA/SE/CH/
+  1. Primary: Market column populated -> the shared MARKET_SUFFIX logic in
+     focus_sector_map/tickers.py (IN/JP/KR/TW/DE/UK/HK/AU/CA/SE/CH/
      DK/FI/SG/BR/ZA/SA/US/CN/EU), keyed here off the catalog's `Ticker`
-     column (that script's shortlist used `Symbol`; same field, different
-     name in this catalog).
+     column (the shortlist used `Symbol`; same field, different name).
   2. Fallback: Market is blank (318 of the 3,433 rows) -> derive suffix from
-     `Exchange` instead. Mapping below was verified live this session
+     `Exchange` instead. Mapping below was verified live
      against real yfinance calls (see EXCHANGE_SUFFIX_FALLBACK comments) --
      NOT copy-pasted from Batch 1's guesses, several codes behave
      differently for this sector's rows (e.g. IBSE, OB, BVB, RISE, BUSE,
@@ -35,27 +34,42 @@ Two-tier ticker construction:
      Bulgarian company -- so BUL is skipped outright rather than risking a
      fabricated match).
 """
+from __future__ import annotations
+
+import argparse
+import logging
 import sys
 import time
 from pathlib import Path
+from typing import Optional
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
-CATALOG = DATA / "focus_sector_global_catalog.csv"
-OUT_CSV = DATA / "electronics_semiconductors_unswept_enriched.csv"
-CHECKPOINT_EVERY = 40
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # run as a script without installing
 
-# ---- Tier 1: reused verbatim from scripts/enrich_profitability.py ----
-SUFFIX = {"IN": ".NS", "JP": ".T", "KR": ".KS", "TW": ".TW", "DE": ".DE",
-          "UK": ".L", "HK": ".HK", "AU": ".AX", "CA": ".TO", "SE": ".ST",
-          "CH": ".SW", "DK": ".CO", "FI": ".HE", "SG": ".SI", "BR": ".SA",
-          "ZA": ".JO", "SA": ".SR", "US": "", "CN": None, "EU": None}
+from focus_sector_map import paths  # noqa: E402
+from focus_sector_map.catalog import unswept_rows  # noqa: E402
+from focus_sector_map.fundamentals import (  # noqa: E402
+    PROFITABLE,
+    Fundamentals,
+    add_expansion_signal,
+    enrich_records,
+    fetch_fundamentals,
+    verification_counts,
+)
+from focus_sector_map.tickers import MARKET_SUFFIX, market_ticker  # noqa: E402
+
+SECTOR = "Electronics & Semiconductors"
+OUT_NAME = "electronics_semiconductors_unswept_enriched.csv"
+CHECKPOINT_EVERY = 40
+PROGRESS_EVERY = 10
+MAX_ATTEMPTS = 3
+BACKOFF_SECONDS = 8  # x attempt number
+PAUSE_SECONDS = 0.7
 
 # ---- Tier 2: Exchange-based fallback for blank-Market rows ----
 # "" = no suffix (US-primary listing regardless of domicile country)
-# None = confirmed live this session: not reliably resolvable via yfinance
+# None = confirmed live: not reliably resolvable via yfinance
 EXCHANGE_SUFFIX_FALLBACK = {
     "KLSE": ".KL", "ENXTPA": ".PA", "TASE": ".TA", "WSE": ".WA", "BIT": ".MI",
     "OB": ".OL", "SET": ".BK", "IBSE": ".IS", "TWSE": ".TW",
@@ -66,7 +80,7 @@ EXCHANGE_SUFFIX_FALLBACK = {
     "TLSE": ".TL", "NZSE": ".NZ", "SWX": ".SW", "BUSE": ".BD",
     "LSE": ".L", "ASX": ".AX", "RISE": ".RG", "SEHK": ".HK",
     "Catalist": ".SI", "HOSE": ".VN",
-    # confirmed genuinely unresolvable live this session
+    # confirmed genuinely unresolvable live
     "BUL": None, "DSE": None, "ZGSE": None, "NGSE": None,
     "KASE": None, "BVMT": None,
 }
@@ -80,30 +94,28 @@ COUNTRY_EXCHANGE_OVERRIDE = {
 # resolves the specific tickers in this catalog subset (kept explicit /
 # reported honestly rather than silently folded into "unmapped").
 OBSCURE_NO_YF_COVERAGE = {"BUL", "DSE", "ZGSE", "NGSE", "KASE", "BVMT"}
+HK_TICKER_WIDTH = 4
 
 
-def yf_ticker(row):
+def _clean(value: object) -> Optional[str]:
+    return None if (pd.isna(value) or str(value).strip() == "") else str(value).strip()
+
+
+def yf_ticker(row: pd.Series) -> tuple[Optional[str], Optional[str]]:
     """Returns (ticker_or_None, reason_if_None)."""
-    market = row.get("Market")
-    market = None if (pd.isna(market) or str(market).strip() == "") else str(market).strip()
+    market = _clean(row.get("Market"))
     sym = str(row["Ticker"]).strip().replace(" ", "-")
-    exch = row.get("Exchange")
-    exch = None if pd.isna(exch) else str(exch).strip()
-    country = row.get("Country")
-    country = None if pd.isna(country) else str(country).strip()
+    exch = _clean(row.get("Exchange"))
+    country = _clean(row.get("Country"))
 
     if market is not None:
         # ---- Tier 1 ----
-        if market not in SUFFIX:
+        if market not in MARKET_SUFFIX:
             return None, f"unmapped_market:{market}"
-        s = SUFFIX[market]
-        if s is None:
-            if market == "CN":
-                return sym + (".SS" if sym.startswith("6") else ".SZ"), None
+        ticker = market_ticker(market, sym)
+        if ticker is None:
             return None, f"market_no_suffix:{market}"
-        if market == "HK":
-            sym = sym.zfill(4)
-        return sym + s, None
+        return ticker, None
 
     # ---- Tier 2: blank Market, use Exchange ----
     if exch is None:
@@ -122,90 +134,70 @@ def yf_ticker(row):
         return None, reason
 
     if exch == "SEHK" and sym.isdigit():
-        sym = sym.zfill(4)
+        sym = sym.zfill(HK_TICKER_WIDTH)
 
     return sym + suffix, None
 
 
-def checkpoint(rows):
-    df = pd.DataFrame(rows)
-    df["expansion_signal"] = (
-        (df["revenue_growth"].fillna(-1) >= 0.10) | (df["Ret252"].fillna(-1) >= 0.25)
-    )
-    df.to_csv(OUT_CSV, index=False)
+def checkpoint(rows: list, out_csv: Path) -> pd.DataFrame:
+    df = add_expansion_signal(pd.DataFrame(rows))
+    df.to_csv(out_csv, index=False)
     return df
 
 
-def main():
+def yfinance_fetcher():
+    """Default fetcher: `.info` with 3 attempts and linear backoff on HTTP 429."""
     import yfinance as yf
 
-    catalog = pd.read_csv(CATALOG)
-    es = catalog[catalog["FocusSector"] == "Electronics & Semiconductors"].copy()
-    unswept_mask = es["verified"].isna() | (es["verified"].astype(str).str.strip() == "")
-    unswept = es[unswept_mask].copy()
-    n = len(unswept)
-    print(f"Electronics & Semiconductors total: {len(es)} | unswept target: {n}", flush=True)
+    def fetch(ticker: str) -> Fundamentals:
+        return fetch_fundamentals(ticker, info_getter=lambda t: yf.Ticker(t).info,
+                                  max_attempts=MAX_ATTEMPTS, backoff_seconds=BACKOFF_SECONDS)
 
-    rows = []
+    return fetch
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--data-dir", type=Path, default=paths.DATA_DIR,
+                        help="directory holding focus_sector_global_catalog.csv and receiving the output")
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> None:
+    logging.basicConfig(level=logging.WARNING, format="  [%(message)s]")
+    args = parse_args(argv)
+    out_csv = args.data_dir / OUT_NAME
+
+    catalog = pd.read_csv(args.data_dir / paths.CATALOG_CSV)
+    unswept = unswept_rows(catalog, SECTOR)
+    n = len(unswept)
+    print(f"{SECTOR} total: {(catalog['FocusSector'] == SECTOR).sum()} | unswept target: {n}", flush=True)
+
+    rows: list = []
     start = time.time()
-    for i, (_, r) in enumerate(unswept.iterrows(), 1):
-        t, unmapped_reason = yf_ticker(r)
-        rec = dict(r)
-        rec.update({
-            "yf": t, "profit_margin": None, "roe": None, "revenue_growth": None,
-            "verified": "UNVERIFIED", "unverified_reason": unmapped_reason,
-        })
-        if t:
-            attempt = 0
-            while attempt < 3:
-                attempt += 1
-                try:
-                    info = yf.Ticker(t).info
-                    pm = info.get("profitMargins")
-                    roe = info.get("returnOnEquity")
-                    rg = info.get("revenueGrowth")
-                    rec.update({"profit_margin": pm, "roe": roe, "revenue_growth": rg})
-                    if pm is not None and roe is not None:
-                        rec["verified"] = "PROFITABLE" if (pm > 0 and roe > 0) else "NOT-PROFITABLE"
-                        rec["unverified_reason"] = None
-                    else:
-                        rec["unverified_reason"] = "yfinance_data_gap"
-                    break
-                except Exception as e:
-                    msg = str(e)
-                    if "429" in msg or "Too Many Requests" in msg:
-                        backoff = 8 * attempt
-                        print(f"  [rate-limited on {t}, backing off {backoff}s, attempt {attempt}/3]", flush=True)
-                        time.sleep(backoff)
-                        continue
-                    rec["unverified_reason"] = f"yfinance_error:{msg[:80]}"
-                    break
-            time.sleep(0.7)
+    records = enrich_records(unswept, build_ticker=yf_ticker, fetch=yfinance_fetcher(), pause_seconds=PAUSE_SECONDS)
+    for i, rec in enumerate(records, 1):
         rows.append(rec)
-        if i % 10 == 0 or i == n:
+        if i % PROGRESS_EVERY == 0 or i == n:
             elapsed = time.time() - start
             rate = i / elapsed if elapsed > 0 else 0
             eta_min = (n - i) / rate / 60 if rate > 0 else float("nan")
-            print(f"  [{i}/{n}] {r['Country']}:{r.get('Exchange')}:{r['Ticker']:<14} yf={str(t):<16} "
-                  f"{rec['verified']:<15} pm={rec['profit_margin']}  (elapsed={elapsed/60:.1f}m eta={eta_min:.1f}m)", flush=True)
+            print(f"  [{i}/{n}] {rec['Country']}:{rec.get('Exchange')}:{rec['Ticker']:<14} yf={str(rec['yf']):<16} "
+                  f"{rec['verified']:<15} pm={rec['profit_margin']}  (elapsed={elapsed/60:.1f}m eta={eta_min:.1f}m)",
+                  flush=True)
         if i % CHECKPOINT_EVERY == 0:
-            checkpoint(rows)
+            checkpoint(rows, out_csv)
             print(f"  -- checkpointed {i} rows --", flush=True)
 
-    df = checkpoint(rows)
-
-    profitable = (df["verified"] == "PROFITABLE").sum()
-    not_profitable = (df["verified"] == "NOT-PROFITABLE").sum()
-    unverified = (df["verified"] == "UNVERIFIED").sum()
-    unmapped = df["yf"].isna().sum()
-    data_gap = ((df["verified"] == "UNVERIFIED") & df["yf"].notna()).sum()
-
-    print(f"\nWrote {len(df)} rows -> {OUT_CSV}")
-    print(f"PROFITABLE {profitable} | NOT-PROFITABLE {not_profitable} | UNVERIFIED {unverified}")
-    print(f"  of which UNVERIFIED, no ticker built at all (unmapped/unsupported exchange or market): {unmapped}")
-    print(f"  of which UNVERIFIED, ticker built but yfinance had no financial data: {data_gap}")
-    print(f"with expansion signal (PROFITABLE only): "
-          f"{int(df[df['verified']=='PROFITABLE']['expansion_signal'].sum())}")
+    df = checkpoint(rows, out_csv)
+    counts = verification_counts(df)
+    print(f"\nWrote {len(df)} rows -> {out_csv}")
+    print(f"PROFITABLE {counts['profitable']} | NOT-PROFITABLE {counts['not_profitable']} | "
+          f"UNVERIFIED {counts['unverified']}")
+    print(f"  of which UNVERIFIED, no ticker built at all (unmapped/unsupported exchange or market): "
+          f"{counts['unmapped']}")
+    print(f"  of which UNVERIFIED, ticker built but yfinance had no financial data: {counts['data_gap']}")
+    print(f"with expansion signal ({PROFITABLE} only): {counts['expansion_profitable']}")
 
 
 if __name__ == "__main__":

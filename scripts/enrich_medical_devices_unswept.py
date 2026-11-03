@@ -27,15 +27,36 @@ not country of domicile). Spot-checked live against known real tickers before
 use: SAN.PA (Sanofi, France/Euronext Paris), ICL.TA / TEVA.TA (Israel/Tel
 Aviv), PKN.WA (Poland/Warsaw) all resolved correctly via yfinance.
 """
-import json, time, sys
+from __future__ import annotations
+
+import argparse
+import logging
+import sys
+from pathlib import Path
+from typing import Optional
+
 import pandas as pd
 
-from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # run as a script without installing
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
-CATALOG = DATA / "focus_sector_global_catalog.csv"
-OUT_CSV = DATA / "medical_devices_unswept_enriched.csv"
+from focus_sector_map import paths  # noqa: E402
+from focus_sector_map.catalog import unswept_rows  # noqa: E402
+from focus_sector_map.fundamentals import (  # noqa: E402
+    PROFITABLE,
+    Fundamentals,
+    add_expansion_signal,
+    enrich_records,
+    fetch_fundamentals,
+    verification_counts,
+)
+
+SECTOR = "Medical Devices"
+OUT_NAME = "medical_devices_unswept_enriched.csv"
+MAX_ATTEMPTS = 3
+BACKOFF_SECONDS = 5  # x attempt number
+PAUSE_SECONDS = 0.75
+KOREAN_EXCHANGES = ("KOSDAQ", "KOSE", "XKON")
+HK_TICKER_WIDTH = 4
 
 # Exchange (MIC-ish code as used in this catalog's `Exchange` column) -> Yahoo
 # Finance ticker suffix. '' = US-style (no suffix). None = confirmed not
@@ -84,7 +105,7 @@ COUNTRY_EXCHANGE_OVERRIDE = {
 }
 
 
-def yf_ticker(row):
+def yf_ticker(row: pd.Series) -> tuple[Optional[str], Optional[str]]:
     """Build a yfinance ticker from Exchange + Ticker (+ Country for a few
     ambiguous Nordic exchange codes). Returns (ticker_or_None, reason_if_None)."""
     exch = row["Exchange"]
@@ -107,86 +128,61 @@ def yf_ticker(row):
 
     # Korean tickers in this catalog carry a leading 'A' market-data-vendor
     # prefix (e.g. A455900) that yfinance does not use (455900.KQ).
-    if exch in ("KOSDAQ", "KOSE", "XKON") and sym.startswith("A") and sym[1:].isdigit():
+    if exch in KOREAN_EXCHANGES and sym.startswith("A") and sym[1:].isdigit():
         sym = sym[1:]
 
     # HK tickers should be 4-digit zero-padded.
     if exch == "SEHK" and sym.isdigit():
-        sym = sym.zfill(4)
+        sym = sym.zfill(HK_TICKER_WIDTH)
 
     return sym + suffix, None
 
 
-def main():
+def yfinance_fetcher():
+    """Default fetcher: `.info` with 3 attempts and linear backoff on HTTP 429."""
     import yfinance as yf
 
-    catalog = pd.read_csv(CATALOG)
-    md = catalog[catalog["FocusSector"] == "Medical Devices"].copy()
-    unswept_mask = md["verified"].isna() | (md["verified"].astype(str).str.strip() == "")
-    unswept = md[unswept_mask].copy()
-    print(f"Medical Devices total: {len(md)} | unswept (target for this run): {len(unswept)}")
+    def fetch(ticker: str) -> Fundamentals:
+        return fetch_fundamentals(ticker, info_getter=lambda t: yf.Ticker(t).info,
+                                  max_attempts=MAX_ATTEMPTS, backoff_seconds=BACKOFF_SECONDS)
 
-    rows = []
+    return fetch
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--data-dir", type=Path, default=paths.DATA_DIR,
+                        help="directory holding focus_sector_global_catalog.csv and receiving the output")
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> None:
+    logging.basicConfig(level=logging.WARNING, format="  [%(message)s]")
+    args = parse_args(argv)
+    out_csv = args.data_dir / OUT_NAME
+
+    catalog = pd.read_csv(args.data_dir / paths.CATALOG_CSV)
+    unswept = unswept_rows(catalog, SECTOR)
     n = len(unswept)
-    for i, (_, r) in enumerate(unswept.iterrows(), 1):
-        t, unmapped_reason = yf_ticker(r)
-        rec = dict(r)
-        rec.update({
-            "yf": t,
-            "profit_margin": None,
-            "roe": None,
-            "revenue_growth": None,
-            "verified": "UNVERIFIED",
-            "unverified_reason": unmapped_reason,  # set if suffix couldn't be built at all
-        })
-        if t:
-            attempt = 0
-            while attempt < 3:
-                attempt += 1
-                try:
-                    info = yf.Ticker(t).info
-                    pm = info.get("profitMargins")
-                    roe = info.get("returnOnEquity")
-                    rg = info.get("revenueGrowth")
-                    rec.update({"profit_margin": pm, "roe": roe, "revenue_growth": rg})
-                    if pm is not None and roe is not None:
-                        rec["verified"] = "PROFITABLE" if (pm > 0 and roe > 0) else "NOT-PROFITABLE"
-                        rec["unverified_reason"] = None
-                    else:
-                        rec["unverified_reason"] = "yfinance_data_gap"
-                    break
-                except Exception as e:
-                    msg = str(e)
-                    if "429" in msg or "Too Many Requests" in msg:
-                        backoff = 5 * attempt
-                        print(f"  [rate-limited on {t}, backing off {backoff}s, attempt {attempt}/3]")
-                        time.sleep(backoff)
-                        continue
-                    rec["unverified_reason"] = f"yfinance_error:{msg[:80]}"
-                    break
-            time.sleep(0.75)
+    print(f"{SECTOR} total: {(catalog['FocusSector'] == SECTOR).sum()} | unswept (target for this run): {n}")
+
+    records = enrich_records(unswept, build_ticker=yf_ticker, fetch=yfinance_fetcher(), pause_seconds=PAUSE_SECONDS)
+    rows = []
+    for i, rec in enumerate(records, 1):
         rows.append(rec)
-        print(f"  [{i}/{n}] {r['Country']}:{r['Exchange']}:{r['Ticker']:<14} yf={str(t):<16} "
+        print(f"  [{i}/{n}] {rec['Country']}:{rec['Exchange']}:{rec['Ticker']:<14} yf={str(rec['yf']):<16} "
               f"{rec['verified']:<15} pm={rec['profit_margin']} roe={rec['roe']}")
 
-    df = pd.DataFrame(rows)
-    df["expansion_signal"] = (
-        (df["revenue_growth"].fillna(-1) >= 0.10) | (df["Ret252"].fillna(-1) >= 0.25)
-    )
-    df.to_csv(OUT_CSV, index=False)
+    df = add_expansion_signal(pd.DataFrame(rows))
+    df.to_csv(out_csv, index=False)
 
-    profitable = (df["verified"] == "PROFITABLE").sum()
-    not_profitable = (df["verified"] == "NOT-PROFITABLE").sum()
-    unverified = (df["verified"] == "UNVERIFIED").sum()
-    unmapped = df["yf"].isna().sum()
-    data_gap = ((df["verified"] == "UNVERIFIED") & df["yf"].notna()).sum()
-
-    print(f"\nWrote {len(df)} rows -> {OUT_CSV}")
-    print(f"PROFITABLE {profitable} | NOT-PROFITABLE {not_profitable} | UNVERIFIED {unverified}")
-    print(f"  of which UNVERIFIED due to unmapped/unsupported exchange (no ticker built): {unmapped}")
-    print(f"  of which UNVERIFIED due to genuine yfinance data gap (ticker built, no financials): {data_gap}")
-    print(f"with expansion signal (PROFITABLE only): "
-          f"{int(df[df['verified']=='PROFITABLE']['expansion_signal'].sum())}")
+    counts = verification_counts(df)
+    print(f"\nWrote {len(df)} rows -> {out_csv}")
+    print(f"PROFITABLE {counts['profitable']} | NOT-PROFITABLE {counts['not_profitable']} | "
+          f"UNVERIFIED {counts['unverified']}")
+    print(f"  of which UNVERIFIED due to unmapped/unsupported exchange (no ticker built): {counts['unmapped']}")
+    print(f"  of which UNVERIFIED due to genuine yfinance data gap (ticker built, no financials): {counts['data_gap']}")
+    print(f"with expansion signal ({PROFITABLE} only): {counts['expansion_profitable']}")
 
 
 if __name__ == "__main__":

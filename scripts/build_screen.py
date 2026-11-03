@@ -4,10 +4,10 @@ build_screen.py — screen the multi-market equity universe into the trade-polic
 program's focus sectors, keep liquid + market-validated names, and (separately)
 verify profitability for the shortlist.
 
-Inputs (local, from the user's market-data stack):
-  ~/repos/global-stock-screener/cache_seed/company_list.parquet   38,495 names,
+Inputs (local, from the user's market-data stack; override with --gss-root or $GSS_ROOT):
+  <gss-root>/cache_seed/company_list.parquet        38,495 names,
       20 markets: Market, Symbol, Name, Close, Turnover_USD, Above200DMA, Ret252
-  ~/repos/global-stock-screener/reference_seed/damodaran_companies.parquet
+  <gss-root>/reference_seed/damodaran_companies.parquet
       48,156 names: Ticker, Country, Industry Group (the sector layer)
 
 Method (stated limits, per house rules):
@@ -23,71 +23,60 @@ Method (stated limits, per house rules):
 Outputs: data/focus_sector_screen.csv (full screened set)
          data/shortlist_for_enrichment.csv
 """
-import pandas as pd
+from __future__ import annotations
+
+import argparse
+import sys
 from pathlib import Path
 
-HOME = Path.home()
-OUT = Path(__file__).resolve().parent.parent / "data"
-OUT.mkdir(exist_ok=True)
+import pandas as pd
 
-FOCUS = {
- "Electronics & Semiconductors": ["Semiconductor", "Semiconductor Equip", "Electronics (Consumer & Office)", "Electronics (General)", "Computers/Peripherals", "Telecom. Equipment"],
- "Pharma & Bulk Drugs": ["Drugs (Pharmaceutical)", "Drugs (Biotechnology)"],
- "Medical Devices": ["Healthcare Products"],
- "Auto, EV & Components": ["Auto & Truck", "Auto Parts"],
- "Specialty Steel & Metals": ["Steel", "Metals & Mining"],
- "Chemicals & Plastics": ["Chemical (Basic)", "Chemical (Diversified)", "Chemical (Specialty)", "Rubber& Tires", "Packaging & Container"],
- "White Goods & Electricals": ["Electrical Equipment", "Furn/Home Furnishings", "Household Products"],
- "Aerospace & Defence": ["Aerospace/Defense"],
- "Shipbuilding & Marine": ["Shipbuilding & Marine"],
- "Textiles & Apparel": ["Apparel", "Shoe"],
- "Food Processing": ["Food Processing"],
- "Green Energy & Fuels": ["Green & Renewable Energy", "Oil/Gas (Production and Exploration)", "Power", "Coal & Related Energy"],
-}
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # run as a script without installing
 
-COUNTRY_TO_MARKET = {
- "India": "IN", "United States": "US", "Japan": "JP", "South Korea": "KR",
- "Taiwan": "TW", "China": "CN", "Germany": "DE", "Canada": "CA",
- "Australia": "AU", "United Kingdom": "UK", "Hong Kong": "HK",
- "Singapore": "SG", "Sweden": "SE", "Brazil": "BR", "Switzerland": "CH",
- "Denmark": "DK", "Finland": "FI", "South Africa": "ZA", "Saudi Arabia": "SA",
-}
-
-MIN_TURNOVER_USD = 250_000  # liquidity floor per day
+from focus_sector_map import paths  # noqa: E402
+from focus_sector_map.screen import (  # noqa: E402
+    SCREEN_COLUMNS,
+    apply_screen,
+    join_universe,
+    sector_region_counts,
+    select_shortlist,
+)
+from focus_sector_map.sectors import tag_focus_sectors  # noqa: E402
 
 
-def main():
-    uni = pd.read_parquet(HOME / "repos/global-stock-screener/cache_seed/company_list.parquet")
-    dam = pd.read_parquet(HOME / "repos/global-stock-screener/reference_seed/damodaran_companies.parquet")
+def build_screen(universe_path: Path, damodaran_path: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Load both parquet layers and return (joined, screened, shortlist)."""
+    universe = pd.read_parquet(universe_path)
+    damodaran = pd.read_parquet(damodaran_path)
+    joined = join_universe(universe, tag_focus_sectors(damodaran))
+    screened = apply_screen(joined)
+    return joined, screened, select_shortlist(screened)
 
-    ind_to_focus = {ind: sec for sec, inds in FOCUS.items() for ind in inds}
-    dam = dam[dam["Industry Group"].isin(ind_to_focus)].copy()
-    dam["FocusSector"] = dam["Industry Group"].map(ind_to_focus)
-    dam["Market"] = dam["Country"].map(COUNTRY_TO_MARKET)
-    dam = dam.dropna(subset=["Market"])
 
-    j = uni.merge(
-        dam[["Ticker", "Market", "FocusSector", "Industry Group", "Country"]],
-        left_on=["Symbol", "Market"], right_on=["Ticker", "Market"], how="inner",
-    ).drop(columns=["Ticker"]).drop_duplicates(subset=["Market", "Symbol"])
+def write_outputs(screened: pd.DataFrame, shortlist: pd.DataFrame, data_dir: Path) -> None:
+    data_dir.mkdir(exist_ok=True)
+    screened[SCREEN_COLUMNS].to_csv(data_dir / paths.SCREEN_CSV, index=False)
+    shortlist[SCREEN_COLUMNS].to_csv(data_dir / paths.SHORTLIST_CSV, index=False)
 
-    screened = j[(j["Turnover_USD"] >= MIN_TURNOVER_USD)
-                 & ((j["Above200DMA"] == True) | (j["Ret252"] > 0))].copy()
-    screened["Region"] = screened["Market"].map(lambda m: "India" if m == "IN" else "Foreign")
-    screened = screened.sort_values(["FocusSector", "Region", "Turnover_USD"], ascending=[True, True, False])
 
-    cols = ["FocusSector", "Region", "Market", "Symbol", "Name", "Industry Group",
-            "Country", "Close", "Turnover_USD", "Above200DMA", "Ret252"]
-    screened[cols].to_csv(OUT / "focus_sector_screen.csv", index=False)
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--gss-root", type=Path, default=paths.GSS_ROOT,
+                        help="global-stock-screener checkout holding the two input parquets")
+    parser.add_argument("--data-dir", type=Path, default=paths.DATA_DIR, help="output directory")
+    return parser.parse_args(argv)
 
-    shortlist = (screened.groupby(["FocusSector", "Region"], group_keys=False)
-                 .head(8))
-    shortlist[cols].to_csv(OUT / "shortlist_for_enrichment.csv", index=False)
 
-    print(f"universe joined to focus sectors: {len(j):,}")
+def main(argv: list[str] | None = None) -> None:
+    args = parse_args(argv)
+    joined, screened, shortlist = build_screen(args.gss_root / "cache_seed" / "company_list.parquet",
+                                               args.gss_root / "reference_seed" / "damodaran_companies.parquet")
+    write_outputs(screened, shortlist, args.data_dir)
+
+    print(f"universe joined to focus sectors: {len(joined):,}")
     print(f"screened (liquidity + market validation): {len(screened):,}")
     print(f"shortlist for profitability verification: {len(shortlist):,}")
-    print(screened.groupby(["FocusSector", "Region"]).size().unstack(fill_value=0).to_string())
+    print(sector_region_counts(screened).to_string())
 
 
 if __name__ == "__main__":

@@ -9,63 +9,74 @@ final list too — nothing is silently assumed profitable.
 Expansion signal (stated proxy): revenueGrowth >= 10% y/y OR Ret252 >= 25%.
 Output: data/focus_sector_companies_final.csv (+ .json)
 """
-import json, time, math
-import pandas as pd
+from __future__ import annotations
+
+import argparse
+import logging
+import sys
 from pathlib import Path
+from typing import Optional
 
-OUT = Path(__file__).resolve().parent.parent / "data"
-SUFFIX = {"IN": ".NS", "JP": ".T", "KR": ".KS", "TW": ".TW", "DE": ".DE",
-          "UK": ".L", "HK": ".HK", "AU": ".AX", "CA": ".TO", "SE": ".ST",
-          "CH": ".SW", "DK": ".CO", "FI": ".HE", "SG": ".SI", "BR": ".SA",
-          "ZA": ".JO", "SA": ".SR", "US": "", "CN": None, "EU": None}
+import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # run as a script without installing
+
+from focus_sector_map import paths  # noqa: E402
+from focus_sector_map.fundamentals import (  # noqa: E402
+    NOT_PROFITABLE,
+    UNVERIFIED,
+    Fundamentals,
+    add_expansion_signal,
+    enrich_records,
+    fetch_fundamentals,
+    select_final,
+)
+from focus_sector_map.tickers import market_ticker  # noqa: E402
+
+PAUSE_SECONDS = 0.5  # between yfinance calls
 
 
-def yf_ticker(row):
-    s = SUFFIX.get(row["Market"])
-    if s is None:
-        sym = str(row["Symbol"])
-        if row["Market"] == "CN":
-            return sym + (".SS" if sym.startswith("6") else ".SZ")
-        return None
-    sym = str(row["Symbol"])
-    if row["Market"] == "HK":
-        sym = sym.zfill(4)
-    return sym + s
+def yf_ticker(row: pd.Series) -> Optional[str]:
+    """Yahoo Finance ticker for a shortlist row (Market + Symbol); None when unresolvable."""
+    return market_ticker(row["Market"], row["Symbol"])
 
 
-def main():
+def yfinance_fetcher():
+    """Default fetcher: one `.info` call per ticker, no retries (yfinance imported lazily)."""
     import yfinance as yf
-    sl = pd.read_csv(OUT / "shortlist_for_enrichment.csv")
+
+    def fetch(ticker: str) -> Fundamentals:
+        return fetch_fundamentals(ticker, info_getter=lambda t: yf.Ticker(t).info)
+
+    return fetch
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--data-dir", type=Path, default=paths.DATA_DIR,
+                        help="directory holding shortlist_for_enrichment.csv and receiving the outputs")
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> None:
+    logging.basicConfig(level=logging.WARNING, format="  [%(message)s]")
+    args = parse_args(argv)
+    shortlist = pd.read_csv(args.data_dir / paths.SHORTLIST_CSV)
+
     rows = []
-    for _, r in sl.iterrows():
-        t = yf_ticker(r)
-        rec = dict(r)
-        rec.update({"yf": t, "profit_margin": None, "roe": None,
-                    "revenue_growth": None, "verified": "UNVERIFIED"})
-        if t:
-            try:
-                info = yf.Ticker(t).info
-                pm = info.get("profitMargins"); roe = info.get("returnOnEquity")
-                rg = info.get("revenueGrowth")
-                rec.update({"profit_margin": pm, "roe": roe, "revenue_growth": rg})
-                if pm is not None and roe is not None:
-                    rec["verified"] = "PROFITABLE" if (pm > 0 and roe > 0) else "NOT-PROFITABLE"
-            except Exception:
-                pass
-            time.sleep(0.5)
+    for rec in enrich_records(shortlist, build_ticker=lambda r: (yf_ticker(r), None),
+                              fetch=yfinance_fetcher(), pause_seconds=PAUSE_SECONDS, reason_column=None):
         rows.append(rec)
-        print(f"  {r['Market']}:{r['Symbol']:<12} {rec['verified']:<15} pm={rec['profit_margin']}")
-    df = pd.DataFrame(rows)
-    df["expansion_signal"] = ((df["revenue_growth"].fillna(-1) >= 0.10)
-                              | (df["Ret252"].fillna(-1) >= 0.25))
-    final = df[df["verified"] == "PROFITABLE"].copy()
-    final = final.sort_values(["FocusSector", "Region", "Turnover_USD"], ascending=[True, True, False])
-    df.to_csv(OUT / "shortlist_enriched.csv", index=False)
-    final.to_csv(OUT / "focus_sector_companies_final.csv", index=False)
-    final.to_json(OUT / "focus_sector_companies_final.json", orient="records", indent=1)
+        print(f"  {rec['Market']}:{rec['Symbol']:<12} {rec['verified']:<15} pm={rec['profit_margin']}")
+
+    df = add_expansion_signal(pd.DataFrame(rows))
+    final = select_final(df)
+    df.to_csv(args.data_dir / paths.SHORTLIST_ENRICHED_CSV, index=False)
+    final.to_csv(args.data_dir / paths.FINAL_CSV, index=False)
+    final.to_json(args.data_dir / paths.FINAL_JSON, orient="records", indent=1)
     print(f"\nenriched {len(df)} | PROFITABLE {len(final)} | "
-          f"NOT-PROFITABLE {(df['verified']=='NOT-PROFITABLE').sum()} | "
-          f"UNVERIFIED {(df['verified']=='UNVERIFIED').sum()}")
+          f"NOT-PROFITABLE {(df['verified'] == NOT_PROFITABLE).sum()} | "
+          f"UNVERIFIED {(df['verified'] == UNVERIFIED).sum()}")
     print(f"with expansion signal: {int(final['expansion_signal'].sum())}")
 
 
