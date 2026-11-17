@@ -130,7 +130,7 @@ def yf_ticker(row):
 def checkpoint(rows):
     df = pd.DataFrame(rows)
     df["expansion_signal"] = (
-        (df["revenue_growth"].fillna(-1) >= 0.10) | (df["Ret252"].fillna(-1) >= 0.25)
+        (df["revenue_growth"].fillna(-1) >= 0.10) | (df["Ret252"].fillna(-1) >= 25)  # Ret252 is in percent
     )
     df.to_csv(OUT_CSV, index=False)
     return df

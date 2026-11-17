@@ -6,7 +6,7 @@ NEVER been swept (FocusSector == 'Medical Devices' AND verified is blank).
 
 Isolated, standalone script. Reuses the exact yfinance-field-pulling logic
 and PROFITABLE/NOT-PROFITABLE/UNVERIFIED screen from scripts/enrich_profitability.py
-(profit_margin>0 AND roe>0; expansion_signal = revenue_growth>=0.10 OR Ret252>=0.25)
+(profit_margin>0 AND roe>0; expansion_signal = revenue_growth>=0.10 OR Ret252>=25, in percent)
 but:
   - reads ONLY from data/focus_sector_global_catalog.csv (never touches
     shortlist_for_enrichment.csv / shortlist_enriched.csv /
@@ -171,7 +171,7 @@ def main():
 
     df = pd.DataFrame(rows)
     df["expansion_signal"] = (
-        (df["revenue_growth"].fillna(-1) >= 0.10) | (df["Ret252"].fillna(-1) >= 0.25)
+        (df["revenue_growth"].fillna(-1) >= 0.10) | (df["Ret252"].fillna(-1) >= 25)  # Ret252 is in percent
     )
     df.to_csv(OUT_CSV, index=False)
 
