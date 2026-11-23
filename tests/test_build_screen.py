@@ -78,3 +78,23 @@ def test_screen_constants(load_script):
     mod, _ = load_script("build_screen.py")
     assert mod.MIN_TURNOVER_USD == 250_000
     assert len(mod.FOCUS) == 12 and mod.COUNTRY_TO_MARKET["India"] == "IN"
+
+
+def test_screen_unmapped_country_dropped_even_if_universe_market_is_missing(load_script):
+    # NaN keys join to NaN keys in pandas, so only the explicit dropna keeps unmapped countries out
+    _write_inputs(load_script.home,
+        _uni([(None, "Z", 1e6, True, 1.0), ("IN", "A", 1e6, True, 1.0)]),
+        _dam([("Z", "Atlantis", "Steel"), ("A", "India", "Steel")]))
+    mod, _ = load_script("build_screen.py")
+    mod.main()
+    assert pd.read_csv(load_script.data / "focus_sector_screen.csv")["Symbol"].tolist() == ["A"]
+
+
+def test_screen_same_symbol_in_two_markets_is_kept_twice(load_script):
+    _write_inputs(load_script.home,
+        _uni([("IN", "A", 1e6, True, 1.0), ("US", "A", 2e6, True, 1.0)]),
+        _dam([("A", "India", "Steel"), ("A", "United States", "Steel")]))
+    mod, _ = load_script("build_screen.py")
+    mod.main()
+    out = pd.read_csv(load_script.data / "focus_sector_screen.csv")
+    assert sorted(out["Market"]) == ["IN", "US"]

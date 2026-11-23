@@ -83,3 +83,26 @@ def test_expansion_signal_boundaries(load_script, fake_yf):
     mod.main()
     e = pd.read_csv(load_script.data / "shortlist_enriched.csv").set_index("Symbol")["expansion_signal"].astype(bool)
     assert e.to_dict() == {"R25": True, "R24": False, "RNAN": False}
+
+
+def test_roe_exactly_zero_is_not_profitable_and_json_layout(load_script, fake_yf):
+    rows = [dict(FocusSector="A", Region="Foreign", Market="US", Symbol="R0", Turnover_USD=1.0, Ret252=None),
+            dict(FocusSector="A", Region="Foreign", Market="US", Symbol="OK", Turnover_USD=2.0, Ret252=None)]
+    pd.DataFrame(rows).to_csv(load_script.data / "shortlist_for_enrichment.csv", index=False)
+    fake_yf.infos = {"R0": {"profitMargins": 0.2, "returnOnEquity": 0.0}, "OK": {"profitMargins": 0.2, "returnOnEquity": 0.1}}
+    mod, _ = load_script("enrich_profitability.py")
+    mod.main()
+    e = pd.read_csv(load_script.data / "shortlist_enriched.csv").set_index("Symbol")["verified"].to_dict()
+    assert e == {"R0": "NOT-PROFITABLE", "OK": "PROFITABLE"}
+    assert (load_script.data / "focus_sector_companies_final.json").read_text().startswith('[\n {\n  "FocusSector"')
+
+
+def test_final_sorted_by_region_ascending_within_sector(load_script, fake_yf):
+    rows = [dict(FocusSector="A", Region="Foreign", Market="US", Symbol="F1", Turnover_USD=5.0, Ret252=None),
+            dict(FocusSector="A", Region="India", Market="IN", Symbol="I1", Turnover_USD=1.0, Ret252=None)]
+    pd.DataFrame(rows).to_csv(load_script.data / "shortlist_for_enrichment.csv", index=False)
+    ok = {"profitMargins": 0.1, "returnOnEquity": 0.1}
+    fake_yf.infos = {"F1": ok, "I1.NS": ok}
+    mod, _ = load_script("enrich_profitability.py")
+    mod.main()
+    assert pd.read_csv(load_script.data / "focus_sector_companies_final.csv")["Symbol"].tolist() == ["F1", "I1"]
